@@ -13,19 +13,16 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-   
+
 
     <!-- Scripts -->
-    @vite(['resources/js/app.js'])
-    
+    @vite(['resources/js/app.js', 'resources/js/home.js'])
+
 </head>
 
 <body>
     <div id="app">
-    @include('layouts.header')
-
-    
-   
+        @include('layouts.header')
     </div>
 </body>
 
