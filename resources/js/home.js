@@ -10,7 +10,7 @@ import '../vendor/remixicon/remixicon.css'
 
 import '../vendor/swiper/swiper-bundle.min.css'
 
-import '../vendor/js/aos.js'
+import '../vendor/aos/aos.js'
 
 import '../vendor/glightbox/js/glightbox.min.js'
 
