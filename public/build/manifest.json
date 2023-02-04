@@ -1,23 +1,23 @@
 {
-  "resources/vendor/boxicons/fonts/boxicons.eot": {
-    "file": "assets/boxicons-c23887bb.eot",
-    "src": "resources/vendor/boxicons/fonts/boxicons.eot"
-  },
   "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2": {
     "file": "assets/bootstrap-icons-966620f9.woff2",
     "src": "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2"
+  },
+  "resources/vendor/boxicons/fonts/boxicons.eot": {
+    "file": "assets/boxicons-c23887bb.eot",
+    "src": "resources/vendor/boxicons/fonts/boxicons.eot"
   },
   "resources/vendor/remixicon/remixicon.eot": {
     "file": "assets/remixicon-64bb3a0f.eot",
     "src": "resources/vendor/remixicon/remixicon.eot"
   },
-  "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff": {
-    "file": "assets/bootstrap-icons-c6569d46.woff",
-    "src": "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff"
-  },
   "resources/vendor/boxicons/fonts/boxicons.woff2": {
     "file": "assets/boxicons-4b87cbc7.woff2",
     "src": "resources/vendor/boxicons/fonts/boxicons.woff2"
+  },
+  "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-c6569d46.woff",
+    "src": "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff"
   },
   "resources/vendor/remixicon/remixicon.woff2": {
     "file": "assets/remixicon-e61f0d10.woff2",
@@ -40,51 +40,42 @@
     "src": "resources/vendor/remixicon/remixicon.ttf"
   },
   "resources/vendor/boxicons/fonts/boxicons.svg": {
-    "file": "assets/boxicons-3fe502d8.svg",
+    "file": "assets/boxicons-0b7f8ae7.svg",
     "src": "resources/vendor/boxicons/fonts/boxicons.svg"
   },
   "resources/vendor/remixicon/remixicon.svg": {
-    "file": "assets/remixicon-a10268fe.svg",
+    "file": "assets/remixicon-aab59b7b.svg",
     "src": "resources/vendor/remixicon/remixicon.svg"
   },
-  "resources/js/home.css": {
-    "file": "assets/home-45507c3a.css",
-    "src": "resources/js/home.css"
-  },
   "resources/js/app.css": {
-    "file": "assets/app-5b53aa0e.css",
+    "file": "assets/app-ee126153.css",
     "src": "resources/js/app.css"
   },
   "resources/js/home.js": {
-    "file": "assets/home-8970d5f6.js",
+    "file": "assets/home-241b0fb2.js",
     "src": "resources/js/home.js",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-d3d2b30e.js",
+    "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/home-45507c3a.css"
+      "assets/app-ee126153.css"
     ],
     "assets": [
+      "assets/bootstrap-icons-966620f9.woff2",
+      "assets/bootstrap-icons-c6569d46.woff",
       "assets/boxicons-c23887bb.eot",
       "assets/boxicons-4b87cbc7.woff2",
       "assets/boxicons-d5d511cf.woff",
       "assets/boxicons-47509a2d.ttf",
-      "assets/boxicons-3fe502d8.svg",
+      "assets/boxicons-0b7f8ae7.svg",
       "assets/remixicon-64bb3a0f.eot",
       "assets/remixicon-e61f0d10.woff2",
       "assets/remixicon-c2dacfbc.woff",
       "assets/remixicon-0ac8bc3c.ttf",
-      "assets/remixicon-a10268fe.svg"
-    ]
-  },
-  "resources/js/app.js": {
-    "file": "assets/app-db632fd7.js",
-    "src": "resources/js/app.js",
-    "isEntry": true,
-    "css": [
-      "assets/app-5b53aa0e.css"
-    ],
-    "assets": [
-      "assets/bootstrap-icons-966620f9.woff2",
-      "assets/bootstrap-icons-c6569d46.woff"
+      "assets/remixicon-aab59b7b.svg"
     ]
   }
 }
