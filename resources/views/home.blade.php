@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('css')
+@endsection
 @section('content')
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center justify-content-center">
@@ -640,4 +642,15 @@
 		</div>
 	</section><!-- End Contact Section -->
 </main><!-- End #main -->
+@endsection
+@section('js')
+<!-- Vendor JS Files -->
+<script src="/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="/vendor/aos/aos.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="/vendor/php-email-form/validate.js"></script>
+<script src="/js/main.js"></script>
 @endsection

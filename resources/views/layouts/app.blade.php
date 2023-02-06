@@ -17,17 +17,19 @@
 
     <!-- Scripts -->
     @vite('resources/js/app.js')
+    @yield('css')
 </head>
 
 <body>
     <div id="app">
         @include('layouts.header')
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
-        @include('layouts.footer')
-        <!-- <div id="preloader"></div> -->
+        <div id="preloader"></div>
         <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        @include('layouts.footer')
+        @yield('js')
     </div>
 </body>
 
