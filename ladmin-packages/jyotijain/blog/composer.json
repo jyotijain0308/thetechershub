@@ -1,0 +1,29 @@
+{
+    "name": "jyotijain/blog",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "Laravel",
+        "Ladmin Package"
+    ],
+    "authors": [
+        {
+            "name": "Jyotijain",
+            "email": ""
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jyotijain\\Blog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jyotijain\\Blog\\BlogServiceProvider"
+            ],
+            "aliases": []
+        }
+    },
+    "require": {}
+}

@@ -159,7 +159,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 /*--------------------------------------------------------------
@@ -596,9 +596,9 @@ section {
 }
 
 .clients .swiper-slide img {
-  opacity: 0.5;
+  opacity: 0.7;
   transition: 0.3s;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
 }
 
 .clients .swiper-slide img:hover {
@@ -674,7 +674,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #ffc451;
+  /* background: #ffc451; */
   border-radius: 4px;
   display: flex;
   align-items: center;

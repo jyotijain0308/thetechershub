@@ -1,0 +1,10 @@
+{
+    "name": "blog",
+    "namespace": "Modules\\Blog\\",
+    "providers": [
+        "Modules\\Blog\\Providers\\BlogServiceProvider",
+        "Modules\\Blog\\Providers\\EventServiceProvider",
+        "Modules\\Blog\\Providers\\RouteServiceProvider"
+    ],
+    "status": "enabled"
+}

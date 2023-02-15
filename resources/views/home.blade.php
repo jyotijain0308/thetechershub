@@ -7,8 +7,8 @@
 	<div class="container" data-aos="fade-up">
 		<div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
 			<div class="col-xl-6 col-lg-8">
-				<h1>Powerful Digital Solutions With Gp<span>.</span></h1>
-				<h2>We are team of talented digital marketers</h2>
+				<h1>{{config('app.name')}}</h1>
+				<h2>A New Digital Experience!</h2>
 			</div>
 		</div>
 		<div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
@@ -57,23 +57,16 @@
 					<img src="/img/about.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-					<h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-					<p class="fst-italic">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore
-						magna aliqua.
-					</p>
+					<h3>At {{config('app.name')}}, we understand that creative design is an important part of every business and it can be agonizing to find the right design partner for your project.</h3>
+					<p class="fst-italic">We believe that every brand is unique. And unique brands require nothing more than unique solutions.</p>
 					<ul>
-						<li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-						<li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-						<li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-							aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-							pariatur.</li>
+						<li><i class="ri-check-double-line"></i> Our team of experienced designers is committed to helping you create the perfect design that fits your brand's vision and mission.</li>
+						<li><i class="ri-check-double-line"></i> We bridge the gap between digital product designs and brand identity. Giving your brand that magical element that captivates customers and stands out from your competitors.</li>
+						<li><i class="ri-check-double-line"></i> What's more, we have made the design process as easy and stress-free as possible. We collaborate closely with your team in order to provide you with custom solutions tailored to meet your brand needs.</li>
 					</ul>
 					<p>
-						Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-						voluptate
-						velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+						Are you ready for a new digital experience that will take your brand to the next level? If so, welcome to {{config('app.name')}} - you’ve come to the right place.
+						<a class="scrollto" href="#contact">Contact us</a> today to get started!
 					</p>
 				</div>
 			</div>
@@ -90,11 +83,13 @@
 					<div class="swiper-slide"><img src="/img/clients/client-1.png" class="img-fluid" alt=""></div>
 					<div class="swiper-slide"><img src="/img/clients/client-2.png" class="img-fluid" alt=""></div>
 					<div class="swiper-slide"><img src="/img/clients/client-3.png" class="img-fluid" alt=""></div>
-					<div class="swiper-slide"><img src="/img/clients/client-4.png" class="img-fluid" alt=""></div>
+					<!-- <div class="swiper-slide"><img src="/img/clients/client-4.png" class="img-fluid" alt=""></div> -->
 					<div class="swiper-slide"><img src="/img/clients/client-5.png" class="img-fluid" alt=""></div>
 					<div class="swiper-slide"><img src="/img/clients/client-6.png" class="img-fluid" alt=""></div>
-					<div class="swiper-slide"><img src="/img/clients/client-7.png" class="img-fluid" alt=""></div>
-					<div class="swiper-slide"><img src="/img/clients/client-8.png" class="img-fluid" alt=""></div>
+					<!-- <div class="swiper-slide"><img src="/img/clients/client-7.png" class="img-fluid" alt=""></div> -->
+					<div class="swiper-slide">
+						<h1>+ More</h1>
+					</div>
 				</div>
 				<div class="swiper-pagination"></div>
 			</div>
@@ -148,48 +143,72 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
 					<div class="icon-box">
-						<div class="icon"><i class="bx bxl-dribbble"></i></div>
-						<h4><a href="">Lorem Ipsum</a></h4>
+						<div class="icon"><img src="img/services/logo-design.png" class="img-fluid" /></div>
+						<h4><a href="">Design A Logo</a></h4>
 						<p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
 					</div>
 				</div>
 
 				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
 					<div class="icon-box">
-						<div class="icon"><i class="bx bx-file"></i></div>
-						<h4><a href="">Sed ut perspiciatis</a></h4>
+						<div class="icon"><img src="img/services/business-card(2).png" class="img-fluid" /></div>
+						<h4><a href="">Visiting / Business Card Design</a></h4>
 						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
 					</div>
 				</div>
 
 				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
 					<div class="icon-box">
-						<div class="icon"><i class="bx bx-tachometer"></i></div>
-						<h4><a href="">Magni Dolores</a></h4>
+						<div class="icon"><img src="img/services/facebook-page.png" class="img-fluid" /></div>
+						<h4><a href="">Facebook Page</a></h4>
 						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
 					</div>
 				</div>
 
 				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
 					<div class="icon-box">
-						<div class="icon"><i class="bx bx-world"></i></div>
-						<h4><a href="">Nemo Enim</a></h4>
+						<div class="icon"><img src="img/services/instagram.png" class="img-fluid" /></div>
+						<h4><a href="">Instagram Business Account</a></h4>
 						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 					</div>
 				</div>
 
 				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
 					<div class="icon-box">
-						<div class="icon"><i class="bx bx-slideshow"></i></div>
-						<h4><a href="">Dele cardo</a></h4>
+						<div class="icon"><img src="img/services/linkedin.png" class="img-fluid" /></div>
+						<h4><a href="">LinkedIn Company Page</a></h4>
 						<p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
 					</div>
 				</div>
 
 				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
 					<div class="icon-box">
-						<div class="icon"><i class="bx bx-arch"></i></div>
-						<h4><a href="">Divera don</a></h4>
+						<div class="icon"><img src="img/services/youtube(2).png" class="img-fluid" /></div>
+						<h4><a href="">YouTube Brand Account</a></h4>
+						<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="icon-box">
+						<div class="icon"><img src="img/services/pinterest.png" class="img-fluid" /></div>
+						<h4><a href="">Pinterest Business Account</a></h4>
+						<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="icon-box">
+						<div class="icon"><img src="img/services/google(2).png" class="img-fluid" /></div>
+						<h4><a href="">Google Business Profile</a></h4>
+						<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+					<div class="icon-box">
+						<div class="icon"><img src="img/services/monetize.png" class="img-fluid" /></div>
+						<h4><a href="">YouTube Monetization</a></h4>
 						<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
 					</div>
 				</div>
