@@ -47,7 +47,6 @@
 </section><!-- End Hero -->
 
 <main id="main">
-
 	<!-- ======= About Section ======= -->
 	<section id="about" class="about">
 		<div class="container" data-aos="fade-up">
@@ -75,27 +74,24 @@
 	</section><!-- End About Section -->
 
 	<!-- ======= Clients Section ======= -->
-	<section id="clients" class="clients">
+	<!-- <section id="clients" class="clients">
 		<div class="container" data-aos="zoom-in">
-
 			<div class="clients-slider swiper">
 				<div class="swiper-wrapper align-items-center">
 					<div class="swiper-slide"><img src="/img/clients/client-1.png" class="img-fluid" alt=""></div>
 					<div class="swiper-slide"><img src="/img/clients/client-2.png" class="img-fluid" alt=""></div>
 					<div class="swiper-slide"><img src="/img/clients/client-3.png" class="img-fluid" alt=""></div>
-					<!-- <div class="swiper-slide"><img src="/img/clients/client-4.png" class="img-fluid" alt=""></div> -->
 					<div class="swiper-slide"><img src="/img/clients/client-5.png" class="img-fluid" alt=""></div>
 					<div class="swiper-slide"><img src="/img/clients/client-6.png" class="img-fluid" alt=""></div>
-					<!-- <div class="swiper-slide"><img src="/img/clients/client-7.png" class="img-fluid" alt=""></div> -->
 					<div class="swiper-slide">
 						<h1>+ More</h1>
 					</div>
 				</div>
 				<div class="swiper-pagination"></div>
 			</div>
-
 		</div>
-	</section><!-- End Clients Section -->
+	</section> -->
+	<!-- End Clients Section -->
 
 	<!-- ======= Features Section ======= -->
 	<section id="features" class="features">
@@ -141,80 +137,17 @@
 			</div>
 
 			<div class="row">
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+				@foreach(config('tech-services.data') as $service)
+				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200 * {{ $service['id'] }}">
 					<div class="icon-box">
-						<div class="icon"><img src="img/services/logo-design.png" class="img-fluid" /></div>
-						<h4><a href="">Design A Logo</a></h4>
-						<p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+						<div class="icon"><img src="{{ $service['image'] }}" class="img-fluid" /></div>
+						<h4><a href="">{{ $service['name'] }}</a></h4>
+						<p class="restrict-services-desc-text">{!! $service['description'] !!}</p>
+						<a href="#contact" class="btn btn-md btn-primary scrollto mt-4">Request A Quote</a>
 					</div>
 				</div>
-
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-					<div class="icon-box">
-						<div class="icon"><img src="img/services/business-card(2).png" class="img-fluid" /></div>
-						<h4><a href="">Visiting / Business Card Design</a></h4>
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-					<div class="icon-box">
-						<div class="icon"><img src="img/services/facebook-page.png" class="img-fluid" /></div>
-						<h4><a href="">Facebook Page</a></h4>
-						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-					<div class="icon-box">
-						<div class="icon"><img src="img/services/instagram.png" class="img-fluid" /></div>
-						<h4><a href="">Instagram Business Account</a></h4>
-						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-					<div class="icon-box">
-						<div class="icon"><img src="img/services/linkedin.png" class="img-fluid" /></div>
-						<h4><a href="">LinkedIn Company Page</a></h4>
-						<p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-					<div class="icon-box">
-						<div class="icon"><img src="img/services/youtube(2).png" class="img-fluid" /></div>
-						<h4><a href="">YouTube Brand Account</a></h4>
-						<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-					<div class="icon-box">
-						<div class="icon"><img src="img/services/pinterest.png" class="img-fluid" /></div>
-						<h4><a href="">Pinterest Business Account</a></h4>
-						<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-					<div class="icon-box">
-						<div class="icon"><img src="img/services/google(2).png" class="img-fluid" /></div>
-						<h4><a href="">Google Business Profile</a></h4>
-						<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-					<div class="icon-box">
-						<div class="icon"><img src="img/services/monetize.png" class="img-fluid" /></div>
-						<h4><a href="">YouTube Monetization</a></h4>
-						<p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-					</div>
-				</div>
-
+				@endforeach
 			</div>
-
 		</div>
 	</section><!-- End Services Section -->
 
@@ -444,25 +377,9 @@
 	<!-- ======= Testimonials Section ======= -->
 	<section id="testimonials" class="testimonials">
 		<div class="container" data-aos="zoom-in">
-
 			<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
 				<div class="swiper-wrapper">
-
-					<div class="swiper-slide">
-						<div class="testimonial-item">
-							<img src="/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-							<h3>Saul Goodman</h3>
-							<h4>Ceo &amp; Founder</h4>
-							<p>
-								<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-								Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-								quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-								<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-							</p>
-						</div>
-					</div><!-- End testimonial item -->
-
-					<div class="swiper-slide">
+					@for($i=0;$i<=3;$i++) <div class="swiper-slide">
 						<div class="testimonial-item">
 							<img src="/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
 							<h3>Sara Wilsson</h3>
@@ -474,57 +391,16 @@
 								<i class="bx bxs-quote-alt-right quote-icon-right"></i>
 							</p>
 						</div>
-					</div><!-- End testimonial item -->
-
-					<div class="swiper-slide">
-						<div class="testimonial-item">
-							<img src="/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-							<h3>Jena Karlis</h3>
-							<h4>Store Owner</h4>
-							<p>
-								<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-								Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-								tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-								<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-							</p>
-						</div>
-					</div><!-- End testimonial item -->
-
-					<div class="swiper-slide">
-						<div class="testimonial-item">
-							<img src="/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-							<h3>Matt Brandon</h3>
-							<h4>Freelancer</h4>
-							<p>
-								<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-								Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-								minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-								<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-							</p>
-						</div>
-					</div><!-- End testimonial item -->
-
-					<div class="swiper-slide">
-						<div class="testimonial-item">
-							<img src="/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-							<h3>John Larson</h3>
-							<h4>Entrepreneur</h4>
-							<p>
-								<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-								Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-								labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-								<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-							</p>
-						</div>
-					</div><!-- End testimonial item -->
 				</div>
-				<div class="swiper-pagination"></div>
+				@endfor
 			</div>
+			<div class="swiper-pagination"></div>
+		</div>
 		</div>
 	</section><!-- End Testimonials Section -->
 
 	<!-- ======= Team Section ======= -->
-	<section id="team" class="team">
+	<!-- <section id="team" class="team">
 		<div class="container" data-aos="fade-up">
 			<div class="section-title">
 				<h2>Team</h2>
@@ -601,7 +477,8 @@
 				</div>
 			</div>
 		</div>
-	</section><!-- End Team Section -->
+	</section> -->
+	<!-- End Team Section -->
 
 	<!-- ======= Contact Section ======= -->
 	<section id="contact" class="contact">
@@ -618,36 +495,50 @@
 					<div class="info">
 						<div class="address">
 							<i class="bi bi-geo-alt"></i>
-							<h4>Location:</h4>
-							<p>A108 Adam Street, New York, NY 535022</p>
+							<h4>WhatsApp Chat:</h4>
+							<p>A Customer Care Specialist is ready to chat.</p>
+							<a href="emailto:info@thetechershub.com" class="btn btn-primary">Start Chat</a>
 						</div>
 						<div class="email">
 							<i class="bi bi-envelope"></i>
-							<h4>Email:</h4>
-							<p>info@example.com</p>
+							<h4>Email Us:</h4>
+							<p>Our team is ready to help you.</p>
+							<a href="emailto:info@thetechershub.com" class="btn btn-primary">Send an Email</a>
 						</div>
 						<div class="phone">
 							<i class="bi bi-phone"></i>
-							<h4>Call:</h4>
-							<p>+1 5589 55488 55s</p>
+							<h4>Call Now:</h4>
+							<p> Mon - Sun 8:00 AM - 8:00 AM GST</p>
+							<a href="tel:971586988321" class="btn btn-primary">Connect Now</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-8 mt-5 mt-lg-0">
-					<form action="forms/contact.php" method="post" role="form" class="php-email-form">
+					<form action="{{ url('contact-us') }}" method="post" id="contact-us" role="form" class="php-email-form">
+						@csrf
 						<div class="row">
 							<div class="col-md-6 form-group">
-								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" maxlength="30" required>
 							</div>
 							<div class="col-md-6 form-group mt-3 mt-md-0">
-								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required maxlength="255">
+							</div>
+						</div>
+						<div class="row mt-3">
+							<div class="col-md-6 form-group">
+								<input type="text" class="form-control" name="contact_number" id="contact_number" maxlength="12" placeholder="Your Contact Number" required>
 							</div>
 						</div>
 						<div class="form-group mt-3">
-							<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+							<select class="form-control" name="services[]" multiple id="services" required>
+								<option value="">Select Services</option>
+								@foreach(config('tech-services.data') as $service)
+								<option value="{{ $service['id'] }}">{{ $service['name'] }}</option>
+								@endforeach
+							</select>
 						</div>
 						<div class="form-group mt-3">
-							<textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+							<textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
 						</div>
 						<div class="my-3">
 							<div class="loading">Loading</div>
@@ -662,6 +553,7 @@
 	</section><!-- End Contact Section -->
 </main><!-- End #main -->
 @endsection
+
 @section('js')
 <!-- Vendor JS Files -->
 <script src="/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -670,6 +562,25 @@
 <script src="/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="/vendor/php-email-form/validate.js"></script>
+<script src="/js/php-email-form/validate.js"></script>
 <script src="/js/main.js"></script>
+<script type="text/javascript">
+	// $("#contact-us").submit(function(e) {
+
+	// 	e.preventDefault(); // avoid to execute the actual submit of the form.
+
+	// 	var form = $(this);
+	// 	var actionUrl = form.attr('action');
+
+	// 	$.ajax({
+	// 		type: "POST",
+	// 		url: actionUrl,
+	// 		data: form.serialize(), // serializes the form's elements.
+	// 		success: function(data) {
+	// 			alert(data); // show response from the php script.
+	// 		}
+	// 	});
+
+	// });
+</script>
 @endsection
