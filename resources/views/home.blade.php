@@ -15,31 +15,31 @@
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box">
 					<i class="ri-store-line"></i>
-					<h3><a href="">Lorem Ipsum</a></h3>
+					<h3><a href="">Professional Expertise</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box">
 					<i class="ri-bar-chart-box-line"></i>
-					<h3><a href="">Dolor Sitema</a></h3>
+					<h3><a href="">Commitment</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box">
 					<i class="ri-calendar-todo-line"></i>
-					<h3><a href="">Sedare Perspiciatis</a></h3>
+					<h3><a href="">Virtual Consultant</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box">
 					<i class="ri-paint-brush-line"></i>
-					<h3><a href="">Magni Dolores</a></h3>
+					<h3><a href="">Quality</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box">
 					<i class="ri-database-2-line"></i>
-					<h3><a href="">Nemos Enimade</a></h3>
+					<h3><a href="">Cost Effective</a></h3>
 				</div>
 			</div>
 		</div>
@@ -103,24 +103,25 @@
 				<div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
 					<div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
 						<i class="bx bx-receipt"></i>
-						<h4>Est labore ad</h4>
-						<p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+						<h4>Designs for Every Organization</h4>
+						<p>Our mantra has always been to guarantee that any organization we work with prospers and outshines all the rest. Our digital design work is not only focused on bringing you more business, but a sense of newness in each design we create for your brand. This ensures your brand interacts with your prospects or customers more clearly and in a memorable manner.</p>
 					</div>
 					<div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
 						<i class="bx bx-cube-alt"></i>
-						<h4>Harum esse qui</h4>
-						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+						<h4>Where Marketing Meets Design</h4>
+						<p>Let’s face it, if you want to succeed in your business life, you always have to think of unique ways to market and standout from the crowd. Whether it’s through creating an amazing logo, a visiting/business card or a social media post. All those elements of your business have to look for creative ways to interact with humans. At Techer’s Hub, relaying your idea and core message to your customers remains a paramount endeavor when creating your design. You are not looking for the same-old-same-old design like other entities in your industry. That’s why we make sure to bring out your company’s DNA and uniqueness in all of our designs.</p>
 					</div>
 					<div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
 						<i class="bx bx-images"></i>
-						<h4>Aut occaecati</h4>
-						<p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+						<h4>Designing For A Modern Audience</h4>
+						<p>Today’s audience has changed. They are no longer confined to specific geographic regions. With the adaptation of the internet, everyone has gone global. Our designs are created with a visual language in mind that surpasses geographical and cultural borders.
+							Are you ready for a fresh new Digital Design experience?</p>
 					</div>
-					<div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+					<!-- <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
 						<i class="bx bx-shield"></i>
 						<h4>Beatae veritatis</h4>
 						<p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-					</div>
+					</div> -->
 				</div>
 			</div>
 
@@ -130,12 +131,10 @@
 	<!-- ======= Services Section ======= -->
 	<section id="services" class="services">
 		<div class="container" data-aos="fade-up">
-
 			<div class="section-title">
 				<h2>Services</h2>
 				<p>Check our Services</p>
 			</div>
-
 			<div class="row">
 				@foreach(config('tech-services.data') as $service)
 				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200 * {{ $service['id'] }}">
@@ -149,7 +148,8 @@
 				@endforeach
 			</div>
 		</div>
-	</section><!-- End Services Section -->
+	</section>
+	<!-- End Services Section -->
 
 	<!-- ======= Cta Section ======= -->
 	<section id="cta" class="cta">
@@ -157,17 +157,15 @@
 
 			<div class="text-center">
 				<h3>Call To Action</h3>
-				<p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-					laborum.</p>
-				<a class="cta-btn" href="#">Call To Action</a>
+				<p>We Are Committed to Providing Your Business With Designs That Are Both Effective and Creative!</p>
+				<a class="cta-btn" href="#contact">Call To Action</a>
 			</div>
 
 		</div>
 	</section><!-- End Cta Section -->
 
 	<!-- ======= Portfolio Section ======= -->
-	<section id="portfolio" class="portfolio">
+	<!-- <section id="portfolio" class="portfolio">
 		<div class="container" data-aos="fade-up">
 
 			<div class="section-title">
@@ -317,17 +315,17 @@
 			</div>
 
 		</div>
-	</section><!-- End Portfolio Section -->
+	</section> -->
+	<!-- End Portfolio Section -->
 
 	<!-- ======= Counts Section ======= -->
 	<section id="counts" class="counts">
 		<div class="container" data-aos="fade-up">
-
 			<div class="row no-gutters">
 				<div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
 				<div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
 					<div class="content d-flex flex-column justify-content-center">
-						<h3>Voluptatem dignissimos provident quasi</h3>
+						<h3>What we have achieved so far</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 							dolore magna aliqua. Duis aute irure dolor in reprehenderit
@@ -336,7 +334,7 @@
 							<div class="col-md-6 d-md-flex align-items-md-stretch">
 								<div class="count-box">
 									<i class="bi bi-emoji-smile"></i>
-									<span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="2" class="purecounter"></span>
+									<span data-purecounter-start="65" data-purecounter-end="145" data-purecounter-duration="2" class="purecounter"></span>
 									<p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
 								</div>
 							</div>
@@ -344,7 +342,7 @@
 							<div class="col-md-6 d-md-flex align-items-md-stretch">
 								<div class="count-box">
 									<i class="bi bi-journal-richtext"></i>
-									<span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2" class="purecounter"></span>
+									<span data-purecounter-start="90" data-purecounter-end="468" data-purecounter-duration="2" class="purecounter"></span>
 									<p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan
 									</p>
 								</div>
@@ -353,7 +351,7 @@
 							<div class="col-md-6 d-md-flex align-items-md-stretch">
 								<div class="count-box">
 									<i class="bi bi-clock"></i>
-									<span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="4" class="purecounter"></span>
+									<span data-purecounter-start="15" data-purecounter-end="30" data-purecounter-duration="3" class="purecounter"></span>
 									<p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate
 										non vel</p>
 								</div>
@@ -362,7 +360,7 @@
 							<div class="col-md-6 d-md-flex align-items-md-stretch">
 								<div class="count-box">
 									<i class="bi bi-award"></i>
-									<span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
+									<span data-purecounter-start="4" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
 									<p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
 								</div>
 							</div>
@@ -375,7 +373,7 @@
 	</section><!-- End Counts Section -->
 
 	<!-- ======= Testimonials Section ======= -->
-	<section id="testimonials" class="testimonials">
+	<!-- <section id="testimonials" class="testimonials">
 		<div class="container" data-aos="zoom-in">
 			<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
 				<div class="swiper-wrapper">
@@ -397,7 +395,8 @@
 			<div class="swiper-pagination"></div>
 		</div>
 		</div>
-	</section><!-- End Testimonials Section -->
+	</section> -->
+	<!-- End Testimonials Section -->
 
 	<!-- ======= Team Section ======= -->
 	<!-- <section id="team" class="team">
@@ -487,11 +486,11 @@
 				<h2>Contact</h2>
 				<p>Contact Us</p>
 			</div>
-			<div>
+			<!-- <div>
 				<iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="row mt-5">
-				<div class="col-lg-4">
+			</div> -->
+			<div class="row mt-3">
+				<!-- <div class="col-lg-4">
 					<div class="info">
 						<div class="address">
 							<i class="bi bi-geo-alt"></i>
@@ -512,32 +511,38 @@
 							<a href="tel:971586988321" class="btn btn-primary">Connect Now</a>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-8 mt-5 mt-lg-0">
+				</div> -->
+				<div class="col-lg-7 col-md-8 col-sm-10 col-12 mx-auto mt-5 mt-lg-0">
 					<form action="{{ url('contact-us') }}" method="post" id="contact-us" role="form" class="php-email-form">
 						@csrf
 						<div class="row">
-							<div class="col-md-6 form-group">
+							<label for="services" class="form-label">We Can Call You</label>
+							<div class="col-md-12 form-group">
 								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" maxlength="30" required>
-							</div>
-							<div class="col-md-6 form-group mt-3 mt-md-0">
-								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required maxlength="255">
 							</div>
 						</div>
 						<div class="row mt-3">
-							<div class="col-md-6 form-group">
-								<input type="text" class="form-control" name="contact_number" id="contact_number" maxlength="12" placeholder="Your Contact Number" required>
+							<label for="services" class="form-label">Email Address</label>
+							<div class="col-md-12 form-group">
+								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email Address" required maxlength="255">
+							</div>
+						</div>
+						<div class="row mt-3">
+							<label for="services" class="form-label">Contact Number</label>
+							<div class="col-md-12 form-group">
+								<input type="text" class="form-control" name="contact_number" id="contact_number" maxlength="12" placeholder="Please enter with country code without (+) sign" required>
 							</div>
 						</div>
 						<div class="form-group mt-3">
+							<label for="services" class="form-label">Select Your Interested Service(s)</label>
 							<select class="form-control" name="services[]" multiple id="services" required>
-								<option value="">Select Services</option>
 								@foreach(config('tech-services.data') as $service)
 								<option value="{{ $service['id'] }}">{{ $service['name'] }}</option>
 								@endforeach
 							</select>
 						</div>
 						<div class="form-group mt-3">
+							<label for="services" class="form-label">Please describe your requirement more in detail</label>
 							<textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
 						</div>
 						<div class="my-3">

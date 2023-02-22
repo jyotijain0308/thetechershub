@@ -16,7 +16,7 @@ return [
         'social_media_page_setup' => [
             'id' => 3,
             'name' => 'Social Media Page Creation',
-            'image' => 'img/services/business-card(2).png',
+            'image' => 'img/services/social-media.png',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'sub_services' => [
                 'facebook_page' => [
@@ -66,7 +66,7 @@ return [
         'profession_profile_setup' => [
             'id' => 4,
             'name' => 'Profession Profile',
-            'image' => 'img/services/business-card(2).png',
+            'image' => 'img/services/linkedin-profile.png',
             'description' => 'An attractive and professional profile can help you draw in potential clients and customers for your business and services. We pride ourselves in helping you to showcase your expertise and credentials, through a professional profile that builds trust with your potential customers. A professional profile is an invaluable asset in today’s digital landscape, and is essential if what you seek is more clients.',
         ],
         // 'user_friendly_website_design_layout' => [
@@ -90,7 +90,7 @@ return [
         'video_editing' => [
             'id' => 7,
             'name' => 'Video Editing',
-            'image' => 'img/services/monetize.png',
+            'image' => 'img/services/editing.png',
             'description' => 'Do you want to go viral? Who doesn’t? Today we’re all in love with videos from businesses to individuals. At The Techer’s Hub, we understand the importance of creating your videos in a meaningful and captivating way. It is not only about making sure that your message is right but working hard with editing elements to boost your video’s popularity and engagement levels!'
         ]
     ]

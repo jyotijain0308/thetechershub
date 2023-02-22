@@ -11,7 +11,6 @@
   forms.forEach(function (e) {
     e.addEventListener('submit', function (event) {
       event.preventDefault();
-      alert('df');
 
       let thisForm = this;
 
