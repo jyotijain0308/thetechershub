@@ -50,14 +50,13 @@
 	<!-- ======= About Section ======= -->
 	<section id="about" class="about">
 		<div class="container" data-aos="fade-up">
-
 			<div class="row">
 				<div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
 					<img src="/img/about.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
 					<h3>At {{config('app.name')}}, we understand that creative design is an important part of every business and it can be agonizing to find the right design partner for your project.</h3>
-					<p class="fst-italic">We believe that every brand is unique. And unique brands require nothing more than unique solutions.</p>
+					<p class="fst-italic">We believe that every brand is unique and unique brands require nothing more than unique solutions.</p>
 					<ul>
 						<li><i class="ri-check-double-line"></i> Our team of experienced designers is committed to helping you create the perfect design that fits your brand's vision and mission.</li>
 						<li><i class="ri-check-double-line"></i> We bridge the gap between digital product designs and brand identity. Giving your brand that magical element that captivates customers and stands out from your competitors.</li>
@@ -515,22 +514,24 @@
 				<div class="col-lg-7 col-md-8 col-sm-10 col-12 mx-auto mt-5 mt-lg-0">
 					<form action="{{ url('contact-us') }}" method="post" id="contact-us" role="form" class="php-email-form">
 						@csrf
-						<div class="row">
-							<label for="services" class="form-label">We Can Call You</label>
-							<div class="col-md-12 form-group">
-								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" maxlength="30" required>
+						<div class="form-group row mt-3">
+							<div class="col-md-6">
+								<label for="name" class="form-label">We Can Call You</label>
+								<div class="col-md-12 form-group">
+									<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" maxlength="30" required>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<label for="email" class="form-label">Email Address</label>
+								<div class="col-md-12 form-group">
+									<input type="email" class="form-control" name="email" id="email" placeholder="Your Email Address" required maxlength="255">
+								</div>
 							</div>
 						</div>
-						<div class="row mt-3">
-							<label for="services" class="form-label">Email Address</label>
+						<div class="form-group row mt-3">
+							<label for="contact_number" class="form-label">Contact Number</label>
 							<div class="col-md-12 form-group">
-								<input type="email" class="form-control" name="email" id="email" placeholder="Your Email Address" required maxlength="255">
-							</div>
-						</div>
-						<div class="row mt-3">
-							<label for="services" class="form-label">Contact Number</label>
-							<div class="col-md-12 form-group">
-								<input type="text" class="form-control" name="contact_number" id="contact_number" maxlength="12" placeholder="Please enter with country code without (+) sign" required>
+								<input type="text" class="form-control" name="contact_number" id="contact_number" maxlength="12" placeholder="Please enter number with country code without (+) sign" required>
 							</div>
 						</div>
 						<div class="form-group mt-3">
@@ -542,7 +543,7 @@
 							</select>
 						</div>
 						<div class="form-group mt-3">
-							<label for="services" class="form-label">Please describe your requirement more in detail</label>
+							<label for="message" class="form-label">Please describe your requirement more in detail</label>
 							<textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
 						</div>
 						<div class="my-3">
@@ -569,23 +570,4 @@
 <script src="/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="/js/php-email-form/validate.js"></script>
 <script src="/js/main.js"></script>
-<script type="text/javascript">
-	// $("#contact-us").submit(function(e) {
-
-	// 	e.preventDefault(); // avoid to execute the actual submit of the form.
-
-	// 	var form = $(this);
-	// 	var actionUrl = form.attr('action');
-
-	// 	$.ajax({
-	// 		type: "POST",
-	// 		url: actionUrl,
-	// 		data: form.serialize(), // serializes the form's elements.
-	// 		success: function(data) {
-	// 			alert(data); // show response from the php script.
-	// 		}
-	// 	});
-
-	// });
-</script>
 @endsection
