@@ -6,7 +6,7 @@
         <div class="col-md-4">
           <div class="footer-info">
             <div><a href="{{ url('/') }}"><img src="/img/logo.png" class="img-fluid align-top" width="240px" /></a></div>
-            <!-- <p>Dubai, United Arab Emirates<br><br> -->
+            <p>We believe that quality and modernity go hand-in-hand to create truly impactful visuals that stand out from the crowd and captivate your target audience. Whether it’s a logo, a website design, social media or a corporate video, we are here to deliver quality every step of the way.<br><br>
             <!-- <strong>Phone:</strong> +1 5589 55488 55<br> -->
             <strong>Email:</strong> <a href="mailto:info@thetechershub.com">info@thetechershub.com</a><br>
             </p>

@@ -14,31 +14,31 @@
 		<div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box">
-					<i class="ri-store-line"></i>
+					<img src="/img/briefcase.png" class="" alt="">
 					<h3><a href="">Professional Expertise</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box">
-					<i class="ri-bar-chart-box-line"></i>
+					<img src="/img/commitment.png" class="" alt="">
 					<h3><a href="">Commitment</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box">
-					<i class="ri-calendar-todo-line"></i>
+					<img src="/img/therapy.png" class="" alt="">
 					<h3><a href="">Virtual Consultant</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box">
-					<i class="ri-paint-brush-line"></i>
+					<img src="/img/guaranteed.png" class="" alt="">
 					<h3><a href="">Quality</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box">
-					<i class="ri-database-2-line"></i>
+					<img src="/img/growth.png" class="" alt="">
 					<h3><a href="">Cost Effective</a></h3>
 				</div>
 			</div>
@@ -52,24 +52,49 @@
 		<div class="container" data-aos="fade-up">
 
 			<div class="row">
-				<div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-					<img src="/img/about.jpg" class="img-fluid" alt="">
+				<div class="col-lg-6 order-1 order-lg-2 alignimg data-aos="fade-left" data-aos-delay="100">
+					<img src="/img/about1.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-					<h3>At {{config('app.name')}}, we understand that creative design is an important part of every business and it can be agonizing to find the right design partner for your project.</h3>
-					<p class="fst-italic">We believe that every brand is unique. And unique brands require nothing more than unique solutions.</p>
-					<ul>
-						<li><i class="ri-check-double-line"></i> Our team of experienced designers is committed to helping you create the perfect design that fits your brand's vision and mission.</li>
-						<li><i class="ri-check-double-line"></i> We bridge the gap between digital product designs and brand identity. Giving your brand that magical element that captivates customers and stands out from your competitors.</li>
-						<li><i class="ri-check-double-line"></i> What's more, we have made the design process as easy and stress-free as possible. We collaborate closely with your team in order to provide you with custom solutions tailored to meet your brand needs.</li>
-					</ul>
-					<p>
-						Are you ready for a new digital experience that will take your brand to the next level? If so, welcome to {{config('app.name')}} - you’ve come to the right place.
-						<a class="scrollto" href="#contact">Contact us</a> today to get started!
-					</p>
+					<h3>Our Story</h3>
+						<p>We did not actually plan this. It all happened when a group of us met and discovered that the brand designs we encountered around us were pretty dull and to say the least meh! It’s true. Most designs are generic.</p>
+						<p>Being multidisciplinary creatives who come from different backgrounds, we thought… how about starting our own design outfit?</p>
+						<p>A design agency which understood the modern customer and could produce work that clients and their end user could be proud of. And on top of that, also integrate it with social media and the online environment?</p>
+						<p>And just like that🤝🏼The Techer’s Hub was born!</p>
 				</div>
 			</div>
 
+			<div class="row margintop">
+				<div class="col-lg-6 order-1 order-lg-2 alignimg" data-aos="fade-left" data-aos-delay="100">
+					<img src="/img/about2.jpg" class="img-fluid" alt="">
+				</div>
+				<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+					<h3>Our Mission:</h3>
+					<p>To create stunning designs that helps brands distinguish themselves from the competition. It’s all about creating a truly amazing and refreshing digital design experience.</p>
+					<p>We are dedicated to providing the highest quality graphic design and video editing services.</p>
+					<p>Our experienced and talented designers have the skills and knowledge to create visuals that will captivate your target audience. At Techer’s Hub, No two businesses are the same, that’s why we strive to create custom visuals that will accurately reflect your brand’s identity.</p>
+					<p>Furthermore, we use the latest graphic design software to craft logos, brochures, flyers and other visuals. Our team of experts has the expertise to create visuals that are both visually appealing and on-brand. We understand the importance of creating visuals that will have an impact and leave a lasting impression on your customers.</p>
+				</div>
+			</div>
+
+			<div class="row margintop">
+				<div class="col-lg-6 order-1 order-lg-2 alignimg" data-aos="fade-left" data-aos-delay="100">
+					<img src="/img/about3.jpg" class="img-fluid" alt="">
+				</div>
+				<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+					<h3>Let’s Work Together:</h3>
+					<p>Our passion lies in helping businesses to stand out in a crowded marketplace by creating visuals that grab the targets attention. We have made our services accessible to businesses of all sizes, so that every organization can benefit from our expertise and modern designs.</p>
+					<p>Are you looking for graphic design services that will make a lasting impression?</p>
+
+					</br></br><p><b>Don’t hesitate to contact us on any issues like:</b></p>
+					<ul>
+						<li><i class="ri-check-double-line"></i>We need to design a modern logo, brochure, Business cards and banner for our brand</li>
+						<li><i class="ri-check-double-line"></i>We want stand out, creative and engaging corporate videos for our brand</li>
+						<li><i class="ri-check-double-line"></i>We wish to upgrade our online presence on all social media platforms. Can you create all our profiles?</li>
+						<li><i class="ri-check-double-line"></i>We are looking for a stunning, interactive and simple to use web layout design</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</section><!-- End About Section -->
 
@@ -327,15 +352,14 @@
 					<div class="content d-flex flex-column justify-content-center">
 						<h3>What we have achieved so far</h3>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Duis aute irure dolor in reprehenderit
+							Our team is constantly pushing itself harder to create unique and memorable work. The past few years have seen us design everything from custom logos to motion graphics for television shows. If you’re looking for eye-catching high-quality designs that go the extra mile – look no further! We are here to make your vision a reality.
 						</p>
 						<div class="row">
 							<div class="col-md-6 d-md-flex align-items-md-stretch">
 								<div class="count-box">
 									<i class="bi bi-emoji-smile"></i>
 									<span data-purecounter-start="65" data-purecounter-end="145" data-purecounter-duration="2" class="purecounter"></span>
-									<p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+									<p><strong>Happy Clients</strong> The loyalty to our clients goes beyond the design process. We are proud to be open for business to all. Our clientele portfolio includes both small businesses and large corporations as well. We offer quick turnarounds and competitive prices.</p>
 								</div>
 							</div>
 
@@ -343,7 +367,7 @@
 								<div class="count-box">
 									<i class="bi bi-journal-richtext"></i>
 									<span data-purecounter-start="90" data-purecounter-end="468" data-purecounter-duration="2" class="purecounter"></span>
-									<p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan
+									<p><strong>Projects</strong> As a group of professional designers who understand the importance of visuals, we are committed to bringing your brand ideas to life in an unforgettable way. Our team has worked on projects with big brands and small business in industries ranging from fashion, Manufacturing, E-commerce to finance and everything else in between.
 									</p>
 								</div>
 							</div>
@@ -352,8 +376,9 @@
 								<div class="count-box">
 									<i class="bi bi-clock"></i>
 									<span data-purecounter-start="15" data-purecounter-end="30" data-purecounter-duration="3" class="purecounter"></span>
-									<p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate
-										non vel</p>
+									<p><strong>Years of experience</strong> We are a highly creative graphic design company with years of experience in the industry. <br><br>
+									From digital design services, logos, brochures, business cards and web design, to print and branding. Our team is adept at understanding your needs and creating designs that are tailored to meet your needs.
+								</p>
 								</div>
 							</div>
 
@@ -361,7 +386,9 @@
 								<div class="count-box">
 									<i class="bi bi-award"></i>
 									<span data-purecounter-start="4" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
-									<p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+									<p><strong>Awards</strong> Our team consists of highly experienced designers and developers who have been recognized by some of the most respected awards in the industry for their outstanding work.
+We use the latest design techniques and technologies to create high-end visuals that helps your brand to stand out in the market.
+</p>
 								</div>
 							</div>
 						</div>

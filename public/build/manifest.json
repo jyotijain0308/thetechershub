@@ -15,13 +15,13 @@
     "file": "assets/bootstrap-icons-c6569d46.woff",
     "src": "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff"
   },
-  "resources/vendor/remixicon/remixicon.woff2": {
-    "file": "assets/remixicon-e61f0d10.woff2",
-    "src": "resources/vendor/remixicon/remixicon.woff2"
-  },
   "resources/vendor/boxicons/fonts/boxicons.woff2": {
     "file": "assets/boxicons-4b87cbc7.woff2",
     "src": "resources/vendor/boxicons/fonts/boxicons.woff2"
+  },
+  "resources/vendor/remixicon/remixicon.woff2": {
+    "file": "assets/remixicon-e61f0d10.woff2",
+    "src": "resources/vendor/remixicon/remixicon.woff2"
   },
   "resources/vendor/remixicon/remixicon.woff": {
     "file": "assets/remixicon-c2dacfbc.woff",
@@ -40,23 +40,23 @@
     "src": "resources/vendor/boxicons/fonts/boxicons.ttf"
   },
   "resources/vendor/remixicon/remixicon.svg": {
-    "file": "assets/remixicon-a10268fe.svg",
+    "file": "assets/remixicon-aab59b7b.svg",
     "src": "resources/vendor/remixicon/remixicon.svg"
   },
   "resources/vendor/boxicons/fonts/boxicons.svg": {
-    "file": "assets/boxicons-3fe502d8.svg",
+    "file": "assets/boxicons-0b7f8ae7.svg",
     "src": "resources/vendor/boxicons/fonts/boxicons.svg"
   },
   "resources/js/app.css": {
-    "file": "assets/app-17d7d967.css",
+    "file": "assets/app-e709f34e.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
-    "file": "assets/app-42843f98.js",
+    "file": "assets/app-b8c93c72.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-17d7d967.css"
+      "assets/app-e709f34e.css"
     ],
     "assets": [
       "assets/bootstrap-icons-966620f9.woff2",
@@ -65,12 +65,12 @@
       "assets/boxicons-4b87cbc7.woff2",
       "assets/boxicons-d5d511cf.woff",
       "assets/boxicons-47509a2d.ttf",
-      "assets/boxicons-3fe502d8.svg",
+      "assets/boxicons-0b7f8ae7.svg",
       "assets/remixicon-64bb3a0f.eot",
       "assets/remixicon-e61f0d10.woff2",
       "assets/remixicon-c2dacfbc.woff",
       "assets/remixicon-0ac8bc3c.ttf",
-      "assets/remixicon-a10268fe.svg"
+      "assets/remixicon-aab59b7b.svg"
     ]
   }
 }
