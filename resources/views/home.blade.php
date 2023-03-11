@@ -13,33 +13,33 @@
 		</div>
 		<div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
 			<div class="col-xl-2 col-md-4">
-				<div class="icon-box">
-					<i class="ri-store-line"></i>
-					<h3><a href="">Professional Expertise</a></h3>
+				<div class="icon-box" style="padding:30px 10px;">
+					<img src="/img/001-abilities.png" class="" alt="">
+					<h3 style="font-size:16px;"><a href="">Professional Expertise</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
-				<div class="icon-box">
-					<i class="ri-bar-chart-box-line"></i>
-					<h3><a href="">Commitment</a></h3>
+				<div class="icon-box" style="padding:30px 10px;">
+					<img src="/img/003-relationship.png" class="" alt="">
+					<h3 style="font-size:16px;"><a href="">Commitment</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
-				<div class="icon-box">
-					<i class="ri-calendar-todo-line"></i>
-					<h3><a href="">Virtual Consultant</a></h3>
+				<div class="icon-box" style="padding:30px 10px;">
+					<img src="/img/004-digital-assistant.png" class="" alt="">
+					<h3 style="font-size:16px;"><a href="">Virtual Consultant</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
-				<div class="icon-box">
-					<i class="ri-paint-brush-line"></i>
-					<h3><a href="">Quality</a></h3>
+				<div class="icon-box" style="padding:30px 10px;">
+					<img src="/img/005-monitoring.png" class="" alt="">
+					<h3 style="font-size:16px;"><a href="">Quality</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
-				<div class="icon-box">
-					<i class="ri-database-2-line"></i>
-					<h3><a href="">Cost Effective</a></h3>
+				<div class="icon-box" style="padding:30px 10px;">
+					<img src="/img/economic.png" class="" alt="">
+					<h3 style="font-size:16px;"><a href="">Cost Effective</a></h3>
 				</div>
 			</div>
 		</div>
@@ -55,72 +55,119 @@
 					<img src="/img/about.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-					<h3>At {{config('app.name')}}, we understand that creative design is an important part of every business and it can be agonizing to find the right design partner for your project.</h3>
-					<p class="fst-italic">We believe that every brand is unique and unique brands require nothing more than unique solutions.</p>
+					<h3>We believe that every brand is unique and unique brands require nothing more than unique solutions.</h3>
+					<p class="fst-italic">At {{config('app.name')}}, we understand that creative design is an important part of every business and it can be agonizing to find the right design partner for your project.</p>
 					<ul>
-						<li><i class="ri-check-double-line"></i> Our team of experienced designers is committed to helping you create the perfect design that fits your brand's vision and mission.</li>
-						<li><i class="ri-check-double-line"></i> We bridge the gap between digital product designs and brand identity. Giving your brand that magical element that captivates customers and stands out from your competitors.</li>
-						<li><i class="ri-check-double-line"></i> What's more, we have made the design process as easy and stress-free as possible. We collaborate closely with your team in order to provide you with custom solutions tailored to meet your brand needs.</li>
+						<li><i class="ri-check-double-line"></i> Our team of experienced designers is committed to helping
+							you create the perfect design that fits your brand's vision and mission.</li>
+						<li><i class="ri-check-double-line"></i> We bridge the gap between digital product designs and brand
+							identity. Giving your brand that magical element that captivates customers and stands out from
+							your competitors.</li>
+						<li><i class="ri-check-double-line"></i> What's more, we have made the design process as easy and
+							stress-free as possible. We collaborate closely with your team in order to provide you with
+							custom solutions tailored to meet your brand needs.</li>
 					</ul>
 					<p>
-						Are you ready for a new digital experience that will take your brand to the next level? If so, welcome to {{config('app.name')}} - you’ve come to the right place.
+						Are you ready for a new digital experience that will take your brand to the next level? If so,
+						welcome to {{config('app.name')}} - you’ve come to the right place.
 						<a class="scrollto" href="#contact">Contact us</a> today to get started!
 					</p>
 				</div>
 			</div>
-
 		</div>
-	</section><!-- End About Section -->
+	</section><!-- End About -->
 
-	<!-- ======= Clients Section ======= -->
-	<!-- <section id="clients" class="clients">
-		<div class="container" data-aos="zoom-in">
-			<div class="clients-slider swiper">
-				<div class="swiper-wrapper align-items-center">
-					<div class="swiper-slide"><img src="/img/clients/client-1.png" class="img-fluid" alt=""></div>
-					<div class="swiper-slide"><img src="/img/clients/client-2.png" class="img-fluid" alt=""></div>
-					<div class="swiper-slide"><img src="/img/clients/client-3.png" class="img-fluid" alt=""></div>
-					<div class="swiper-slide"><img src="/img/clients/client-5.png" class="img-fluid" alt=""></div>
-					<div class="swiper-slide"><img src="/img/clients/client-6.png" class="img-fluid" alt=""></div>
-					<div class="swiper-slide">
-						<h1>+ More</h1>
+	<!-- ======= Our Story Section ======= -->
+	<section id="about" class="about ourstory pt-0">
+		<div class="container" data-aos="fade-up">
+			<div class="row">
+				<div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+					<img src="/img/757_main.jpg" class="img-fluid" alt="">
+				</div>
+				<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+					<h3 style="padding-bottom:20px;">Our Story</h3>
+					<ul>
+						<li><i class="ri-check-double-line"></i> We did not actually plan this. It all happened when a group of us met and discovered that the brand designs we encountered around us were pretty dull and to say the least meh! It’s true. Most designs are generic.</li>
+						<li><i class="ri-check-double-line"></i> Being multidisciplinary creatives who come from different backgrounds, we thought… how about starting our own design outfit?</li>
+						<li><i class="ri-check-double-line"></i> A design agency which understood the modern customer and could produce work that clients and their end user could be proud of. And on top of that, also integrate it with social media and the online environment?</li>
+						<li><i class="ri-check-double-line"></i>And just like that🤝🏼{{ config('app.name') }} was born!</li>
+					</ul>
+					<div>
 					</div>
 				</div>
-				<div class="swiper-pagination"></div>
+	</section><!-- End Our Story -->
+
+	<!-- ======= Our Mission Section ======= -->
+	<section id="testimonials" class="testimonials" style="padding: 45px 0;">
+		<div class="container" data-aos="fade-up">
+			<div class="row">
+				<div class="" style="width:60%; background: #353D54; margin: 0px auto;">
+					<h3 style="color: #fff; font-size: 28px; font-weight: 700; text-align:center; margin-top:40px; margin-bottom:40px;">Our Mission</h3>
+					<div class="missionpara px-5 pb-5" style="color: #fff;">
+						<p>To create stunning designs that helps brands distinguish themselves from the competition. It’s all about creating a truly amazing and refreshing digital design experience.</p>
+						<p>We are dedicated to providing the highest quality graphic design and video editing services.</p>
+						<p>Our experienced and talented designers have the skills and knowledge to create visuals that will captivate your target audience. At {{ config('app.name') }}, No two businesses are the same, that’s why we strive to create custom visuals that will accurately reflect your brand’s identity.</p>
+						<p>Furthermore, we use the latest graphic design software to craft logos, brochures, flyers and other visuals. Our team of experts has the expertise to create visuals that are both visually appealing and on-brand. We understand the importance of creating visuals that will have an impact and leave a lasting impression on your customers.</p>
+					</div>
+				</div>
 			</div>
 		</div>
-	</section> -->
-	<!-- End Clients Section -->
+	</section><!-- End Our Mission -->
+
+	<!-- ======= Let's work together Section ======= -->
+	<section id="features" class="features" style="padding:60px 0px;">
+		<div class="container" data-aos="fade-up">
+
+			<div class="row">
+				<div class="image col-lg-6" data-aos="fade-right">
+					<img src="/img/work-together.jpg" class="img-fluid" alt="">
+				</div>
+
+				<div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+					<h3 style="font-weight: 700;font-size: 28px;font-family: Poppins,sans-serif; padding-bottom:20px;">Let’s Work Together</h3>
+					<p>Our passion lies in helping businesses to stand out in a crowded marketplace by creating visuals that grab the targets attention. We have made our services accessible to businesses of all sizes, so that every organization can benefit from our expertise and modern designs.</p>
+					<p>Are you looking for graphic design services that will make a lasting impression?</p>
+					<p style="font-weight: 700;font-size: 20px;font-family: Poppins,sans-serif;"><b>Don’t hesitate to contact us on any issues like:</b></p>
+					<ul style="list-style: none;padding: 0;">
+						<li style="padding: 0 0 8px 26px;position: relative;"><i class="ri-check-double-line" style="position: absolute; font-size: 20px; left: 0; top: -3px; color: #ffc451;"></i>We need to design a modern logo, brochure, Business cards and banner for our brand</li>
+						<li style="padding: 0 0 8px 26px;position: relative;"><i class="ri-check-double-line" style="position: absolute; font-size: 20px; left: 0; top: -3px; color: #ffc451;"></i>We want stand out, creative and engaging corporate videos for our brand</li>
+						<li style="padding: 0 0 8px 26px;position: relative;"><i class="ri-check-double-line" style="position: absolute; font-size: 20px; left: 0; top: -3px; color: #ffc451;"></i>We wish to upgrade our online presence on all social media platforms. Can you create all our profiles?</li>
+						<li style="padding: 0 0 8px 26px;position: relative;"><i class="ri-check-double-line" style="position: absolute; font-size: 20px; left: 0; top: -3px; color: #ffc451;"></i>We are looking for a stunning, interactive and simple to use web layout design</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</section><!-- End Let's work together -->
 
 	<!-- ======= Features Section ======= -->
 	<section id="features" class="features">
 		<div class="container" data-aos="fade-up">
-
 			<div class="row">
-				<div class="image col-lg-6" style='background-image: url("/img/features.jpg");' data-aos="fade-right">
-				</div>
-				<div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+				<div class="col-lg-4" data-aos="fade-left" data-aos-delay="100">
 					<div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
 						<i class="bx bx-receipt"></i>
 						<h4>Designs for Every Organization</h4>
 						<p>Our mantra has always been to guarantee that any organization we work with prospers and outshines all the rest. Our digital design work is not only focused on bringing you more business, but a sense of newness in each design we create for your brand. This ensures your brand interacts with your prospects or customers more clearly and in a memorable manner.</p>
 					</div>
-					<div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+				</div>
+
+				<div class="col-lg-4" data-aos="fade-left" data-aos-delay="100">
+					<div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
 						<i class="bx bx-cube-alt"></i>
 						<h4>Where Marketing Meets Design</h4>
-						<p>Let’s face it, if you want to succeed in your business life, you always have to think of unique ways to market and standout from the crowd. Whether it’s through creating an amazing logo, a visiting/business card or a social media post. All those elements of your business have to look for creative ways to interact with humans. At Techer’s Hub, relaying your idea and core message to your customers remains a paramount endeavor when creating your design. You are not looking for the same-old-same-old design like other entities in your industry. That’s why we make sure to bring out your company’s DNA and uniqueness in all of our designs.</p>
+						<p>Let’s face it, if you want to succeed in your business life, you always have to think of unique ways to market and standout from the crowd. Whether it’s through creating an amazing logo, a visiting/business card or a social media post. All those elements of your business have to look for creative ways to interact with humans.</p>
 					</div>
-					<div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+				</div>
+
+				<div class="col-lg-4" data-aos="fade-left" data-aos-delay="100">
+					<div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
 						<i class="bx bx-images"></i>
 						<h4>Designing For A Modern Audience</h4>
 						<p>Today’s audience has changed. They are no longer confined to specific geographic regions. With the adaptation of the internet, everyone has gone global. Our designs are created with a visual language in mind that surpasses geographical and cultural borders.
 							Are you ready for a fresh new Digital Design experience?</p>
 					</div>
-					<!-- <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-						<i class="bx bx-shield"></i>
-						<h4>Beatae veritatis</h4>
-						<p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-					</div> -->
+
 				</div>
 			</div>
 
@@ -163,320 +210,66 @@
 		</div>
 	</section><!-- End Cta Section -->
 
-	<!-- ======= Portfolio Section ======= -->
-	<!-- <section id="portfolio" class="portfolio">
-		<div class="container" data-aos="fade-up">
-
-			<div class="section-title">
-				<h2>Portfolio</h2>
-				<p>Check our Portfolio</p>
-			</div>
-
-			<div class="row" data-aos="fade-up" data-aos-delay="100">
-				<div class="col-lg-12 d-flex justify-content-center">
-					<ul id="portfolio-flters">
-						<li data-filter="*" class="filter-active">All</li>
-						<li data-filter=".filter-app">App</li>
-						<li data-filter=".filter-card">Card</li>
-						<li data-filter=".filter-web">Web</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-					<div class="portfolio-wrap">
-						<img src="/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>App 1</h4>
-							<p>App</p>
-							<div class="portfolio-links">
-								<a href="/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-								<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-					<div class="portfolio-wrap">
-						<img src="/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>Web 3</h4>
-							<p>Web</p>
-							<div class="portfolio-links">
-								<a href="/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-								<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-					<div class="portfolio-wrap">
-						<img src="/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>App 2</h4>
-							<p>App</p>
-							<div class="portfolio-links">
-								<a href="/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-								<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-					<div class="portfolio-wrap">
-						<img src="/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>Card 2</h4>
-							<p>Card</p>
-							<div class="portfolio-links">
-								<a href="/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-								<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-					<div class="portfolio-wrap">
-						<img src="/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>Web 2</h4>
-							<p>Web</p>
-							<div class="portfolio-links">
-								<a href="/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-								<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-					<div class="portfolio-wrap">
-						<img src="/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>App 3</h4>
-							<p>App</p>
-							<div class="portfolio-links">
-								<a href="/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-								<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-					<div class="portfolio-wrap">
-						<img src="/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>Card 1</h4>
-							<p>Card</p>
-							<div class="portfolio-links">
-								<a href="/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-								<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-					<div class="portfolio-wrap">
-						<img src="/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>Card 3</h4>
-							<p>Card</p>
-							<div class="portfolio-links">
-								<a href="/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-								<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-					<div class="portfolio-wrap">
-						<img src="/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>Web 3</h4>
-							<p>Web</p>
-							<div class="portfolio-links">
-								<a href="/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-								<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-	</section> -->
-	<!-- End Portfolio Section -->
-
 	<!-- ======= Counts Section ======= -->
 	<section id="counts" class="counts">
 		<div class="container" data-aos="fade-up">
 			<div class="row no-gutters">
-				<div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
-				<div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
-					<div class="content d-flex flex-column justify-content-center">
-						<h3>What we have achieved so far</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Duis aute irure dolor in reprehenderit
-						</p>
-						<div class="row">
-							<div class="col-md-6 d-md-flex align-items-md-stretch">
-								<div class="count-box">
-									<i class="bi bi-emoji-smile"></i>
-									<span data-purecounter-start="65" data-purecounter-end="145" data-purecounter-duration="2" class="purecounter"></span>
-									<p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+				<div class="content d-flex flex-column justify-content-center">
+					<h3 style="text-align:center;">What we have achieved so far</h3>
+					<p class="px-5 pb-5 pt-4">
+						Our team is constantly pushing itself harder to create unique and memorable work. The past few years have seen us design everything from custom logos to motion graphics for television shows. If you’re looking for eye-catching high-quality designs that go the extra mile – look no further! We are here to make your vision a reality.
+					</p>
+					<div class="row no-gutters">
+						<div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start aos-init aos-animate" data-aos="fade-right" data-aos-delay="100"></div>
+						<div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch aos-init aos-animate">
+							<div class="row">
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-emoji-smile" style="line-height:1"></i>
+										<span data-purecounter-start="65" data-purecounter-end="145" data-purecounter-duration="2" class="purecounter"></span>
+										<p><strong>Happy Clients</strong> The loyalty to our clients goes beyond the design process. We are proud to be open for business to all. Our clientele portfolio includes both small businesses and large corporations as well. We offer quick turnarounds and competitive prices.</p>
+									</div>
 								</div>
-							</div>
 
-							<div class="col-md-6 d-md-flex align-items-md-stretch">
-								<div class="count-box">
-									<i class="bi bi-journal-richtext"></i>
-									<span data-purecounter-start="90" data-purecounter-end="468" data-purecounter-duration="2" class="purecounter"></span>
-									<p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan
-									</p>
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-journal-richtext" style="line-height:1"></i>
+										<span data-purecounter-start="90" data-purecounter-end="468" data-purecounter-duration="2" class="purecounter"></span>
+										<p><strong>Projects</strong> As a group of professional designers who understand the importance of visuals, we are committed to bringing your brand ideas to life in an unforgettable way. Our team has worked on projects with big brands and small business in industries ranging from fashion, Manufacturing, E-commerce to finance and everything else in between.
+										</p>
+									</div>
 								</div>
-							</div>
 
-							<div class="col-md-6 d-md-flex align-items-md-stretch">
-								<div class="count-box">
-									<i class="bi bi-clock"></i>
-									<span data-purecounter-start="15" data-purecounter-end="30" data-purecounter-duration="3" class="purecounter"></span>
-									<p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate
-										non vel</p>
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-clock" style="line-height:1"></i>
+										<span data-purecounter-start="15" data-purecounter-end="30" data-purecounter-duration="3" class="purecounter"></span>
+										<p><strong>Years of experience</strong> We are a highly creative graphic design company with years of experience in the industry.
+											From digital design services, logos, brochures, business cards and web design, to print and branding. Our team is adept at understanding your needs and creating designs that are tailored to meet your needs.
+
+										</p>
+									</div>
 								</div>
-							</div>
 
-							<div class="col-md-6 d-md-flex align-items-md-stretch">
-								<div class="count-box">
-									<i class="bi bi-award"></i>
-									<span data-purecounter-start="4" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
-									<p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-award" style="line-height:1"></i>
+										<span data-purecounter-start="4" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
+										<p><strong>Awards</strong> Our team consists of highly experienced designers and developers who have been recognized by some of the most respected awards in the industry for their outstanding work.
+											We use the latest design techniques and technologies to create high-end visuals that helps your brand to stand out in the market.
+
+
+									</div>
 								</div>
 							</div>
 						</div>
-					</div><!-- End .content-->
-				</div>
+					</div>
+				</div><!-- End .content-->
 			</div>
 
 		</div>
 	</section><!-- End Counts Section -->
 
-	<!-- ======= Testimonials Section ======= -->
-	<!-- <section id="testimonials" class="testimonials">
-		<div class="container" data-aos="zoom-in">
-			<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-				<div class="swiper-wrapper">
-					@for($i=0;$i<=3;$i++) <div class="swiper-slide">
-						<div class="testimonial-item">
-							<img src="/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-							<h3>Sara Wilsson</h3>
-							<h4>Designer</h4>
-							<p>
-								<i class="bx bxs-quote-alt-left quote-icon-left"></i>
-								Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-								quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-								<i class="bx bxs-quote-alt-right quote-icon-right"></i>
-							</p>
-						</div>
-				</div>
-				@endfor
-			</div>
-			<div class="swiper-pagination"></div>
-		</div>
-		</div>
-	</section> -->
-	<!-- End Testimonials Section -->
-
-	<!-- ======= Team Section ======= -->
-	<!-- <section id="team" class="team">
-		<div class="container" data-aos="fade-up">
-			<div class="section-title">
-				<h2>Team</h2>
-				<p>Check our Team</p>
-			</div>
-			<div class="row">
-				<div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-					<div class="member" data-aos="fade-up" data-aos-delay="100">
-						<div class="member-img">
-							<img src="/img/team/team-1.jpg" class="img-fluid" alt="">
-							<div class="social">
-								<a href=""><i class="bi bi-twitter"></i></a>
-								<a href=""><i class="bi bi-facebook"></i></a>
-								<a href=""><i class="bi bi-instagram"></i></a>
-								<a href=""><i class="bi bi-linkedin"></i></a>
-							</div>
-						</div>
-						<div class="member-info">
-							<h4>Walter White</h4>
-							<span>Chief Executive Officer</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-					<div class="member" data-aos="fade-up" data-aos-delay="200">
-						<div class="member-img">
-							<img src="/img/team/team-2.jpg" class="img-fluid" alt="">
-							<div class="social">
-								<a href=""><i class="bi bi-twitter"></i></a>
-								<a href=""><i class="bi bi-facebook"></i></a>
-								<a href=""><i class="bi bi-instagram"></i></a>
-								<a href=""><i class="bi bi-linkedin"></i></a>
-							</div>
-						</div>
-						<div class="member-info">
-							<h4>Sarah Jhonson</h4>
-							<span>Product Manager</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-					<div class="member" data-aos="fade-up" data-aos-delay="300">
-						<div class="member-img">
-							<img src="/img/team/team-3.jpg" class="img-fluid" alt="">
-							<div class="social">
-								<a href=""><i class="bi bi-twitter"></i></a>
-								<a href=""><i class="bi bi-facebook"></i></a>
-								<a href=""><i class="bi bi-instagram"></i></a>
-								<a href=""><i class="bi bi-linkedin"></i></a>
-							</div>
-						</div>
-						<div class="member-info">
-							<h4>William Anderson</h4>
-							<span>CTO</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-					<div class="member" data-aos="fade-up" data-aos-delay="400">
-						<div class="member-img">
-							<img src="/img/team/team-4.jpg" class="img-fluid" alt="">
-							<div class="social">
-								<a href=""><i class="bi bi-twitter"></i></a>
-								<a href=""><i class="bi bi-facebook"></i></a>
-								<a href=""><i class="bi bi-instagram"></i></a>
-								<a href=""><i class="bi bi-linkedin"></i></a>
-							</div>
-						</div>
-						<div class="member-info">
-							<h4>Amanda Jepson</h4>
-							<span>Accountant</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- End Team Section -->
 
 	<!-- ======= Contact Section ======= -->
 	<section id="contact" class="contact">
