@@ -6,7 +6,7 @@
         <div class="col-md-4">
           <div class="footer-info">
             <div><a href="{{ url('/') }}"><img src="/img/logo.png" class="img-fluid align-top" width="240px" /></a></div>
-            <p style="padding-right:20px;">We believe that quality and modernity go hand-in-hand to create truly impactful visuals that stand out from the crowd and captivate your target audience.<br><br></p>
+            <p style="padding-right:70px;">We believe that quality and modernity go hand-in-hand to create truly impactful visuals that stand out from the crowd and captivate your target audience.<br><br></p>
           </div>
         </div>
 
@@ -43,11 +43,11 @@
         </div> 
     </div>
   </div>
+</div>
 
-  <div class="container">
     <div class="copyright">
       &copy; Copyright <strong><span>{{ config('app.name') }}</span></strong>. All Rights Reserved
     </div>
 
-  </div>
+
 </footer>
