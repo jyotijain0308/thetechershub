@@ -218,46 +218,51 @@
 			<div class="row no-gutters">
 				<div class="content d-flex flex-column justify-content-center">
 					<h3 style="text-align:center;">What we have achieved so far</h3>
-					<p style="padding:25px 0px;">
+					<p class="px-5 pb-5 pt-4">
 						Our team is constantly pushing itself harder to create unique and memorable work. The past few years have seen us design everything from custom logos to motion graphics for television shows. If you’re looking for eye-catching high-quality designs that go the extra mile – look no further! We are here to make your vision a reality.
 					</p>
-					<div class="row">
-						<div class="col-md-6 d-md-flex align-items-md-stretch">
-							<div class="count-box">
-								<i class="bi bi-emoji-smile" style="line-height:1"></i>
-								<span data-purecounter-start="65" data-purecounter-end="145" data-purecounter-duration="2" class="purecounter"></span>
-								<p><strong>Happy Clients</strong> The loyalty to our clients goes beyond the design process. We are proud to be open for business to all. Our clientele portfolio includes both small businesses and large corporations as well. We offer quick turnarounds and competitive prices.</p>
-							</div>
-						</div>
+					<div class="row no-gutters">
+						<div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start aos-init aos-animate" data-aos="fade-right" data-aos-delay="100"></div>
+						<div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch aos-init aos-animate">
+							<div class="row">
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-emoji-smile" style="line-height:1"></i>
+										<span data-purecounter-start="65" data-purecounter-end="145" data-purecounter-duration="2" class="purecounter"></span>
+										<p><strong>Happy Clients</strong> The loyalty to our clients goes beyond the design process. We are proud to be open for business to all. Our clientele portfolio includes both small businesses and large corporations as well. We offer quick turnarounds and competitive prices.</p>
+									</div>
+								</div>
 
-						<div class="col-md-6 d-md-flex align-items-md-stretch">
-							<div class="count-box">
-								<i class="bi bi-journal-richtext" style="line-height:1"></i>
-								<span data-purecounter-start="90" data-purecounter-end="468" data-purecounter-duration="2" class="purecounter"></span>
-								<p><strong>Projects</strong> As a group of professional designers who understand the importance of visuals, we are committed to bringing your brand ideas to life in an unforgettable way. Our team has worked on projects with big brands and small business in industries ranging from fashion, Manufacturing, E-commerce to finance and everything else in between.
-								</p>
-							</div>
-						</div>
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-journal-richtext" style="line-height:1"></i>
+										<span data-purecounter-start="90" data-purecounter-end="468" data-purecounter-duration="2" class="purecounter"></span>
+										<p><strong>Projects</strong> As a group of professional designers who understand the importance of visuals, we are committed to bringing your brand ideas to life in an unforgettable way. Our team has worked on projects with big brands and small business in industries ranging from fashion, Manufacturing, E-commerce to finance and everything else in between.
+										</p>
+									</div>
+								</div>
 
-						<div class="col-md-6 d-md-flex align-items-md-stretch">
-							<div class="count-box">
-								<i class="bi bi-clock" style="line-height:1"></i>
-								<span data-purecounter-start="15" data-purecounter-end="30" data-purecounter-duration="3" class="purecounter"></span>
-								<p><strong>Years of experience</strong> We are a highly creative graphic design company with years of experience in the industry.
-									From digital design services, logos, brochures, business cards and web design, to print and branding. Our team is adept at understanding your needs and creating designs that are tailored to meet your needs.
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-clock" style="line-height:1"></i>
+										<span data-purecounter-start="15" data-purecounter-end="30" data-purecounter-duration="3" class="purecounter"></span>
+										<p><strong>Years of experience</strong> We are a highly creative graphic design company with years of experience in the industry.
+											From digital design services, logos, brochures, business cards and web design, to print and branding. Our team is adept at understanding your needs and creating designs that are tailored to meet your needs.
 
-								</p>
-							</div>
-						</div>
+										</p>
+									</div>
+								</div>
 
-						<div class="col-md-6 d-md-flex align-items-md-stretch">
-							<div class="count-box">
-								<i class="bi bi-award" style="line-height:1"></i>
-								<span data-purecounter-start="4" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
-								<p><strong>Awards</strong> Our team consists of highly experienced designers and developers who have been recognized by some of the most respected awards in the industry for their outstanding work.
-									We use the latest design techniques and technologies to create high-end visuals that helps your brand to stand out in the market.
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-award" style="line-height:1"></i>
+										<span data-purecounter-start="4" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
+										<p><strong>Awards</strong> Our team consists of highly experienced designers and developers who have been recognized by some of the most respected awards in the industry for their outstanding work.
+											We use the latest design techniques and technologies to create high-end visuals that helps your brand to stand out in the market.
 
 
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
