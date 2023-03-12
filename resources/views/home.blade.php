@@ -50,7 +50,6 @@
 	<!-- ======= About Section ======= -->
 	<section id="about" class="about">
 		<div class="container" data-aos="fade-up">
-
 			<div class="row">
 				<div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
 					<img src="/img/about.jpg" class="img-fluid" alt="">
@@ -95,30 +94,41 @@
 						<li><i class="ri-check-double-line"></i> A design agency which understood the modern customer and could produce work that clients and their end user could be proud of. And on top of that, also integrate it with social media and the online environment?</li>
 						<li><i class="ri-check-double-line"></i>And just like that🤝🏼{{ config('app.name') }} was born!</li>
 					</ul>
-				<div>
-			</div>
-		</div>	
-	</section><!-- End Our Story -->	
+					<div>
+					</div>
+				</div>
+	</section><!-- End Our Story -->
 
 	<!-- ======= Our Mission Section ======= -->
 	<section id="testimonials" class="testimonials pt-5 pb-5">
 		<div class="container" data-aos="fade-up">
 			<div class="row">
+<<<<<<< HEAD
 				<div class="col-sm-8 col-12 mx-auto ourmission">
 					<h3 class="mt-4 mb-4 text-center">Our Mission</h3>
 					<div class="missioncontent px-5 py-3">
+=======
+				<div class="" style="width:60%; background: #353D54; margin: 0px auto;">
+					<h3 style="color: #fff; font-size: 28px; font-weight: 700; text-align:center; margin-top:40px; margin-bottom:40px;">Our Mission</h3>
+					<div class="missionpara px-5 pb-5" style="color: #fff;">
+>>>>>>> 07e134841f5c2e80b9b12be1273ba2ca2880974a
 						<p>To create stunning designs that helps brands distinguish themselves from the competition. It’s all about creating a truly amazing and refreshing digital design experience.</p>
 						<p>We are dedicated to providing the highest quality graphic design and video editing services.</p>
 						<p>Our experienced and talented designers have the skills and knowledge to create visuals that will captivate your target audience. At {{ config('app.name') }}, No two businesses are the same, that’s why we strive to create custom visuals that will accurately reflect your brand’s identity.</p>
 						<p>Furthermore, we use the latest graphic design software to craft logos, brochures, flyers and other visuals. Our team of experts has the expertise to create visuals that are both visually appealing and on-brand. We understand the importance of creating visuals that will have an impact and leave a lasting impression on your customers.</p>
-					</div>	
+					</div>
 				</div>
 			</div>
 		</div>
 	</section><!-- End Our Mission -->
 
+<<<<<<< HEAD
 		<!-- ======= Let's work together Section ======= -->
 	<section id="features" class="features">
+=======
+	<!-- ======= Let's work together Section ======= -->
+	<section id="features" class="features" style="padding:60px 0px;">
+>>>>>>> 07e134841f5c2e80b9b12be1273ba2ca2880974a
 		<div class="container" data-aos="fade-up">
 
 			<div class="row">
@@ -130,6 +140,7 @@
 					<h3>Let’s Work Together</h3>
 					<p>Our passion lies in helping businesses to stand out in a crowded marketplace by creating visuals that grab the targets attention. We have made our services accessible to businesses of all sizes, so that every organization can benefit from our expertise and modern designs.</p>
 					<p>Are you looking for graphic design services that will make a lasting impression?</p>
+<<<<<<< HEAD
 
 					</br><p  class="letspara"><b>Don’t hesitate to contact us on any issues like:</b></p>
 					<ul>
@@ -137,17 +148,24 @@
 						<li><i class="ri-check-double-line"></i>We want stand out, creative and engaging corporate videos for our brand</li>
 						<li><i class="ri-check-double-line"></i>We wish to upgrade our online presence on all social media platforms. Can you create all our profiles?</li>
 						<li><i class="ri-check-double-line"></i>We are looking for a stunning, interactive and simple to use web layout design</li>
+=======
+					<p style="font-weight: 700;font-size: 20px;font-family: Poppins,sans-serif;"><b>Don’t hesitate to contact us on any issues like:</b></p>
+					<ul style="list-style: none;padding: 0;">
+						<li style="padding: 0 0 8px 26px;position: relative;"><i class="ri-check-double-line" style="position: absolute; font-size: 20px; left: 0; top: -3px; color: #ffc451;"></i>We need to design a modern logo, brochure, Business cards and banner for our brand</li>
+						<li style="padding: 0 0 8px 26px;position: relative;"><i class="ri-check-double-line" style="position: absolute; font-size: 20px; left: 0; top: -3px; color: #ffc451;"></i>We want stand out, creative and engaging corporate videos for our brand</li>
+						<li style="padding: 0 0 8px 26px;position: relative;"><i class="ri-check-double-line" style="position: absolute; font-size: 20px; left: 0; top: -3px; color: #ffc451;"></i>We wish to upgrade our online presence on all social media platforms. Can you create all our profiles?</li>
+						<li style="padding: 0 0 8px 26px;position: relative;"><i class="ri-check-double-line" style="position: absolute; font-size: 20px; left: 0; top: -3px; color: #ffc451;"></i>We are looking for a stunning, interactive and simple to use web layout design</li>
+>>>>>>> 07e134841f5c2e80b9b12be1273ba2ca2880974a
 					</ul>
 				</div>
 			</div>
 
 		</div>
-	</section><!-- End Let's work together -->	
+	</section><!-- End Let's work together -->
 
 	<!-- ======= Features Section ======= -->
 	<section id="features" class="features">
 		<div class="container" data-aos="fade-up">
-
 			<div class="row">
 				<div class="col-lg-4" data-aos="fade-left" data-aos-delay="100">
 					<div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
@@ -155,7 +173,7 @@
 						<h4>Designs for Every Organization</h4>
 						<p>Our mantra has always been to guarantee that any organization we work with prospers and outshines all the rest. Our digital design work is not only focused on bringing you more business, but a sense of newness in each design we create for your brand. This ensures your brand interacts with your prospects or customers more clearly and in a memorable manner.</p>
 					</div>
-				</div>	
+				</div>
 
 				<div class="col-lg-4" data-aos="fade-left" data-aos-delay="100">
 					<div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
@@ -163,7 +181,7 @@
 						<h4>Where Marketing Meets Design</h4>
 						<p>Let’s face it, if you want to succeed in your business life, you always have to think of unique ways to market and standout from the crowd. Whether it’s through creating an amazing logo, a visiting/business card or a social media post. All those elements of your business have to look for creative ways to interact with humans.</p>
 					</div>
-				</div>	
+				</div>
 
 				<div class="col-lg-4" data-aos="fade-left" data-aos-delay="100">
 					<div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
@@ -172,7 +190,7 @@
 						<p>Today’s audience has changed. They are no longer confined to specific geographic regions. With the adaptation of the internet, everyone has gone global. Our designs are created with a visual language in mind that surpasses geographical and cultural borders.
 							Are you ready for a fresh new Digital Design experience?</p>
 					</div>
-					
+
 				</div>
 			</div>
 
@@ -219,6 +237,7 @@
 	<section id="counts" class="counts">
 		<div class="container" data-aos="fade-up">
 			<div class="row no-gutters">
+<<<<<<< HEAD
 					<div class="content d-flex flex-column justify-content-center">
 						<h3 class="text-center">What we have achieved so far</h3>
 						<p class="pt-2 pb-2">
@@ -230,41 +249,86 @@
 									<i class="bi bi-emoji-smile"></i>
 									<span data-purecounter-start="65" data-purecounter-end="145" data-purecounter-duration="2" class="purecounter"></span>
 									<p><strong>Happy Clients</strong> The loyalty to our clients goes beyond the design process. We are proud to be open for business to all. Our clientele portfolio includes both small businesses and large corporations as well. We offer quick turnarounds and competitive prices.</p>
+=======
+				<div class="content d-flex flex-column justify-content-center">
+					<h3 style="text-align:center;">What we have achieved so far</h3>
+					<p class="px-5 pb-5 pt-4">
+						Our team is constantly pushing itself harder to create unique and memorable work. The past few years have seen us design everything from custom logos to motion graphics for television shows. If you’re looking for eye-catching high-quality designs that go the extra mile – look no further! We are here to make your vision a reality.
+					</p>
+					<div class="row no-gutters">
+						<div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start aos-init aos-animate" data-aos="fade-right" data-aos-delay="100"></div>
+						<div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch aos-init aos-animate">
+							<div class="row">
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-emoji-smile" style="line-height:1"></i>
+										<span data-purecounter-start="65" data-purecounter-end="145" data-purecounter-duration="2" class="purecounter"></span>
+										<p><strong>Happy Clients</strong> The loyalty to our clients goes beyond the design process. We are proud to be open for business to all. Our clientele portfolio includes both small businesses and large corporations as well. We offer quick turnarounds and competitive prices.</p>
+									</div>
+>>>>>>> 07e134841f5c2e80b9b12be1273ba2ca2880974a
 								</div>
-							</div>
 
+<<<<<<< HEAD
 							<div class="col-md-6 col-12 d-md-flex align-items-md-stretch">
 								<div class="count-box"> 
 									<i class="bi bi-journal-richtext"></i>
 									<span data-purecounter-start="90" data-purecounter-end="468" data-purecounter-duration="2" class="purecounter"></span>
 									<p><strong>Projects</strong> As a group of professional designers who understand the importance of visuals, we are committed to bringing your brand ideas to life in an unforgettable way. Our team has worked on projects with big brands and small business in industries ranging from fashion, Manufacturing, E-commerce to finance and everything else in between.
 									</p>
+=======
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-journal-richtext" style="line-height:1"></i>
+										<span data-purecounter-start="90" data-purecounter-end="468" data-purecounter-duration="2" class="purecounter"></span>
+										<p><strong>Projects</strong> As a group of professional designers who understand the importance of visuals, we are committed to bringing your brand ideas to life in an unforgettable way. Our team has worked on projects with big brands and small business in industries ranging from fashion, Manufacturing, E-commerce to finance and everything else in between.
+										</p>
+									</div>
+>>>>>>> 07e134841f5c2e80b9b12be1273ba2ca2880974a
 								</div>
-							</div>
 
+<<<<<<< HEAD
 							<div class="col-md-6 col-12 d-md-flex align-items-md-stretch">
 								<div class="count-box">
 									<i class="bi bi-clock"></i>
 									<span data-purecounter-start="15" data-purecounter-end="30" data-purecounter-duration="3" class="purecounter"></span>
 									<p><strong>Years of experience</strong> We are a highly creative graphic design company with years of experience in the industry. 
 From digital design services, logos, brochures, business cards and web design, to print and branding. Our team is adept at understanding your needs and creating designs that are tailored to meet your needs. 
+=======
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-clock" style="line-height:1"></i>
+										<span data-purecounter-start="15" data-purecounter-end="30" data-purecounter-duration="3" class="purecounter"></span>
+										<p><strong>Years of experience</strong> We are a highly creative graphic design company with years of experience in the industry.
+											From digital design services, logos, brochures, business cards and web design, to print and branding. Our team is adept at understanding your needs and creating designs that are tailored to meet your needs.
+>>>>>>> 07e134841f5c2e80b9b12be1273ba2ca2880974a
 
-								</p>
+										</p>
+									</div>
 								</div>
-							</div>
 
+<<<<<<< HEAD
 							<div class="col-md-6 col-12 d-md-flex align-items-md-stretch">
 								<div class="count-box">
 									<i class="bi bi-award"></i>
 									<span data-purecounter-start="4" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
 									<p><strong>Awards</strong> Our team consists of highly experienced designers and developers who have been recognized by some of the most respected awards in the industry for their outstanding work.
 We use the latest design techniques and technologies to create high-end visuals that helps your brand to stand out in the market.
+=======
+								<div class="col-md-6 d-md-flex align-items-md-stretch">
+									<div class="count-box">
+										<i class="bi bi-award" style="line-height:1"></i>
+										<span data-purecounter-start="4" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
+										<p><strong>Awards</strong> Our team consists of highly experienced designers and developers who have been recognized by some of the most respected awards in the industry for their outstanding work.
+											We use the latest design techniques and technologies to create high-end visuals that helps your brand to stand out in the market.
+>>>>>>> 07e134841f5c2e80b9b12be1273ba2ca2880974a
 
 
+									</div>
 								</div>
 							</div>
 						</div>
-					</div><!-- End .content-->
+					</div>
+				</div><!-- End .content-->
 			</div>
 
 		</div>

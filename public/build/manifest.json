@@ -40,23 +40,23 @@
     "src": "resources/vendor/boxicons/fonts/boxicons.ttf"
   },
   "resources/vendor/remixicon/remixicon.svg": {
-    "file": "assets/remixicon-aab59b7b.svg",
+    "file": "assets/remixicon-a10268fe.svg",
     "src": "resources/vendor/remixicon/remixicon.svg"
   },
   "resources/vendor/boxicons/fonts/boxicons.svg": {
-    "file": "assets/boxicons-0b7f8ae7.svg",
+    "file": "assets/boxicons-3fe502d8.svg",
     "src": "resources/vendor/boxicons/fonts/boxicons.svg"
   },
   "resources/js/app.css": {
-    "file": "assets/app-e709f34e.css",
+    "file": "assets/app-2793d3cf.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
-    "file": "assets/app-b8c93c72.js",
+    "file": "assets/app-f12356c4.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-e709f34e.css"
+      "assets/app-2793d3cf.css"
     ],
     "assets": [
       "assets/bootstrap-icons-966620f9.woff2",
@@ -65,12 +65,12 @@
       "assets/boxicons-4b87cbc7.woff2",
       "assets/boxicons-d5d511cf.woff",
       "assets/boxicons-47509a2d.ttf",
-      "assets/boxicons-0b7f8ae7.svg",
+      "assets/boxicons-3fe502d8.svg",
       "assets/remixicon-64bb3a0f.eot",
       "assets/remixicon-e61f0d10.woff2",
       "assets/remixicon-c2dacfbc.woff",
       "assets/remixicon-0ac8bc3c.ttf",
-      "assets/remixicon-aab59b7b.svg"
+      "assets/remixicon-a10268fe.svg"
     ]
   }
 }
