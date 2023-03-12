@@ -107,7 +107,7 @@
 			<div class="row">
 				<div class="col-sm-8 col-12 mx-auto ourmission">
 					<h3 class="mt-4 mb-4 text-center">Our Mission</h3>
-					<div class="missioncontent px-5 py-3">
+					<div class="missioncontent px-5 py-3 px-md-5">
 						<p>To create stunning designs that helps brands distinguish themselves from the competition. It’s all about creating a truly amazing and refreshing digital design experience.</p>
 						<p>We are dedicated to providing the highest quality graphic design and video editing services.</p>
 						<p>Our experienced and talented designers have the skills and knowledge to create visuals that will captivate your target audience. At {{ config('app.name') }}, No two businesses are the same, that’s why we strive to create custom visuals that will accurately reflect your brand’s identity.</p>
