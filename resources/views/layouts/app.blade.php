@@ -5,16 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Our passion lies in helping businesses to stand out in a crowded marketplace by creating visuals that grab the targets attention. We have made our services accessible to businesses of all sizes, so that every organization can benefit from our expertise and modern designs.
-        We offers following services Design A Logo | Visiting / Business Card Design | Social Media Page Creation | Professional Profile | Google Business Profile | so on ....">
-   
+        We offers following services {{ implode(' | ', array_column(config('tech-services.data'), 'name')) }}">
+    <meta name="keywords" content="{{ implode(' | ', array_column(config('tech-services.data'), 'name')) }}">
+    <meta name="author" content="TTH Team">
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    
+
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <link rel="image" type="image/x-icon" href="/img/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
