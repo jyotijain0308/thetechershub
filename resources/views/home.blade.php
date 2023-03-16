@@ -100,12 +100,12 @@
 	</section><!-- End Our Story -->
 
 	<!-- ======= Our Mission Section ======= -->
-	<section id="testimonials" class="testimonials">
+	<section id="testimonials" class="testimonials p-md-4 p-1">
 		<div class="container" data-aos="fade-up">
 			<div class="row">
 				<div class="col-sm-8 col-12 mx-auto ourmission">
-					<h3 class="mt-4 mb-4 text-center">Our Mission</h3>
-					<div class="missioncontent px-5 py-3 px-md-5">
+					<h3 class="mt-md-5 mt-4 mb-md-4 mb-3 text-center">Our Mission</h3>
+					<div class="missioncontent px-1 pb-5 px-md-5">
 						<p>To create stunning designs that helps brands distinguish themselves from the competition. It’s all about creating a truly amazing and refreshing digital design experience.</p>
 						<p>We are dedicated to providing the highest quality graphic design and video editing services.</p>
 						<p>Our experienced and talented designers have the skills and knowledge to create visuals that will captivate your target audience. At {{ config('app.name') }}, No two businesses are the same, that’s why we strive to create custom visuals that will accurately reflect your brand’s identity.</p>
@@ -118,13 +118,13 @@
 
 	<!-- ======= Let's work together Section ======= -->
 	<section id="features" class="about features pt-5">
-		<div class="container pt-4" data-aos="fade-up">
+		<div class="container pt-md-4 pt-0" data-aos="fade-up">
 			<div class="row">
 				<div class="image col-md-6 col-12" data-aos="fade-right">
 					<img src="/img/work-together.jpg" class="img-fluid" alt="">
 				</div>
-				<div class="col-md-6 col-12 ml-3" data-aos="fade-left" data-aos-delay="100">
-					<div class="ms-4 content">
+				<div class="col-md-6 col-12 ml-3 pt-4 pt-md-0" data-aos="fade-left" data-aos-delay="100">
+					<div class="ms-md-4 ms-2 content">
 						<h3 class="pb-3" style="font-size: 28px;">Let’s Work Together</h3>
 						<p>Our passion lies in helping businesses to stand out in a crowded marketplace by creating visuals that grab the targets attention. We have made our services accessible to businesses of all sizes, so that every organization can benefit from our expertise and modern designs.</p>
 						<p>Are you looking for graphic design services that will make a lasting impression?</p>
@@ -142,25 +142,25 @@
 	</section><!-- End Let's work together -->
 
 	<!-- ======= Features Section ======= -->
-	<section id="features" class="features">
+	<section id="features" class="features pt-sm-5 pt-0">
 		<div class="container" data-aos="fade-up">
 			<div class="row">
 				<div class="col-lg-4 col-12" data-aos="fade-left" data-aos-delay="100">
-					<div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+					<div class="icon-box ps-0 ps-sm-1" data-aos="zoom-in" data-aos-delay="150">
 						<i class="bx bx-receipt"></i>
 						<h4>Designs for Every Organization</h4>
 						<p>Our mantra has always been to guarantee that any organization we work with prospers and outshines all the rest. Our digital design work is not only focused on bringing you more business, but a sense of newness in each design we create for your brand. This ensures your brand interacts with your prospects or customers more clearly and in a memorable manner.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-12" data-aos="fade-left" data-aos-delay="100">
-					<div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
+					<div class="icon-box ps-0 ps-sm-1" data-aos="zoom-in" data-aos-delay="150">
 						<i class="bx bx-cube-alt"></i>
 						<h4>Where Marketing Meets Design</h4>
 						<p>Let’s face it, if you want to succeed in your business life, you always have to think of unique ways to market and standout from the crowd. Whether it’s through creating an amazing logo, a visiting/business card or a social media post. All those elements of your business have to look for creative ways to interact with humans.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-12" data-aos="fade-left" data-aos-delay="100">
-					<div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
+					<div class="icon-box ps-0 ps-sm-1" data-aos="zoom-in" data-aos-delay="150">
 						<i class="bx bx-images"></i>
 						<h4>Designing For A Modern Audience</h4>
 						<p>Today’s audience has changed. They are no longer confined to specific geographic regions. With the adaptation of the internet, everyone has gone global. Our designs are created with a visual language in mind that surpasses geographical and cultural borders.
@@ -172,7 +172,7 @@
 	</section><!-- End Features Section -->
 
 	<!-- ======= Services Section ======= -->
-	<section id="services" class="services">
+	<section id="services" class="services pt-1 pt-md-5">
 		<div class="container" data-aos="fade-up">
 			<div class="section-title">
 				<h2>Services</h2>
@@ -180,7 +180,7 @@
 			</div>
 			<div class="row">
 				@foreach(config('tech-services.data') as $service)
-				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200 * {{ $service['id'] }}">
+				<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200 * {{ $service['id'] }}">
 					<div class="icon-box">
 						<div class="icon"><img src="{{ $service['image'] }}" class="img-fluid" /></div>
 						<h4><a href="">{{ $service['name'] }}</a></h4>
@@ -209,14 +209,14 @@
 	<section id="counts" class="counts">
 		<div class="container aos-init aos-animate" data-aos="fade-up">
 			<div class="row no-gutters">
-				<div class="content d-flex flex-column justify-content-center">
-					<h3 style="text-align:center;">What we have achieved so far</h3>
-					<p class="px-5 pb-5 pt-4">
+				<div class="content pt-0 pt-md-4 d-flex flex-column justify-content-center">
+					<h3 class="text-center">What we have achieved so far</h3>
+					<p class="px-md-5 px-4 pb-5 pt-4 text-center">
 						Our team is constantly pushing itself harder to create unique and memorable work. The past few years have seen us design everything from custom logos to motion graphics for television shows. If you’re looking for eye-catching high-quality designs that go the extra mile – look no further! We are here to make your vision a reality.
 					</p>
 					<div class="row no-gutters">
 						<div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start aos-init aos-animate" data-aos="fade-right" data-aos-delay="100"></div>
-						<div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch aos-init aos-animate">
+						<div class="col-xl-7 px-4 ps-lg-5 pe-lg-1 d-flex align-items-stretch aos-init aos-animate">
 							<div class="row">
 								<div class="col-md-6 d-md-flex align-items-md-stretch">
 									<div class="count-box">
@@ -264,7 +264,7 @@
 	<!-- End Counts Section -->
 
 	<!-- ======= Contact Section ======= -->
-	<section id="contact" class="contact">
+	<section id="contact" class="contact pt-sm-5 pt-1">
 		<div class="container" data-aos="fade-up">
 			<div class="section-title">
 				<h2>Contact</h2>
@@ -273,7 +273,7 @@
 			<!-- <div>
 				<iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
 			</div> -->
-			<div class="row mt-3">
+			<div class="row mt-md-3 mt-0">
 				<!-- <div class="col-lg-4">
 					<div class="info">
 						<div class="address">
@@ -296,7 +296,7 @@
 						</div>
 					</div>
 				</div> -->
-				<div class="col-lg-7 col-md-8 col-sm-10 col-12 mx-auto mt-5 mt-lg-0">
+				<div class="col-lg-7 col-md-8 col-sm-10 col-12 mx-auto mt-md-5 mt-0 mt-lg-0">
 					<form action="{{ url('contact-us') }}" method="post" id="contact-us" role="form" class="php-email-form">
 						@csrf
 						<div class="form-group row mt-3">
