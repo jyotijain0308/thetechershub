@@ -103,7 +103,7 @@
 	<section id="testimonials" class="testimonials p-md-4 p-1">
 		<div class="container" data-aos="fade-up">
 			<div class="row">
-				<div class="col-sm-8 col-12 mx-auto ourmission">
+				<div class="col-lg-8 col-md-11 col-sm-12 col-12 mx-auto ourmission">
 					<h3 class="mt-md-5 mt-4 mb-md-4 mb-3 text-center">Our Mission</h3>
 					<div class="missioncontent px-1 pb-5 px-md-5">
 						<p>To create stunning designs that helps brands distinguish themselves from the competition. It’s all about creating a truly amazing and refreshing digital design experience.</p>
@@ -296,7 +296,7 @@
 						</div>
 					</div>
 				</div> -->
-				<div class="col-lg-7 col-md-8 col-sm-10 col-12 mx-auto mt-md-5 mt-0 mt-lg-0">
+				<div class="col-lg-7 col-md-11 col-sm-12 col-12 mx-auto my-lg-5 my-md-4 my-sm-3 mt-0 mt-lg-0">
 					<form action="{{ url('contact-us') }}" method="post" id="contact-us" role="form" class="php-email-form">
 						@csrf
 						<div class="form-group row mt-3">
