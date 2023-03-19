@@ -205,16 +205,35 @@
 		</div>
 	</section><!-- End Cta Section -->
 
-	  <!-- ======= Portfolio Section ======= -->
+	<!-- ======= Portfolio Section ======= -->
 	<section id="portfolio" class="portfolio">
-      	<div class="container" data-aos="fade-up">
+		<div class="container" data-aos="fade-up">
 			<div class="section-title">
 				<h2>Portfolio</h2>
 				<p>Check our Portfolio</p>
 			</div>
 
 			<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+				@foreach(config('portfolio.data') as $portfolio)
 				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+					<div class="portfolio-wrap">
+						@if($portfolio['type']=='video')
+						<video width="100%" height="240" controls>
+							<source src="{{ $portfolio['url'] }}" type="video/mp4">
+						</video>
+						@else
+						<img src="{{ $portfolio['url'] }}" alt="{{ $portfolio['alt'] }}" class="img-fluid" alt="">
+						@endif
+						<div class="portfolio-info">
+							<h4>{{ $portfolio['title'] }}</h4>
+							<div class="portfolio-links">
+								<a href="{{ $portfolio['url'] }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{ $portfolio['title'] }}"><i class="bx bx-plus"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				@endforeach
+				<!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
 					<div class="portfolio-wrap">
 						<img src="/img/portfolio/Aaroyan Foundation.jpg" class="img-fluid" alt="">
 						<div class="portfolio-info">
@@ -229,12 +248,12 @@
 				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 					<div class="portfolio-wrap">
 						<video width="320" height="240" controls>
-  							<source src="/img/portfolio/Video-27.mp4" type="video/mp4">
-						</video>		
+							<source src="/img/portfolio/Video-27.mp4" type="video/mp4">
+						</video>
 						<div class="portfolio-info">
 							<h4>Logo Type</h4>
 							<div class="portfolio-links">
-								<a href="/img/portfolio/Video-27.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>	
+								<a href="/img/portfolio/Video-27.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -279,8 +298,8 @@
 				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 					<div class="portfolio-wrap">
 						<video width="320" height="240" controls>
-  							<source src="/img/portfolio/Video-24.mp4" type="video/mp4">
-						</video>		
+							<source src="/img/portfolio/Video-24.mp4" type="video/mp4">
+						</video>
 						<div class="portfolio-info">
 							<h4>Logo Type</h4>
 							<div class="portfolio-links">
@@ -293,8 +312,8 @@
 				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 					<div class="portfolio-wrap">
 						<video width="320" height="240" controls>
-  							<source src="/img/portfolio/Video-21.mp4" type="video/mp4">
-						</video>		
+							<source src="/img/portfolio/Video-21.mp4" type="video/mp4">
+						</video>
 						<div class="portfolio-info">
 							<h4>Logo Type</h4>
 							<div class="portfolio-links">
@@ -331,12 +350,12 @@
 				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 					<div class="portfolio-wrap">
 						<video width="320" height="240" controls>
-  							<source src="/img/portfolio/Video-5.mp4" type="video/mp4">
-						</video>		
+							<source src="/img/portfolio/Video-5.mp4" type="video/mp4">
+						</video>
 						<div class="portfolio-info">
 							<h4>Logo Type</h4>
 							<div class="portfolio-links">
-								<a href="/img/portfolio/Video-5.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>					
+								<a href="/img/portfolio/Video-5.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
 							</div>
 						</div>
 					</div>
@@ -357,8 +376,8 @@
 				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 					<div class="portfolio-wrap">
 						<video width="320" height="240" controls>
-  							<source src="/img/portfolio/Video-1.mp4" type="video/mp4">
-						</video>		
+							<source src="/img/portfolio/Video-1.mp4" type="video/mp4">
+						</video>
 						<div class="portfolio-info">
 							<h4>Logo Type</h4>
 							<div class="portfolio-links">
@@ -383,8 +402,8 @@
 				<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 					<div class="portfolio-wrap">
 						<video width="320" height="240" controls>
-  							<source src="/img/portfolio/Video-11.mp4" type="video/mp4">
-						</video>		
+							<source src="/img/portfolio/Video-11.mp4" type="video/mp4">
+						</video>
 						<div class="portfolio-info">
 							<h4>Logo Type</h4>
 							<div class="portfolio-links">
@@ -392,10 +411,10 @@
 							</div>
 						</div>
 					</div>
-				</div>
-        	</div>
-    	</div>
-    </section><!-- End Portfolio Section -->
+				</div> -->
+			</div>
+		</div>
+	</section><!-- End Portfolio Section -->
 
 	<!-- ======= Counts Section ======= -->
 	<section id="counts" class="counts">
