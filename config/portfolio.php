@@ -8,25 +8,31 @@ return [
 			"alt" => 'Aaroyan Foundation'
 		],
 		[
+			"title" => 'Logo 2',
+			"type" => 'image',
+			"url" => '/img/portfolio/images/Eastern-Farmsllc.jpg',
+			"alt" => 'Eastern-Farmsllc'
+		],
+		[
 			"title" => 'Video 1',
 			"type" => 'video',
 			"url" => '/img/portfolio/videos/FAB-Texture.mp4',
 			"alt" => 'FAB-Texture'
 		],
 		[
-			"title" => 'Logo 2',
+			"title" => 'Logo 3',
 			"type" => 'image',
 			"url" => '/img/portfolio/images/Bino-Brokers.png',
 			"alt" => 'Bino Brokers'
 		],
 		[
-			"title" => 'Logo 3',
+			"title" => 'Logo 4',
 			"type" => 'image',
 			"url" => '/img/portfolio/images/Dhanji-Logo-Board.png',
 			"alt" => 'Dhanji Logo Board'
 		],
 		[
-			"title" => 'Logo 4',
+			"title" => 'Logo 5',
 			"type" => 'image',
 			"url" => '/img/portfolio/images/Flavia.png',
 			"alt" => 'Flavia'
@@ -44,19 +50,25 @@ return [
 			"alt" => 'Anantara Resort Jaisalmer'
 		],
 		[
-			"title" => 'Logo 5',
+			"title" => 'Logo 6',
 			"type" => 'image',
 			"url" => '/img/portfolio/images/Hari-Glass-Store.png',
 			"alt" => 'Hari Glass Store'
 		],
 		[
-			"title" => 'Logo 6',
+			"title" => 'Logo 7',
+			"type" => 'image',
+			"url" => '/img/portfolio/images/The-Tonsorium-Hub.jpg',
+			"alt" => 'The Tonsorium Hub'
+		],
+		[
+			"title" => 'Logo 8',
 			"type" => 'image',
 			"url" => '/img/portfolio/images/Local-Findy.jpg',
 			"alt" => 'Local Findy'
 		],
 		[
-			"title" => 'Logo 7',
+			"title" => 'Logo 9',
 			"type" => 'image',
 			"url" => '/img/portfolio/images/Marwar-Buildcon.png',
 			"alt" => 'Marwar Buildcon'
@@ -68,7 +80,7 @@ return [
 			"alt" => 'Marwar-Buildcon'
 		],
 		[
-			"title" => 'Logo 8',
+			"title" => 'Logo 10',
 			"type" => 'image',
 			"url" => '/img/portfolio/images/Vally-Interior.jpg',
 			"alt" => 'Vally Interior'
@@ -78,6 +90,12 @@ return [
 			"type" => 'video',
 			"url" => '/img/portfolio/videos/Quality-Service.mp4',
 			"alt" => 'Quality-Service'
+		],
+		[
+			"title" => 'Logo 11',
+			"type" => 'image',
+			"url" => '/img/portfolio/images/MD-Enterprises.jpg',
+			"alt" => 'MD Enterprises'
 		],
 	]
 ];
