@@ -2,6 +2,12 @@
 return [
 	'data' => [
 		[
+			"title" => 'Logo 11',
+			"type" => 'image',
+			"url" => '/img/portfolio/images/MD-Enterprises.jpg',
+			"alt" => 'MD Enterprises'
+		],
+		[
 			"title" => 'Logo 1',
 			"type" => 'image',
 			"url" => '/img/portfolio/images/Aaroyan-Foundation.jpg',
@@ -11,13 +17,13 @@ return [
 			"title" => 'Logo 2',
 			"type" => 'image',
 			"url" => '/img/portfolio/images/Eastern-Farmsllc.jpg',
-			"alt" => 'Eastern-Farmsllc'
+			"alt" => 'Eastern Farms LLC'
 		],
 		[
 			"title" => 'Video 1',
 			"type" => 'video',
 			"url" => '/img/portfolio/videos/FAB-Texture.mp4',
-			"alt" => 'FAB-Texture'
+			"alt" => 'FAB Texture'
 		],
 		[
 			"title" => 'Logo 3',
@@ -77,7 +83,7 @@ return [
 			"title" => 'Video 5',
 			"type" => 'video',
 			"url" => '/img/portfolio/videos/Marwar-Buildcon.mp4',
-			"alt" => 'Marwar-Buildcon'
+			"alt" => 'Marwar Buildcon'
 		],
 		[
 			"title" => 'Logo 10',
@@ -89,13 +95,7 @@ return [
 			"title" => 'Video 6',
 			"type" => 'video',
 			"url" => '/img/portfolio/videos/Quality-Service.mp4',
-			"alt" => 'Quality-Service'
-		],
-		[
-			"title" => 'Logo 11',
-			"type" => 'image',
-			"url" => '/img/portfolio/images/MD-Enterprises.jpg',
-			"alt" => 'MD Enterprises'
+			"alt" => 'Quality Service'
 		],
 	]
 ];
