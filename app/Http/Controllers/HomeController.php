@@ -30,6 +30,11 @@ class HomeController extends Controller
 		return view('home');
 	}
 
+	public function detailpage()
+	{
+		return view('detail');
+	}
+
 	public function contactUs(SaveContactUsForm $request) // SaveContactUsForm
 	{
 		$requestData = $request->validated();

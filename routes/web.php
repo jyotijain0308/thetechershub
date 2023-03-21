@@ -21,6 +21,8 @@ Route::get('/', function () {
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
+Route::get('/detail', [HomeController::class, 'detailpage']);
+
 Route::post('contact-us', [HomeController::class, 'contactUs']);
 
 Route::group(['middleware' => ['auth']], function () {

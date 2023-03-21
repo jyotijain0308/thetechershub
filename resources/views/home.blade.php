@@ -14,31 +14,31 @@
 		<div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box" style="padding:30px 10px;">
-					<img src="/img/001-abilities.png" class="" alt="">
+					<img src="/img/slider/001-abilities.png" class="" alt="">
 					<h3 style="font-size:16px;"><a href="">Professional Expertise</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box" style="padding:30px 10px;">
-					<img src="/img/003-relationship.png" class="" alt="">
+					<img src="/img/slider/003-relationship.png" class="" alt="">
 					<h3 style="font-size:16px;"><a href="">Commitment</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box" style="padding:30px 10px;">
-					<img src="/img/004-digital-assistant.png" class="" alt="">
+					<img src="/img/slider/004-digital-assistant.png" class="" alt="">
 					<h3 style="font-size:16px;"><a href="">Virtual Consultant</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box" style="padding:30px 10px;">
-					<img src="/img/005-monitoring.png" class="" alt="">
+					<img src="/img/slider/005-monitoring.png" class="" alt="">
 					<h3 style="font-size:16px;"><a href="">Quality</a></h3>
 				</div>
 			</div>
 			<div class="col-xl-2 col-md-4">
 				<div class="icon-box" style="padding:30px 10px;">
-					<img src="/img/economic.png" class="" alt="">
+					<img src="/img/slider/economic.png" class="" alt="">
 					<h3 style="font-size:16px;"><a href="">Cost Effective</a></h3>
 				</div>
 			</div>
@@ -52,7 +52,7 @@
 		<div class="container" data-aos="fade-up">
 			<div class="row">
 				<div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-					<img src="/img/about.jpg" class="img-fluid" alt="">
+					<img src="/img/about/about.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
 					<h3>We believe that every brand is unique and unique brands require nothing more than unique solutions.</h3>
@@ -82,7 +82,7 @@
 		<div class="container" data-aos="fade-up">
 			<div class="row">
 				<div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-					<img src="/img/757_main.jpg" class="img-fluid" alt="">
+					<img src="/img/about/757_main.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
 					<h3 class="pb-2">Our Story</h3>
@@ -121,7 +121,7 @@
 		<div class="container pt-md-4 pt-0" data-aos="fade-up">
 			<div class="row">
 				<div class="image col-md-6 col-12" data-aos="fade-right">
-					<img src="/img/work-together.jpg" class="img-fluid" alt="">
+					<img src="/img/about/work-together.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-md-6 col-12 ml-3 pt-4 pt-md-0" data-aos="fade-left" data-aos-delay="100">
 					<div class="ms-md-4 ms-2 content">
