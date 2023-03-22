@@ -21,7 +21,7 @@ Route::get('/', function () {
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-Route::get('/detail', [HomeController::class, 'detailpage']);
+Route::get('/detail/{id}', [HomeController::class, 'servicesDetail']);
 
 Route::post('contact-us', [HomeController::class, 'contactUs']);
 

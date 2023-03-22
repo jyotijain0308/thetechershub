@@ -30,9 +30,10 @@ class HomeController extends Controller
 		return view('home');
 	}
 
-	public function detailpage()
+	public function servicesDetail($id)
 	{
-		return view('detail');
+		$data = config('tech-services.data.' . $id);
+		return view('detail', compact('data'));
 	}
 
 	public function contactUs(SaveContactUsForm $request) // SaveContactUsForm

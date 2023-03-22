@@ -1,19 +1,20 @@
 <?php
 return [
     'data' => [
-        'logo_design' => [
+        1 => [
             'id' => 1,
             'name' => 'Design A Logo',
             'image' => 'img/services/logo-design.png',
+            'large-image' => 'img/services/logo-design-large.png',
             'description' => 'Logos are an expression of your brand. Our designers are highly skilled in developing a logo that sets you apart from the rest. We take pride in ensuring your logo accurately reflects your company\'s vision and values while also resonating with your target audience.'
         ],
-        'visiting_business_card_design' => [
+        2 => [
             'id' => 2,
             'name' => 'Visiting / Business Card Design',
             'image' => 'img/services/business-card(2).png',
             'description' => 'What’s more valuable than making a super-unforgettable first impression? Business cards can create lasting first impressions on potential customers and business partners. We understand that business cards are a powerful marketing tool that remind your clients of who you are, what you do, and how they can contact you. Our expert designers provide an original representation of your company’s brand which helps build recognition and lasting loyalty.'
         ],
-        'social_media_page_setup' => [
+        3 => [
             'id' => 3,
             'name' => 'Social Media Page Creation',
             'image' => 'img/services/social-media.png',
@@ -63,7 +64,7 @@ return [
                 ]
             ]
         ],
-        'profession_profile_setup' => [
+        4 => [
             'id' => 4,
             'name' => 'Profession Profile',
             'image' => 'img/services/linkedin-profile.png',
@@ -75,19 +76,19 @@ return [
         //     'image' => 'img/services/monetize.png',
         //     'description' => 'Three words… Audience, User Experience and Engagement!  We create web designs tailored to your website\'s intended audience, as well as your brand purpose. A user-friendly website layout is key to creating an engaging experience and helping lead your visitors to desired pages and content on your site. Our purpose is to make your website memorable and consistent in brand identity. The right website layout design helps to improve SEO, increase conversions, and boost user engagement. If what you seek is an impressive website layout design is essential Techer’s Hub has you covered.'
         // ],
-        'google_business_profile' => [
+        5 => [
             'id' => 5,
             'name' => 'Google Business Profile',
             'image' => 'img/services/google(2).png',
             'description' => 'Want to be found online? A well-designed and optimized Google business profile is one of the first ways to solidify your brands’ presence while online. Our Google business profile setup will help your business show up in search results and on Google Maps, so customers can easily find and contact you. From setting up your contact information, business hours, services offered, logo, business updates, customer reviews, to collecting insights into how customers interact with your business. At Techer’s Hub we create customized and professional profile setups that maximize the visibility and presence of your business on the web.'
         ],
-        'youtube_monetization' => [
+        6 => [
             'id' => 6,
             'name' => 'YouTube Monetization',
             'image' => 'img/services/monetize.png',
             'description' => 'The moment social media entered our lives, we became instant content creators one way or another. And the best part? You can now make money from your videos. Our team will effectively monetize your videos, allowing your channel to earn income and grow bigger than it is. Techer’s Hub is here to help you to maximize your channels potential and reach ever bigger audiences.'
         ],
-        'video_editing' => [
+        7 => [
             'id' => 7,
             'name' => 'Video Editing',
             'image' => 'img/services/editing.png',

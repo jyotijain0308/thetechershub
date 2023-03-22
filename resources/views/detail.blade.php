@@ -2,108 +2,57 @@
 @section('css')
 @endsection
 @section('content')
-
-<style>
-	.servicedetail .col-xl-4 img {
-		height:64px;
-		width:auto;
-	}
-    .servicedetail .col-xl-4 h4 {
-		font-weight: 700;
-    	cursor:pointer;
-	}
-	.servicedetail .logotype ul li{
-		border: 1px solid #0d6efd;
-    	border-radius: 5px;
-    	margin-right: 10px;
-	}
-</style>
-
-<main id="main">
-	<section id="" class="servicedetail">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-4 text-center">
-					<img src="/img/servicedetail/Nasa1.jpg" class="img-fluid" alt="">
-					<h4 class="my-3">Lettermark</h4>
-					<p>When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA</p>
-					<!-- <div class="logotype">
-						<ul class="nav nav-pills">
-							<li class="active">Lettermark / Monogram</li>
-							<li>Wordmark</li>
-							<li>Pictorial</li>
-							<li>Abstract</li>
-							<li>Emblem</li>
-							<li>Mascot</li>
-						</ul>
-					</div> -->
-				</div>	
-
-				<div class="col-xl-4 text-center">
-					<img src="/img/servicedetail/Nasa1.jpg" class="img-fluid" alt="">
-					<h4 class="my-3">Lettermark</h4>
-					<p>When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA</p>
-					<!-- <div class="logotype">
-						<ul class="nav nav-pills">
-							<li class="active">Lettermark / Monogram</li>
-							<li>Wordmark</li>
-							<li>Pictorial</li>
-							<li>Abstract</li>
-							<li>Emblem</li>
-							<li>Mascot</li>
-						</ul>
-					</div> -->
-				</div>	
-
-				<div class="col-xl-4 text-center">
-					<img src="/img/servicedetail/Nasa1.jpg" class="img-fluid" alt="">
-					<h4 class="my-3">Lettermark</h4>
-					<p>When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA</p>
-					<!-- <div class="logotype">
-						<ul class="nav nav-pills">
-							<li class="active">Lettermark / Monogram</li>
-							<li>Wordmark</li>
-							<li>Pictorial</li>
-							<li>Abstract</li>
-							<li>Emblem</li>
-							<li>Mascot</li>
-						</ul>
-					</div> -->
-				</div>	
-
-				
-				
-
-				<!-- Creative Design : 3 </br>
-
-				Revision on Final Logo : 2 </br>
-
-				Software : Adobe Illustrator </br>
-
-				File Format : AI as Source file
-							  EPS to import in Coral Draw*
-							  PNG, JPG - in Black, White, Gray colour
-							  PDF - in original colour
-							  JPG - Sqaure profile image for Social Media </br>
-
-				Addon : Favicon - 16x16 </br>
-						Mockup
-						Visiting Card*
-						Letter Head*
-						Envelop*
-
-				Document : Copyright ownership transfer*
-						   Information / Idea Document </br>
-
-				Duration :	Upto 7 working days </br>
-
-				Color Mode : CMYK </br>
-				Resolution : 300 PPI </br> -->
-			</div>
-			
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+	<div class="container">
+		<div class="d-flex justify-content-between align-items-center">
+			<h2>{{ $data['name'] }}</h2>
+			<ol>
+				<li><a href="index.html">Home</a></li>
+				<li>{{ $data['name'] }}</li>
+			</ol>
 		</div>
-	</section>
-</main><!-- End #main -->
+	</div>
+</section><!-- End Breadcrumbs -->
+
+<!-- ======= Portfolio Details Section ======= -->
+<section id="portfolio-details" class="portfolio-details">
+	<div class="container">
+		<div class="row gy-4">
+			<div class="col-lg-6">
+				<div class="portfolio-details-slider">
+					<div class="align-items-center">
+						<!-- <div class="swiper-slide"> -->
+						<img src="{{ url($data['large-image']) }}" class="img-fluid" alt="">
+						<!-- </div> -->
+						<!-- <div class="swiper-slide">
+							<img src="{{ $data['image'] }}" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="{{ $data['image'] }}" alt="">
+						</div> -->
+					</div>
+					<!-- <div class="swiper-pagination"></div> -->
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="portfolio-info">
+					<h3>Service information</h3>
+					<ul>
+						<li><strong>Category</strong>: Web design</li>
+						<li><strong>Client</strong>: ASU Company</li>
+						<li><strong>Project date</strong>: 01 March, 2020</li>
+						<li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+					</ul>
+				</div>
+				<div class="portfolio-description">
+					<h2>{{ $data['name'] }}</h2>
+					<p>{{ $data['description'] }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!-- End Portfolio Details Section -->
 @endsection
 
 @section('js')
