@@ -11,8 +11,8 @@ return [
         2 => [
             'id' => 2,
             'name' => 'Visiting / Business Card Design',
-            'image' => 'img/services/business-card(2).png',
-            'large-image' => 'img/services/logo-design-large.png',
+            'image' => 'img/services/business-card.png',
+            'large-image' => 'img/services/business-card-large.png',
             'description' => 'What’s more valuable than making a super-unforgettable first impression? Business cards can create lasting first impressions on potential customers and business partners. We understand that business cards are a powerful marketing tool that remind your clients of who you are, what you do, and how they can contact you. Our expert designers provide an original representation of your company’s brand which helps build recognition and lasting loyalty.'
         ],
         3 => [

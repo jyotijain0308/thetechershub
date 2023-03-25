@@ -99,6 +99,7 @@
 </section><!-- End Portfolio Details Section -->	
 
 <!--Logo Types Section-->
+@if($data['name']=='Design A Logo')
 <section id="logo_type" class="logotype">
 	<div class="container">
 		<div class="row">
@@ -149,35 +150,31 @@
 						<p>Mascot logos are logos that involve an illustrated character. Often colorful, sometimes cartoonish, and most always fun, the mascot logo is a great way to create your very own brand spokesperson</p>
 				</div>
 			</div>
-		</div>
-
-		
+		</div>	
 	</div>	
-</section>			
-			<!-- <ul class="nav justify-content-center logotype mb-2">
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Lettermark / Monogram</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Wordmark</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Pictorial</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Abstract</a>
-				</li>
-			</ul>
+</section>	
 
-			<ul class="nav justify-content-center logotype">
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Emblem</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Mascot</a>
-				</li>
-			</ul> -->
-		
+@elseif($data['name']=='Visiting / Business Card Design')		
+<section id="logo_type" class="logotype">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-6">
+				<div class="text-center">
+					<img src="/img/servicedetail/Visiting-card/Single-side.jpg" class="" alt="">
+					<h2>Single Side</h2>
+				</div>
+			</div>	
+
+			<div class="col-xl-6">
+				<div class="text-center">
+					<img src="/img/servicedetail/Visiting-card/Double-side.jpg" class="" alt="">
+					<h2>Double Side</h2>
+				</div>
+			</div>
+		</div>
+	</div>		
+</section>	
+@endif	
 	
 @endsection
 
