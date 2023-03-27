@@ -19,6 +19,7 @@ return [
             'id' => 3,
             'name' => 'Social Media Page Creation',
             'image' => 'img/services/social-media.png',
+            'large-image' => 'img/services/business-card-large.png',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'sub_services' => [
                 'facebook_page' => [
