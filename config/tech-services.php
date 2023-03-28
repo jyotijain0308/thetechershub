@@ -6,7 +6,138 @@ return [
             'name' => 'Design A Logo',
             'image' => 'img/services/logo-design.png',
             'large-image' => 'img/services/logo-design-large.png',
-            'description' => 'Logos are an expression of your brand. Our designers are highly skilled in developing a logo that sets you apart from the rest. We take pride in ensuring your logo accurately reflects your company\'s vision and values while also resonating with your target audience.'
+            'description' => 'Logos are an expression of your brand. Our designers are highly skilled in developing a logo that sets you apart from the rest. We take pride in ensuring your logo accurately reflects your company\'s vision and values while also resonating with your target audience.',
+            'info' => [
+                1 => [
+                    'title'=>"Creative Design",
+                    "content"=>"3"
+                ],
+                2 => [
+                    'title'=>"Revision on Final Logo",
+                    "content"=>"2"
+                ],
+                3 => [
+                    'title'=>"Software",
+                    "content"=>"Adobe Illustrator"
+                ],
+                4=>[
+                    "title"=>"File Format",
+                    "content"=>"AI as Source file</br>
+                        EPS to import in Coral Draw*</br>
+                        PNG, JPG - in Black, White, Gray colour</br>
+                        PDF - in original colour</br>
+                        JPG - Sqaure profile image for Social Media"
+                ],
+                5=>[
+                    "title"=>"Addon",
+                    "content"=>"Favicon - 16x16</br>
+                        Mockup</br>
+                        Visiting Card*</br>
+                        Letter Head*</br>
+                        Envelop*"
+                ],
+                6=>[
+                    "title"=>"Document",
+                    "content"=>"Upto 7 working days"
+                ],
+                7=>[
+                    "title"=>"Color Mode",
+                    "content"=>"CMYK"
+                ],
+                8=>[
+                    "title"=>"Resolution",
+                    "content"=>"300 PPI"
+                ]
+            ],
+            "types"=>[
+                1=>[
+                    "title"=>"Lettermark",
+                    "image"=>"/servicedetail/Design-a-logo/Nasa.jpg",
+                    "description"=>"When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA"
+                ],
+                2=>[
+                    "title"=>"Wordmark",
+                    "image"=>"/servicedetail/Design-a-logo/coca-cola.jpg",
+                    "description"=>"When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA"
+                ],
+                3=>[
+                    "title"=>"Pictorial",
+                    "image"=>"/servicedetail/Design-a-logo/Apple.png",
+                    "description"=>"Already in market as an established company and want to represent brand identity with picture. - e.g. Apple / Twitter"
+                ],
+                4=>[
+                    "title"=>"Abstract",
+                    "image"=>"/servicedetail/Design-a-logo/Pepsi.png",
+                    "description"=>"Already in market as an established company and want to represent brand identity with picture. - e.g. Apple / Twitter"
+                ],
+                5=>[
+                    "title"=>"Emblem",
+                    "image"=>"/servicedetail/Design-a-logo/harvard.png",
+                    "description"=>"Old style logo, An emblem logo consists of font inside a symbol or an icon; think badges, seals and crests"
+                ],
+                6=>[
+                    "title"=>"Mascot",
+                    "image"=>"/servicedetail/Design-a-logo/kfc.png",
+                    "description"=>"Mascot logos are logos that involve an illustrated character. Often colorful, sometimes cartoonish, and most always fun, the mascot logo is a great way to create your very own brand spokesperson"
+                ]
+            ],
+            "portfolio"=>[
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/MD-Enterprises.jpg',
+                    "alt" => 'MD Enterprises'
+                ],
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/Aaroyan-Foundation.jpg',
+                    "alt" => 'Aaroyan Foundation'
+                ],
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/Eastern-Farmsllc.jpg',
+                    "alt" => 'Eastern Farms LLC'
+                ],
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/Bino-Brokers.png',
+                    "alt" => 'Bino Brokers'
+                ],
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/Dhanji-Logo-Board.png',
+                    "alt" => 'Dhanji Logo Board'
+                ],
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/Flavia.png',
+                    "alt" => 'Flavia'
+                ],
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/Hari-Glass-Store.png',
+                    "alt" => 'Hari Glass Store'
+                ],
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/The-Tonsorium-Hub.jpg',
+                    "alt" => 'The Tonsorium Hub'
+                ],
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/Local-Findy.jpg',
+                    "alt" => 'Local Findy'
+                ],
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/Marwar-Buildcon.png',
+                    "alt" => 'Marwar Buildcon'
+                ],
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/Vally-Interior.jpg',
+                    "alt" => 'Vally Interior'
+                ]
+            ]
         ],
         2 => [
             'id' => 2,
