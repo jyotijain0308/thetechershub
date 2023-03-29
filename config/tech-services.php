@@ -186,7 +186,7 @@ return [
                     "type" => 'image',
                     "image" => '/img/portfolio/images/marwar-buildcon.png',
                     "alt" => 'Marwar-Buildcon'
-                ],
+                ]
             ]
         ],
         3 => [
@@ -288,6 +288,7 @@ return [
                                 Reels</br>
                                 Guide"
                         ]
+                    ],
                 ],
                 'linkedin_company_page' => [
                     'id' => 3,
@@ -450,7 +451,84 @@ return [
             'id' => 7,
             'name' => 'Video Editing',
             'image' => 'img/services/editing.png',
-            'description' => 'Do you want to go viral? Who doesn’t? Today we’re all in love with videos from businesses to individuals. At The Techer’s Hub, we understand the importance of creating your videos in a meaningful and captivating way. It is not only about making sure that your message is right but working hard with editing elements to boost your video’s popularity and engagement levels!'
+            'description' => 'Do you want to go viral? Who doesn’t? Today we’re all in love with videos from businesses to individuals. At The Techer’s Hub, we understand the importance of creating your videos in a meaningful and captivating way. It is not only about making sure that your message is right but working hard with editing elements to boost your video’s popularity and engagement levels!',
+            'info' => [
+                1 => [
+                    'title'=>"Creation",
+                    "content"=>"Template based / Custom"
+                ],
+                2 => [
+                    'title'=>"Background Sound",
+                    "content"=>"Voice over / Music / Both"
+                ],
+                3 => [
+                    'title'=>"Camera Recording",
+                    "content"=>"Yes / No"
+                ],
+                4=>[
+                    "title"=>"Green Background",
+                    "content"=>"AI as Source file"                     
+                ],
+                5=>[
+                    "title"=>"Studio",
+                    "content"=>"Yes / No / Recommended but depend on situation"
+                ],
+                6=>[
+                    "title"=>"Suggested Duration",
+                    "content"=>"30 - 60 seconds / Depend on script / Up to 4 - 5 minutes"
+                ],
+                7=>[
+                    "title"=>"Requirement from Client",
+                    "content"=>"Script / General information"
+                ],
+                8=>[
+                    "title"=>"Service Type",
+                    "content"=>"One time / Regular / Both"
+                ]
+            ],
+            "types"=>[
+                1=>[
+                    "title"=>"Promotional / Information",
+                    "src"=>"https://www.youtube.com/watch?v=CBxTBEx7CMU",
+                    
+                ],
+                2=>[
+                    "title"=>"Doodle",
+                    "src"=>"https://www.youtube.com/watch?v=aLuE7kO9aug",
+                ],
+                3=>[
+                    "title"=>"Information with voice over",
+                    "src"=>"https://www.youtube.com/watch?v=zez8sFB7WsE",
+                ],
+                4=>[
+                    "title"=>"Screen recording with voice over",
+                    "src"=>"https://www.youtube.com/watch?v=D4A8xMby2Pk",
+                ],
+                5=>[
+                    "title"=>"General video editing",
+                    "src"=>"https://www.youtube.com/watch?v=VbLYUDelSks",
+                ],
+                6=>[
+                    "title"=>"Panel background video editing",
+                    "src"=>"https://www.youtube.com/watch?v=fzHov3lTEj8",
+                ],
+                7=>[
+                    "title"=>"Basic",
+                    "src"=>"https://www.youtube.com/watch?v=xKijxqJp_a4",
+                ],
+                8=>[
+                    "title"=>"Basic with green background",
+                    "src"=>"https://www.youtube.com/watch?v=7rFGmHJFwsU",
+                ],
+                9=>[
+                    "title"=>"Proper information video",
+                    "src"=>"https://www.youtube.com/watch?v=ulsZSYUHrGY",
+                ],
+                10=>[
+                    "title"=>"Pro level editing",
+                    "src"=>"https://www.youtube.com/watch?v=JruKb-Zeze8",
+                ]
+            ]
         ]
     ]
 ];
