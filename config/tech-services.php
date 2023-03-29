@@ -52,89 +52,79 @@ return [
             "types"=>[
                 1=>[
                     "title"=>"Lettermark",
-                    "image"=>"/servicedetail/Design-a-logo/Nasa.jpg",
+                    "image"=>"/servicedetail/design-a-logo/nasa.jpg",
                     "description"=>"When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA"
                 ],
                 2=>[
                     "title"=>"Wordmark",
-                    "image"=>"/servicedetail/Design-a-logo/coca-cola.jpg",
+                    "image"=>"/servicedetail/design-a-logo/coca-cola.jpg",
                     "description"=>"When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA"
                 ],
                 3=>[
                     "title"=>"Pictorial",
-                    "image"=>"/servicedetail/Design-a-logo/Apple.png",
+                    "image"=>"/servicedetail/design-a-logo/apple.png",
                     "description"=>"Already in market as an established company and want to represent brand identity with picture. - e.g. Apple / Twitter"
                 ],
                 4=>[
                     "title"=>"Abstract",
-                    "image"=>"/servicedetail/Design-a-logo/Pepsi.png",
+                    "image"=>"/servicedetail/design-a-logo/pepsi.png",
                     "description"=>"Already in market as an established company and want to represent brand identity with picture. - e.g. Apple / Twitter"
                 ],
                 5=>[
                     "title"=>"Emblem",
-                    "image"=>"/servicedetail/Design-a-logo/harvard.png",
+                    "image"=>"/servicedetail/design-a-logo/harvard.png",
                     "description"=>"Old style logo, An emblem logo consists of font inside a symbol or an icon; think badges, seals and crests"
                 ],
                 6=>[
                     "title"=>"Mascot",
-                    "image"=>"/servicedetail/Design-a-logo/kfc.png",
+                    "image"=>"/servicedetail/design-a-logo/kfc.png",
                     "description"=>"Mascot logos are logos that involve an illustrated character. Often colorful, sometimes cartoonish, and most always fun, the mascot logo is a great way to create your very own brand spokesperson"
                 ]
             ],
             "portfolio"=>[
                 [
                     "type" => 'image',
-                    "image" => '/img/portfolio/images/MD-Enterprises.jpg',
+                    "image" => '/img/portfolio/images/md-enterprises.jpg',
                     "alt" => 'MD Enterprises'
                 ],
                 [
                     "type" => 'image',
-                    "image" => '/img/portfolio/images/Aaroyan-Foundation.jpg',
+                    "image" => '/img/portfolio/images/aaroyan-foundation.jpg',
                     "alt" => 'Aaroyan Foundation'
                 ],
                 [
                     "type" => 'image',
-                    "image" => '/img/portfolio/images/Eastern-Farmsllc.jpg',
+                    "image" => '/img/portfolio/images/eastern-farmsllc.jpg',
                     "alt" => 'Eastern Farms LLC'
                 ],
                 [
                     "type" => 'image',
-                    "image" => '/img/portfolio/images/Bino-Brokers.png',
+                    "image" => '/img/portfolio/images/bino-brokers.png',
                     "alt" => 'Bino Brokers'
                 ],
                 [
                     "type" => 'image',
-                    "image" => '/img/portfolio/images/Dhanji-Logo-Board.png',
+                    "image" => '/img/portfolio/images/dhanji-logo-board.png',
                     "alt" => 'Dhanji Logo Board'
                 ],
                 [
                     "type" => 'image',
-                    "image" => '/img/portfolio/images/Flavia.png',
+                    "image" => '/img/portfolio/images/flavia.png',
                     "alt" => 'Flavia'
                 ],
                 [
                     "type" => 'image',
-                    "image" => '/img/portfolio/images/Hari-Glass-Store.png',
+                    "image" => '/img/portfolio/images/hari-glass-store.png',
                     "alt" => 'Hari Glass Store'
                 ],
                 [
                     "type" => 'image',
-                    "image" => '/img/portfolio/images/The-Tonsorium-Hub.jpg',
+                    "image" => '/img/portfolio/images/the-tonsorium-hub.jpg',
                     "alt" => 'The Tonsorium Hub'
                 ],
                 [
                     "type" => 'image',
-                    "image" => '/img/portfolio/images/Local-Findy.jpg',
-                    "alt" => 'Local Findy'
-                ],
-                [
-                    "type" => 'image',
-                    "image" => '/img/portfolio/images/Marwar-Buildcon.png',
-                    "alt" => 'Marwar Buildcon'
-                ],
-                [
-                    "type" => 'image',
-                    "image" => '/img/portfolio/images/Vally-Interior.jpg',
+                    "image" => '/img/portfolio/images/vally-interior.jpg',
                     "alt" => 'Vally Interior'
                 ]
             ]
@@ -144,7 +134,62 @@ return [
             'name' => 'Visiting / Business Card Design',
             'image' => 'img/services/business-card.png',
             'large-image' => 'img/services/business-card-large.png',
-            'description' => 'What’s more valuable than making a super-unforgettable first impression? Business cards can create lasting first impressions on potential customers and business partners. We understand that business cards are a powerful marketing tool that remind your clients of who you are, what you do, and how they can contact you. Our expert designers provide an original representation of your company’s brand which helps build recognition and lasting loyalty.'
+            'description' => 'What’s more valuable than making a super-unforgettable first impression? Business cards can create lasting first impressions on potential customers and business partners. We understand that business cards are a powerful marketing tool that remind your clients of who you are, what you do, and how they can contact you. Our expert designers provide an original representation of your company’s brand which helps build recognition and lasting loyalty.',
+            'info' => [
+                1 => [
+                    'title'=>"Orientation",
+                    "content"=>"Horizontal / Vertical"
+                ],
+                2 => [
+                    'title'=>"Software",
+                    "content"=>"Adobe Illustrator"
+                ],
+                3 => [
+                    'title'=>"File Format",
+                    "content"=>"AI as Source file</br>
+                        EPS to import in Coral Draw*</br>
+                        PDF - in original colour"
+                ],
+                4 => [
+                    'title'=>"Duration",
+                    "content"=>"Upto 2 working days"
+                ],
+                5 => [
+                    'title'=>"Color Mode",
+                    "content"=>"CMYK"
+                ],
+                6 => [
+                    'title'=>"Resolution",
+                    "content"=>"3301 PPI"
+                ]
+
+            ],
+            "types"=>[
+                1=>[
+                    "title"=>"Single Side",
+                    "image"=>"/servicedetail/visiting-card/single-side.jpg",
+                    "description"=>"What is single-sided business card?
+                    Image result for short description for single side visiting card
+                    A single-sided business card let's you display all your important information clearly on the front. Your name, logo, phone number, email and website are all there to see at first glance."
+                ],
+                2=>[
+                    "title"=>"Double Side",
+                    "image"=>"/servicedetail/visiting-card/double-side.jpg",
+                    "description"=>"If you want your business card to have both services and contact information, this is when having a double-sided business card works wonders. On one side, you could focus on adding your contact information and critical information, and on the other side, you can add your services."
+                ]
+            ],
+            "portfolio"=>[
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/local-findy.jpg',
+                    "alt" => 'Local Findy'
+                ],
+                [
+                    "type" => 'image',
+                    "image" => '/img/portfolio/images/marwar-buildcon.png',
+                    "alt" => 'Marwar-Buildcon'
+                ],
+            ]
         ],
         3 => [
             'id' => 3,

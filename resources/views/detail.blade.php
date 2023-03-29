@@ -43,11 +43,13 @@
 			<div class="col-lg-6">
 				<div class="portfolio-details-slider swiper">
 					<div class="swiper-wrapper align-items-center">
-						@foreach($data['portfolio'] as $portfolio)
-							<div class="swiper-slide">
-								<img src="{{$portfolio['image']}}" class="img-fluid" alt="{{$portfolio['alt']}}">
-							</div>
-						@endforeach
+						@if(!empty($data['portfolio']))
+							@foreach($data['portfolio'] as $portfolio)
+								<div class="swiper-slide">
+									<img src="{{$portfolio['image']}}" class="img-fluid" alt="{{$portfolio['alt']}}">
+								</div>
+							@endforeach
+						@endif	
 					  </div>
 					  <div class="swiper-pagination"></div>
 				</div>
@@ -82,15 +84,17 @@
 <section id="logo_type" class="logotype">
 	<div class="container">
 		<div class="row">
-			@foreach($data['types'] as $type)
-				<div class="col-md-4 col-sm-6 col-12 mb-4">
-					<div class="logocontent">
-						<img src="/img/{{$type['image']}}" class="" alt="">
-						<h2>{{$type['title']}}</h2>
-						<p>{{$type['description']}}</p>
+			@if(!empty($data['types']))
+				@foreach($data['types'] as $type)
+					<div class="col-md-4 col-sm-6 col-12 mb-4">
+						<div class="logocontent">
+							<img src="/img/{{$type['image']}}" class="" alt="">
+							<h2>{{$type['title']}}</h2>
+							<p>{{$type['description']}}</p>
+						</div>
 					</div>
-				</div>
-			@endforeach
+				@endforeach
+			@endif	
 		</div>	
 	</div>	
 </section>
