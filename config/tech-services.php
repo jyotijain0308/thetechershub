@@ -5,7 +5,6 @@ return [
             'id' => 1,
             'name' => 'Design A Logo',
             'image' => 'img/services/logo-design.png',
-            'large-image' => 'img/services/logo-design-large.png',
             'description' => 'Logos are an expression of your brand. Our designers are highly skilled in developing a logo that sets you apart from the rest. We take pride in ensuring your logo accurately reflects your company\'s vision and values while also resonating with your target audience.',
             'info' => [
                 1 => [
@@ -133,7 +132,6 @@ return [
             'id' => 2,
             'name' => 'Visiting / Business Card Design',
             'image' => 'img/services/business-card.png',
-            'large-image' => 'img/services/business-card-large.png',
             'description' => 'What’s more valuable than making a super-unforgettable first impression? Business cards can create lasting first impressions on potential customers and business partners. We understand that business cards are a powerful marketing tool that remind your clients of who you are, what you do, and how they can contact you. Our expert designers provide an original representation of your company’s brand which helps build recognition and lasting loyalty.',
             'info' => [
                 1 => [
@@ -195,14 +193,62 @@ return [
             'id' => 3,
             'name' => 'Social Media Page Creation',
             'image' => 'img/services/social-media.png',
-            'large-image' => 'img/services/business-card-large.png',
+            'large-image' => '',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'sub_services' => [
                 'facebook_page' => [
                     'id' => 1,
                     'name' => 'Facebook Page',
                     'image' => 'img/services/facebook-page.png',
-                    'description' => ''
+                    'description' => '',
+                    'info' => [
+                        1 => [
+                            'title'=>"Additional Account",
+                            "content"=>"Gmail ID</br>
+                                Ads manager</br>
+                                Meta Pixel (Developer Required)"
+                        ],
+                        2 => [
+                            'title'=>"Personal Information",
+                            "content"=>"Full Name</br>
+                                Date of Birth</br>
+                                Mobile Number*</br>
+                                Email ID*</br>
+                                Profile Picture</br>
+                                Work & Education</br>
+                                Home Town and Live Place</br>
+                                Gender</br>
+                                Social Links</br>
+                                Language Known</br>
+                                Relationship Status</br>
+                                Family Members"
+                        ],
+                        3 => [
+                            'title'=>"General Information",
+                            "content"=>"Bio (Uptp 255 characters along with spaces)</br>
+                                Address</br>
+                                Category</br>
+                                Mobile</br>
+                                Email ID</br>
+                                WhatsApp</br>
+                                Opening Hours"
+                        ],
+                        4 => [
+                            'title'=>"Link with",
+                            "content"=>"Website</br>
+                                Instagram Profile</br>
+                                Other social platform</br>
+                                WhatsApp"
+
+                                
+                        ],
+                        5 => [
+                            'title'=>"Infographics",
+                            "content"=>"Profile Image</br>
+                                Cover Image</br>
+                                3 Post Banners"
+                        ]
+                    ],
                 ],
                 'instagram_business_account' => [
                     'id' => 2,
