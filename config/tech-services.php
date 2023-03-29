@@ -239,8 +239,6 @@ return [
                                 Instagram Profile</br>
                                 Other social platform</br>
                                 WhatsApp"
-
-                                
                         ],
                         5 => [
                             'title'=>"Infographics",
@@ -254,19 +252,129 @@ return [
                     'id' => 2,
                     'name' => 'Instagram Business Account',
                     'image' => 'img/services/instagram.png',
-                    'description' => ''
+                    'description' => '',
+                    'info' => [
+                        1 => [
+                            'title'=>"Profile Type",
+                            "content"=>"Creators</br>
+                                Business</br>
+                                Personal"
+                        ],
+                        2 => [
+                            'title'=>"Setup",
+                            "content"=>"Billing Information</br>
+                                Automated Response"     
+                        ],
+                        3 => [
+                            'title'=>"Personal Information",
+                            "content"=>"Profile Name</br>
+                                Mobile Number*</br>
+                                Email ID</br>
+                                Gender"
+                        ],
+                        4 => [
+                            'title'=>"General Information",
+                            "content"=>"Bio (Upto 255 characters along with spaces)"
+                        ],
+                        5 => [
+                            'title'=>"Link with",
+                            "content"=>"Website</br>
+                                Facebook Page"
+                        ],
+                        6 => [
+                            'title'=>"Infographics",
+                            "content"=>"Profile Image</br>
+                                Banners</br>
+                                Reels</br>
+                                Guide"
+                        ]
                 ],
                 'linkedin_company_page' => [
                     'id' => 3,
                     'name' => 'LinkedIn Corporate Page',
                     'image' => 'img/services/linkedin.png',
-                    'description' => ''
+                    'description' => '',
+                    'info' => [
+                        1 => [
+                            'title'=>"Additional Account",
+                            "content"=>"Gmail ID</br>
+                                Profile for colleague</br>
+                                Premium Purchase*"
+                        ],
+                        2 => [
+                            'title'=>"Personal Information",
+                            "content"=>"Full Name</br>
+                                Date of Birth</br>
+                                Mobile Number*</br>
+                                Email ID*</br>
+                                Profile Picture</br>
+                                Work & Education</br>
+                                Gender</br>
+                                Language Known</br>
+                                About Me</br>
+                                Skills"
+                        ],
+                        3 => [
+                            'title'=>"Page Information",
+                            "content"=>"Type - Showcase, Company, Educational</br>
+                                Type of Industry</br>
+                                Company Size</br>
+                                Mobile</br>
+                                Email ID</br>
+                                WhatsApp</br>
+                                Speciality</br>
+                                Foundation Year</br>
+                                Location"
+                        ],
+                        4 => [
+                            'title'=>"Link with",
+                            "content"=>"Website"
+                        ],                    
+                        5 => [
+                            'title'=>"Infographics",
+                            "content"=>"Profile Image</br>
+                                Cover Image</br>
+                                Post Banners</br>
+                                Articles</br>
+                                Newsletters</br>
+                                Job Description</br>
+                                Product Information"
+
+                        ]
+                    ],
                 ],
                 'youtube_brand_account' => [
                     'id' => 4,
                     'name' => 'YouTube Brand Account',
                     'image' => 'img/services/youtube(2).png',
-                    'description' => ''
+                    'description' => '',
+                    'info' => [
+                        1 => [
+                            'title'=>"Additional Account",
+                            "content"=>"Gmail ID</br>
+                                Featured Video"
+                        ],
+                        2 => [
+                            'title'=>"Channel Information",
+                            "content"=>"Type - Channel Name</br>
+                                Username*</br>
+                                Description</br>
+                                Channel / Custom URL*</br>
+                                Video watermark"
+                            ],
+                        3 => [
+                            'title'=>"Link with",
+                            "content"=>"Website</br>
+                                Social Accounts"
+                        ],                    
+                        4 => [
+                            'title'=>"Infographics",
+                            "content"=>"Profile Image</br>
+                                Cover Image</br>
+                                Channel Trailer for new audience who still not suscribe your channel</br>
+                                Featured Video for subscriber"
+                        ]
+                    ],
                 ],
                 'pinterest_business_account' => [
                     'id' => 5,
