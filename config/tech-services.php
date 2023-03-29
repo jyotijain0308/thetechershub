@@ -380,7 +380,39 @@ return [
                     'id' => 5,
                     'name' => 'Pinterest Business Account',
                     'image' => 'img/services/pinterest.png',
-                    'description' => ''
+                    'description' => '',
+                    'info' => [
+                        1 => [
+                            'title'=>"Additional Account",
+                            "content"=>"Gmail ID"
+                        ],
+                        2 => [
+                            'title'=>"Personal Information",
+                            "content"=>"Full Name</br>
+                                Country</br>
+                                Language</br>
+                                Business Goals"
+                        ],
+                        3 => [
+                            'title'=>"Page Information",
+                            "content"=>"Business Type</br>
+                                About Us</br>
+                                Mobile</br>
+                                Email ID</br>
+                                WhatsApp</br>
+                                Address"
+                        ],
+                        4 => [
+                            'title'=>"Link with",
+                            "content"=>"Website"
+                        ],                    
+                        5 => [
+                            'title'=>"Infographics",
+                            "content"=>"Profile Image</br>
+                                Cover Image</br>
+                                Post Banners"
+                        ]
+                    ],
                 ],
                 'whatsapp_business_account' => [
                     'id' => 6,
@@ -402,12 +434,6 @@ return [
             'image' => 'img/services/linkedin-profile.png',
             'description' => 'An attractive and professional profile can help you draw in potential clients and customers for your business and services. We pride ourselves in helping you to showcase your expertise and credentials, through a professional profile that builds trust with your potential customers. A professional profile is an invaluable asset in today’s digital landscape, and is essential if what you seek is more clients.',
         ],
-        // 'user_friendly_website_design_layout' => [
-        //     'id' => 4,
-        //     'name' => 'User Friendly Website Layout',
-        //     'image' => 'img/services/monetize.png',
-        //     'description' => 'Three words… Audience, User Experience and Engagement!  We create web designs tailored to your website\'s intended audience, as well as your brand purpose. A user-friendly website layout is key to creating an engaging experience and helping lead your visitors to desired pages and content on your site. Our purpose is to make your website memorable and consistent in brand identity. The right website layout design helps to improve SEO, increase conversions, and boost user engagement. If what you seek is an impressive website layout design is essential Techer’s Hub has you covered.'
-        // ],
         5 => [
             'id' => 5,
             'name' => 'Google Business Profile',
