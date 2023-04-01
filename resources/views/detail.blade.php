@@ -4,13 +4,43 @@
 @section('content')
 
 <style>
-.portfolio-details .logotype li{
-	background-color:#0d6efd;
-	border-radius : 5px;
-	margin-right: 10px;
+.logotype{
+	background-color:#eee;
+	}
+.logotype h2{
+	color:#151515;
+	font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}    
+.logotype .logopanel{
+	border-color: #ebebeb;
+	position: relative;
+    padding: 23px 30px 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 33px;
+    border-radius: 8px 0 8px 8px;
+    border: 1px solid #87dfeb;
+	transition: .3s ease-in-out;
+
+}	
+.logotype .logobox{
+    padding-top: 45px;
+	
 }
-.portfolio-details .logotype li a {
-	color: #FFFFFF;
+.logotype .logobox:hover{
+    padding-top: 0;
+	color:#fff;
+}
+
+
+.logotype .logopanel:hover{
+    background-color: #2d85c7;
 }
 .logotype img {
 	height : 100px;
@@ -22,21 +52,51 @@
     margin-bottom: 20px;
 	margin-top:20px;
 }
+.logo-content{
+	background-image: url('/img/portfolio/images/dhanji-logo-board.png');
+	background-size:cover;
+	background-position:center;
+}
+.logo-content .portfolio-description{
+	color: 	#ffffff;
+	text-align:center;
+}
+.logo-content .portfolio-description h2{
+	font-size: 28px;
+}
+.logo-content .portfolio-description p{
+	font-size: 16px;
+	margin-top:16px;
+}
+
 </style>
 <!-- ======= Breadcrumbs ======= -->
-
 <section id="breadcrumbs" class="breadcrumbs">
 	<div class="container">
 		<div class="d-flex justify-content-between align-items-center">
 			<h2>{{ $data['name'] }}</h2>
 			<ol>
-				<li><a href="index.html">Home</a></li>
+				<li><a href="{{ url('/') }}">Home</a></li>
 				<li>{{ $data['name'] }}</li>
 			</ol>
 		</div>
 	</div>
 </section><!-- End Breadcrumbs -->
 
+<!-- =======Portfolio Description Section ======= -->
+<section class="logo-content">
+	<div class="container">
+        <div class="d-flex justify-content-end">
+            <div class="portfolio-description">
+				<h2>{{ $data['name'] }}</h2>
+				<p>{{ $data['description'] }}</p>
+				<a href="#contact" class="btn btn-md btn-primary scrollto mt-4">Request A Quote</a>
+			</div>
+        </div>
+    </div>
+</section><!-- =======End Portfolio Description Section ======= -->
+
+<!-- =======Service Information Section ======= -->
 <section id="portfolio-details" class="portfolio-details">
 	<div class="container">
 		<div class="row gy-4">
@@ -69,25 +129,44 @@
 								@endforeach
 							@endif
 						</ul>
-				</div>
-
-				<div class="portfolio-description">
-					<h2>{{ $data['name'] }}</h2>
-					<p>{{ $data['description'] }}</p>
-				</div>
-
+					</div>
 			</div>
 		</div>
 	</div>
 </section>
+<!-- =======End Service Information Section ======= -->
 
-<section id="logo_type" class="logotype">
+<!-- =======Logo Type Section ======= -->
+<section id="logotype" class="logotype">
+	<div class="container">
+		<div class="row">
+			<h2 class="text-center">Logo Types</h2>
+			@if(!empty($data['types']))
+				@foreach($data['types'] as $type)
+					<div class="col-xl-4 logobox">
+						<div class="logopanel">
+							<img src="/img/{{$type['image']}}" class="" alt="">
+							<div class="logo-detail mt-4">
+								<h4>{{$type['title']}}</h4>
+								<p>{{$type['description']}}</p>
+							</div>
+						</div>
+					</div>
+				@endforeach
+			@endif    
+		</div>
+	</div>
+</section><!-- =======Logo Type Section ======= -->
+
+<!-- <section id="logo_type" class="logotype">
 	<div class="container">
 		<div class="row">
 			@if(!empty($data['types']))
 				@foreach($data['types'] as $type)
 					<div class="col-md-4 col-sm-6 col-12 mb-4">
 						<div class="logocontent">
+							
+							<iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> 
 							<img src="/img/{{$type['image']}}" class="" alt="">
 							<h2>{{$type['title']}}</h2>
 							<p>{{$type['description']}}</p>
@@ -97,7 +176,7 @@
 			@endif	
 		</div>	
 	</div>	
-</section>
+</section> -->
 
 @endsection
 
