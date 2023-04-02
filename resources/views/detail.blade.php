@@ -14,6 +14,7 @@
     text-transform: uppercase;
 }    
 .logotype .logopanel{
+	min-height:355px;
 	border-color: #ebebeb;
 	position: relative;
     padding: 23px 30px 40px;
@@ -34,13 +35,12 @@
 	
 }
 .logotype .logobox:hover{
-    padding-top: 0;
-	color:#fff;
+  color:#fff;
 }
 
 
 .logotype .logopanel:hover{
-    background-color: #2d85c7;
+    background-color: #ffc451;
 }
 .logotype img {
 	height : 100px;
@@ -49,13 +49,23 @@
 .logotype h2{
 	font-size: 26px;
     font-weight: 700;
-    margin-bottom: 20px;
-	margin-top:20px;
+    
 }
+	
 .logo-content{
-	background-image: url('/img/portfolio/images/dhanji-logo-board.png');
+
+	 background-image: url('/img/portfolio/images/md-enterprises.jpg');
 	background-size:cover;
 	background-position:center;
+	
+	
+	
+}
+.logo-content-overlay{
+
+    background:rgba(0,0,0,0.8);
+	padding: 60px 0px;
+
 }
 .logo-content .portfolio-description{
 	color: 	#ffffff;
@@ -84,17 +94,19 @@
 </section><!-- End Breadcrumbs -->
 
 <!-- =======Portfolio Description Section ======= -->
-<section class="logo-content">
-	<div class="container">
-        <div class="d-flex justify-content-end">
-            <div class="portfolio-description">
-				<h2>{{ $data['name'] }}</h2>
-				<p>{{ $data['description'] }}</p>
-				<a href="#contact" class="btn btn-md btn-primary scrollto mt-4">Request A Quote</a>
+<div class="logo-content">
+	<div class="logo-content-overlay">
+		<div class="container">
+			<div class="d-flex justify-content-end">
+				<div class="portfolio-description">
+					<h2>{{ $data['name'] }}</h2>
+					<p>{{ $data['description'] }}</p>
+					<a href="#contact" class="btn btn-md btn-primary scrollto mt-4">Request A Quote</a>
+				</div>
 			</div>
-        </div>
-    </div>
-</section><!-- =======End Portfolio Description Section ======= -->
+		</div>
+	</div>
+</div><!-- =======End Portfolio Description Section ======= -->
 
 <!-- =======Service Information Section ======= -->
 <section id="portfolio-details" class="portfolio-details">
@@ -157,6 +169,33 @@
 		</div>
 	</div>
 </section><!-- =======Logo Type Section ======= -->
+
+<!-- =======Visiting Card Section ======= -->
+<!-- <section class="visiting_card">
+	<div class="container">
+		<h2 class="h2_title wow fadeInDown animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">Types of visiting card</h2>
+		<div class="row">
+			<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+				<div class="single-post2 wow fadeInLeft animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+					<div class="blog-thumb2">
+						<a href="https://www.onicenterprises.com/blog/importance-of-personal-protective-equipment-in-the-healthcare-industry.htm" title="Importance of Personal Protective Equipment in the Healthcare Industry"><img src="https://www.onicenterprises.com/uploaded-files/blog/images/Importance-of-Personal-Protective-Equipment-in-the-Healthcare-Industry25.jpg" alt="Importance of Personal Protective Equipment in the Healthcare Industry" title="Importance of Personal Protective Equipment in the Healthcare Industry"></a>
+					</div>
+					<div class="blog-content2">
+						<div class="b-meta">
+							<div class="meta-info">
+								<ul>
+									<li><i class="fa fa-calendar"></i> 2022-05-31</li>
+								</ul>
+							</div>
+						</div>
+						<h5><a href="https://www.onicenterprises.com/blog/importance-of-personal-protective-equipment-in-the-healthcare-industry.htm" title="Importance of Personal Protective Equipment in the Healthcare Industry"><span>Importance of Personal Protective Equipment in the Healthcare Industry</span></a></h5>
+						<p>Various doctors and health workers are closely working with patients suffering from different diseas</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>=======End Visiting Card Section ======= -->
 
 <!-- <section id="logo_type" class="logotype">
 	<div class="container">

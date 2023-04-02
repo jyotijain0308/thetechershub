@@ -51,17 +51,17 @@ return [
             "types"=>[
                 1=>[
                     "title"=>"Lettermark",
-                    "image"=>"/servicedetail/design-a-logo/nasa.jpg",
+                    "image"=>"/servicedetail/design-a-logo/ibm.png",
                     "description"=>"When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA"
                 ],
                 2=>[
                     "title"=>"Wordmark",
-                    "image"=>"/servicedetail/design-a-logo/coca-cola.jpg",
+                    "image"=>"/servicedetail/design-a-logo/visa.png",
                     "description"=>"When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA"
                 ],
                 3=>[
                     "title"=>"Pictorial",
-                    "image"=>"/servicedetail/design-a-logo/apple.png",
+                    "image"=>"/servicedetail/design-a-logo/twitter.png",
                     "description"=>"Already in market as an established company and want to represent brand identity with picture. - e.g. Apple / Twitter"
                 ],
                 4=>[
