@@ -4,81 +4,84 @@
 @section('content')
 
 <style>
-.logotype{
-	background-color:#eee;
+	.logotype {
+		background-color: #eee;
 	}
-.logotype h2{
-	color:#151515;
-	font-size: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-}    
-.logotype .logopanel{
-	min-height:355px;
-	border-color: #ebebeb;
-	position: relative;
-    padding: 23px 30px 40px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-    text-align: center;
-    overflow: hidden;
-    cursor: pointer;
-    margin-bottom: 33px;
-    border-radius: 8px 0 8px 8px;
-    border: 1px solid #87dfeb;
-	transition: .3s ease-in-out;
 
-}	
-.logotype .logobox{
-    padding-top: 45px;
-	
-}
-.logotype .logobox:hover{
-  color:#fff;
-}
+	.logotype h2 {
+		color: #151515;
+		font-size: 36px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	.logotype .logopanel {
+		min-height: 355px;
+		border-color: #ebebeb;
+		position: relative;
+		padding: 23px 30px 40px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		overflow: hidden;
+		cursor: pointer;
+		margin-bottom: 33px;
+		border-radius: 8px 0 8px 8px;
+		border: 1px solid #87dfeb;
+		transition: .3s ease-in-out;
+
+	}
+
+	.logotype .logobox {
+		padding-top: 45px;
+
+	}
+
+	.logotype .logobox:hover {
+		color: #fff;
+	}
 
 
-.logotype .logopanel:hover{
-    background-color: #ffc451;
-}
-.logotype img {
-	height : 100px;
-	width: auto;
-}
-.logotype h2{
-	font-size: 26px;
-    font-weight: 700;
-    
-}
-	
-.logo-content{
+	.logotype .logopanel:hover {
+		background-color: #ffc451;
+	}
 
-	 background-image: url('/img/portfolio/images/md-enterprises.jpg');
-	background-size:cover;
-	background-position:center;
-	
-	
-	
-}
-.logo-content-overlay{
+	.logotype img {
+		height: 100px;
+		width: auto;
+	}
 
-    background:rgba(0,0,0,0.8);
-	padding: 60px 0px;
+	.logotype h2 {
+		font-size: 26px;
+		font-weight: 700;
 
-}
-.logo-content .portfolio-description{
-	color: 	#ffffff;
-	text-align:center;
-}
-.logo-content .portfolio-description h2{
-	font-size: 28px;
-}
-.logo-content .portfolio-description p{
-	font-size: 16px;
-	margin-top:16px;
-}
+	}
 
+	.logo-content {
+		background-image: url('/img/portfolio/images/md-enterprises.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	.logo-content-overlay {
+		background: rgba(0, 0, 0, 0.3);
+		padding: 100px 0px;
+	}
+
+	.logo-content .portfolio-description {
+		color: #ffffff;
+		text-align: center;
+	}
+
+	.logo-content .portfolio-description h2 {
+		font-size: 28px;
+	}
+
+	.logo-content .portfolio-description p {
+		font-size: 16px;
+		margin-top: 16px;
+	}
 </style>
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs">
@@ -97,16 +100,17 @@
 <div class="logo-content">
 	<div class="logo-content-overlay">
 		<div class="container">
-			<div class="d-flex justify-content-end">
-				<div class="portfolio-description">
+			<div class="d-flex justify-content-end px-md-5">
+				<div class="portfolio-description px-md-5">
 					<h2>{{ $data['name'] }}</h2>
-					<p>{{ $data['description'] }}</p>
+					<p class="px-md-5 px-2">{{ $data['description'] }}</p>
 					<a href="#contact" class="btn btn-md btn-primary scrollto mt-4">Request A Quote</a>
 				</div>
 			</div>
 		</div>
 	</div>
-</div><!-- =======End Portfolio Description Section ======= -->
+</div>
+<!-- =======End Portfolio Description Section ======= -->
 
 <!-- =======Service Information Section ======= -->
 <section id="portfolio-details" class="portfolio-details">
@@ -116,32 +120,32 @@
 				<div class="portfolio-details-slider swiper">
 					<div class="swiper-wrapper align-items-center">
 						@if(!empty($data['portfolio']))
-							@foreach($data['portfolio'] as $portfolio)
-								<div class="swiper-slide">
-									<img src="{{$portfolio['image']}}" class="img-fluid" alt="{{$portfolio['alt']}}">
-								</div>
-							@endforeach
-						@endif	
-					  </div>
-					  <div class="swiper-pagination"></div>
+						@foreach($data['portfolio'] as $portfolio)
+						<div class="swiper-slide">
+							<img src="{{$portfolio['image']}}" class="img-fluid" alt="{{$portfolio['alt']}}">
+						</div>
+						@endforeach
+						@endif
+					</div>
+					<div class="swiper-pagination"></div>
 				</div>
 			</div>
 			<div class="col-lg-6">
 				<div class="portfolio-info">
 					<h3>Service information</h3>
-						<ul>
-							@if(!empty($data['info']))
-								@foreach($data['info'] as $type)
-									<li>
-										<div class="row">
-											<div class="col-4"><strong>{{$type['title']}}</strong>:</div>
-											<div class="col-8">{!!$type['content']!!}</div>
-										</div>
-									</li>
-								@endforeach
-							@endif
-						</ul>
-					</div>
+					<ul>
+						@if(!empty($data['info']))
+						@foreach($data['info'] as $type)
+						<li>
+							<div class="row">
+								<div class="col-4"><strong>{{$type['title']}}</strong>:</div>
+								<div class="col-8">{!!$type['content']!!}</div>
+							</div>
+						</li>
+						@endforeach
+						@endif
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -154,18 +158,18 @@
 		<div class="row">
 			<h2 class="text-center">Logo Types</h2>
 			@if(!empty($data['types']))
-				@foreach($data['types'] as $type)
-					<div class="col-xl-4 logobox">
-						<div class="logopanel">
-							<img src="/img/{{$type['image']}}" class="" alt="">
-							<div class="logo-detail mt-4">
-								<h4>{{$type['title']}}</h4>
-								<p>{{$type['description']}}</p>
-							</div>
-						</div>
+			@foreach($data['types'] as $type)
+			<div class="col-xl-4 logobox">
+				<div class="logopanel">
+					<img src="/img/{{$type['image']}}" class="" alt="">
+					<div class="logo-detail mt-4">
+						<h4>{{$type['title']}}</h4>
+						<p>{{$type['description']}}</p>
 					</div>
-				@endforeach
-			@endif    
+				</div>
+			</div>
+			@endforeach
+			@endif
 		</div>
 	</div>
 </section><!-- =======Logo Type Section ======= -->
