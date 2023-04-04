@@ -5,6 +5,7 @@ return [
             'id' => 1,
             'name' => 'Design A Logo',
             'image' => 'img/services/logo-design.png',
+            'large-image' => '/img/portfolio/images/md-enterprises.jpg',
             'description' => 'Logos are an expression of your brand. Our designers are highly skilled in developing a logo that sets you apart from the rest. We take pride in ensuring your logo accurately reflects your company\'s vision and values while also resonating with your target audience.',
             'info' => [
                 1 => [
@@ -132,6 +133,7 @@ return [
             'id' => 2,
             'name' => 'Visiting / Business Card Design',
             'image' => 'img/services/business-card.png',
+            'large-image'=>'/img/portfolio/images/marwar-buildcon.png',
             'description' => 'What’s more valuable than making a super-unforgettable first impression? Business cards can create lasting first impressions on potential customers and business partners. We understand that business cards are a powerful marketing tool that remind your clients of who you are, what you do, and how they can contact you. Our expert designers provide an original representation of your company’s brand which helps build recognition and lasting loyalty.',
             'info' => [
                 1 => [
@@ -193,9 +195,9 @@ return [
             'id' => 3,
             'name' => 'Social Media Page Creation',
             'image' => 'img/services/social-media.png',
-            'large-image' => '',
+            'large-image'=>'/img/servicedetail/social-media.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
-            'sub_services' => [
+            'types' => [
                 'facebook_page' => [
                     'id' => 1,
                     'name' => 'Facebook Page',
