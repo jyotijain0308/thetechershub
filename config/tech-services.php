@@ -199,152 +199,152 @@ return [
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'types' => [
                 'facebook_page' => [
-                    'id' => 1,
+                    'id' => 8,
                     'title' => 'Facebook Page',
                     'image' => 'img/services/facebook-page.png',
                     'description' => '',
-                    'info' => [
-                        1 => [
-                            'title' => "Additional Account",
-                            "content" => "Gmail ID</br>
-                                Ads manager</br>
-                                Meta Pixel (Developer Required)"
-                        ],
-                        2 => [
-                            'title' => "Personal Information",
-                            "content" => "Full Name</br>
-                                Date of Birth</br>
-                                Mobile Number*</br>
-                                Email ID*</br>
-                                Profile Picture</br>
-                                Work & Education</br>
-                                Home Town and Live Place</br>
-                                Gender</br>
-                                Social Links</br>
-                                Language Known</br>
-                                Relationship Status</br>
-                                Family Members"
-                        ],
-                        3 => [
-                            'title' => "General Information",
-                            "content" => "Bio (Uptp 255 characters along with spaces)</br>
-                                Address</br>
-                                Category</br>
-                                Mobile</br>
-                                Email ID</br>
-                                WhatsApp</br>
-                                Opening Hours"
-                        ],
-                        4 => [
-                            'title' => "Link with",
-                            "content" => "Website</br>
-                                Instagram Profile</br>
-                                Other social platform</br>
-                                WhatsApp"
-                        ],
-                        5 => [
-                            'title' => "Infographics",
-                            "content" => "Profile Image</br>
-                                Cover Image</br>
-                                3 Post Banners"
-                        ]
-                    ],
+                    // 'info' => [
+                    //     1 => [
+                    //         'title' => "Additional Account",
+                    //         "content" => "Gmail ID</br>
+                    //             Ads manager</br>
+                    //             Meta Pixel (Developer Required)"
+                    //     ],
+                    //     2 => [
+                    //         'title' => "Personal Information",
+                    //         "content" => "Full Name</br>
+                    //             Date of Birth</br>
+                    //             Mobile Number*</br>
+                    //             Email ID*</br>
+                    //             Profile Picture</br>
+                    //             Work & Education</br>
+                    //             Home Town and Live Place</br>
+                    //             Gender</br>
+                    //             Social Links</br>
+                    //             Language Known</br>
+                    //             Relationship Status</br>
+                    //             Family Members"
+                    //     ],
+                    //     3 => [
+                    //         'title' => "General Information",
+                    //         "content" => "Bio (Uptp 255 characters along with spaces)</br>
+                    //             Address</br>
+                    //             Category</br>
+                    //             Mobile</br>
+                    //             Email ID</br>
+                    //             WhatsApp</br>
+                    //             Opening Hours"
+                    //     ],
+                    //     4 => [
+                    //         'title' => "Link with",
+                    //         "content" => "Website</br>
+                    //             Instagram Profile</br>
+                    //             Other social platform</br>
+                    //             WhatsApp"
+                    //     ],
+                    //     5 => [
+                    //         'title' => "Infographics",
+                    //         "content" => "Profile Image</br>
+                    //             Cover Image</br>
+                    //             3 Post Banners"
+                    //     ]
+                    // ],
                 ],
                 'instagram_business_account' => [
                     'id' => 2,
                     'title' => 'Instagram Business Account',
                     'image' => 'img/services/instagram.png',
                     'description' => '',
-                    'info' => [
-                        1 => [
-                            'title' => "Profile Type",
-                            "content" => "Creators</br>
-                                Business</br>
-                                Personal"
-                        ],
-                        2 => [
-                            'title' => "Setup",
-                            "content" => "Billing Information</br>
-                                Automated Response"
-                        ],
-                        3 => [
-                            'title' => "Personal Information",
-                            "content" => "Profile Name</br>
-                                Mobile Number*</br>
-                                Email ID</br>
-                                Gender"
-                        ],
-                        4 => [
-                            'title' => "General Information",
-                            "content" => "Bio (Upto 255 characters along with spaces)"
-                        ],
-                        5 => [
-                            'title' => "Link with",
-                            "content" => "Website</br>
-                                Facebook Page"
-                        ],
-                        6 => [
-                            'title' => "Infographics",
-                            "content" => "Profile Image</br>
-                                Banners</br>
-                                Reels</br>
-                                Guide"
-                        ]
-                    ],
+                    // 'info' => [
+                    //     1 => [
+                    //         'title' => "Profile Type",
+                    //         "content" => "Creators</br>
+                    //             Business</br>
+                    //             Personal"
+                    //     ],
+                    //     2 => [
+                    //         'title' => "Setup",
+                    //         "content" => "Billing Information</br>
+                    //             Automated Response"
+                    //     ],
+                    //     3 => [
+                    //         'title' => "Personal Information",
+                    //         "content" => "Profile Name</br>
+                    //             Mobile Number*</br>
+                    //             Email ID</br>
+                    //             Gender"
+                    //     ],
+                    //     4 => [
+                    //         'title' => "General Information",
+                    //         "content" => "Bio (Upto 255 characters along with spaces)"
+                    //     ],
+                    //     5 => [
+                    //         'title' => "Link with",
+                    //         "content" => "Website</br>
+                    //             Facebook Page"
+                    //     ],
+                    //     6 => [
+                    //         'title' => "Infographics",
+                    //         "content" => "Profile Image</br>
+                    //             Banners</br>
+                    //             Reels</br>
+                    //             Guide"
+                    //     ]
+                    // ],
                 ],
                 'linkedin_company_page' => [
                     'id' => 3,
                     'title' => 'LinkedIn Corporate Page',
                     'image' => 'img/services/linkedin.png',
                     'description' => '',
-                    'info' => [
-                        1 => [
-                            'title' => "Additional Account",
-                            "content" => "Gmail ID</br>
-                                Profile for colleague</br>
-                                Premium Purchase*"
-                        ],
-                        2 => [
-                            'title' => "Personal Information",
-                            "content" => "Full Name</br>
-                                Date of Birth</br>
-                                Mobile Number*</br>
-                                Email ID*</br>
-                                Profile Picture</br>
-                                Work & Education</br>
-                                Gender</br>
-                                Language Known</br>
-                                About Me</br>
-                                Skills"
-                        ],
-                        3 => [
-                            'title' => "Page Information",
-                            "content" => "Type - Showcase, Company, Educational</br>
-                                Type of Industry</br>
-                                Company Size</br>
-                                Mobile</br>
-                                Email ID</br>
-                                WhatsApp</br>
-                                Speciality</br>
-                                Foundation Year</br>
-                                Location"
-                        ],
-                        4 => [
-                            'title' => "Link with",
-                            "content" => "Website"
-                        ],
-                        5 => [
-                            'title' => "Infographics",
-                            "content" => "Profile Image</br>
-                                Cover Image</br>
-                                Post Banners</br>
-                                Articles</br>
-                                Newsletters</br>
-                                Job Description</br>
-                                Product Information"
+                    // 'info' => [
+                    //     1 => [
+                    //         'title' => "Additional Account",
+                    //         "content" => "Gmail ID</br>
+                    //             Profile for colleague</br>
+                    //             Premium Purchase*"
+                    //     ],
+                    //     2 => [
+                    //         'title' => "Personal Information",
+                    //         "content" => "Full Name</br>
+                    //             Date of Birth</br>
+                    //             Mobile Number*</br>
+                    //             Email ID*</br>
+                    //             Profile Picture</br>
+                    //             Work & Education</br>
+                    //             Gender</br>
+                    //             Language Known</br>
+                    //             About Me</br>
+                    //             Skills"
+                    //     ],
+                    //     3 => [
+                    //         'title' => "Page Information",
+                    //         "content" => "Type - Showcase, Company, Educational</br>
+                    //             Type of Industry</br>
+                    //             Company Size</br>
+                    //             Mobile</br>
+                    //             Email ID</br>
+                    //             WhatsApp</br>
+                    //             Speciality</br>
+                    //             Foundation Year</br>
+                    //             Location"
+                    //     ],
+                    //     4 => [
+                    //         'title' => "Link with",
+                    //         "content" => "Website"
+                    //     ],
+                    //     5 => [
+                    //         'title' => "Infographics",
+                    //         "content" => "Profile Image</br>
+                    //             Cover Image</br>
+                    //             Post Banners</br>
+                    //             Articles</br>
+                    //             Newsletters</br>
+                    //             Job Description</br>
+                    //             Product Information"
 
-                        ]
-                    ],
+                    //     ]
+                    // ],
                 ],
                 'youtube_brand_account' => [
                     'id' => 4,
@@ -531,6 +531,59 @@ return [
                     "src" => "https://www.youtube.com/watch?v=JruKb-Zeze8",
                 ]
             ]
+        ],
+        8 => [
+            'id' => 8,
+            'name' => 'Facebook Page',
+            'image' => 'img/services/facebook-page.png',
+            'large-image' => '/img/services/facebook-page.png',
+            'description' => '',
+            'info' => [
+                1 => [
+                    'title' => "Additional Account",
+                    "content" => "Gmail ID</br>
+                                Ads manager</br>
+                                Meta Pixel (Developer Required)"
+                ],
+                2 => [
+                    'title' => "Personal Information",
+                    "content" => "Full Name</br>
+                                Date of Birth</br>
+                                Mobile Number*</br>
+                                Email ID*</br>
+                                Profile Picture</br>
+                                Work & Education</br>
+                                Home Town and Live Place</br>
+                                Gender</br>
+                                Social Links</br>
+                                Language Known</br>
+                                Relationship Status</br>
+                                Family Members"
+                ],
+                3 => [
+                    'title' => "General Information",
+                    "content" => "Bio (Uptp 255 characters along with spaces)</br>
+                                Address</br>
+                                Category</br>
+                                Mobile</br>
+                                Email ID</br>
+                                WhatsApp</br>
+                                Opening Hours"
+                ],
+                4 => [
+                    'title' => "Link with",
+                    "content" => "Website</br>
+                                Instagram Profile</br>
+                                Other social platform</br>
+                                WhatsApp"
+                ],
+                5 => [
+                    'title' => "Infographics",
+                    "content" => "Profile Image</br>
+                                Cover Image</br>
+                                3 Post Banners"
+                ]
+            ],
         ]
     ]
 ];

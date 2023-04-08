@@ -85,7 +85,7 @@
 </style>
 
 <!-- ======= Breadcrumbs ======= -->
-<section id="breadcrumbs" class="breadcrumbs">
+<!-- <section id="breadcrumbs" class="breadcrumbs">
 	<div class="container">
 		<div class="d-flex justify-content-between align-items-center">
 			<h2>{{ $data['name'] }}</h2>
@@ -95,13 +95,14 @@
 			</ol>
 		</div>
 	</div>
-</section><!-- End Breadcrumbs -->
+</section> -->
+<!-- End Breadcrumbs -->
 
 <!-- =======Portfolio Description Section ======= -->
 @php
 $imageUrl = $data["large-image"];
 @endphp
-<div class="logo-content" style="background-image: url('{{$imageUrl}}')">
+<div class="logo-content position-relative mt-90" style="background-image: url('{{$imageUrl}}')">
 	<div class=" logo-content-overlay">
 		<div class="container">
 			<div class="d-flex justify-content-end px-md-5">
@@ -179,7 +180,11 @@ $imageUrl = $data["large-image"];
 				<div class="logopanel">
 					<img src="/img/{{$type['image']}}" class="" alt="">
 					<div class="logo-detail mt-4">
-						<h4>{{$type['title']}}</h4>
+						<h4>
+							<a href="{{!empty($type['id']) ? " /details/" : "javascript:void(0)" }}">
+								{{$type['title']}}
+							</a>
+						</h4>
 						<p>{{$type['description']}}</p>
 					</div>
 				</div>
@@ -191,6 +196,7 @@ $imageUrl = $data["large-image"];
 </section>
 <!-- =======Logo Type Section ======= -->
 
+@include('contact')
 @section('js')
 
 <!-- Vendor JS Files -->

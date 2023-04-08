@@ -1,8 +1,4 @@
 {
-  "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2": {
-    "file": "assets/bootstrap-icons-966620f9.woff2",
-    "src": "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2"
-  },
   "resources/vendor/remixicon/remixicon.eot": {
     "file": "assets/remixicon-64bb3a0f.eot",
     "src": "resources/vendor/remixicon/remixicon.eot"
@@ -11,17 +7,21 @@
     "file": "assets/boxicons-c23887bb.eot",
     "src": "resources/vendor/boxicons/fonts/boxicons.eot"
   },
+  "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-966620f9.woff2",
+    "src": "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2"
+  },
   "resources/vendor/remixicon/remixicon.woff2": {
     "file": "assets/remixicon-e61f0d10.woff2",
     "src": "resources/vendor/remixicon/remixicon.woff2"
   },
-  "resources/vendor/boxicons/fonts/boxicons.woff2": {
-    "file": "assets/boxicons-4b87cbc7.woff2",
-    "src": "resources/vendor/boxicons/fonts/boxicons.woff2"
-  },
   "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff": {
     "file": "assets/bootstrap-icons-c6569d46.woff",
     "src": "resources/vendor/bootstrap-icons/fonts/bootstrap-icons.woff"
+  },
+  "resources/vendor/boxicons/fonts/boxicons.woff2": {
+    "file": "assets/boxicons-4b87cbc7.woff2",
+    "src": "resources/vendor/boxicons/fonts/boxicons.woff2"
   },
   "resources/vendor/remixicon/remixicon.woff": {
     "file": "assets/remixicon-c2dacfbc.woff",
@@ -48,15 +48,15 @@
     "src": "resources/vendor/boxicons/fonts/boxicons.svg"
   },
   "resources/js/app.css": {
-    "file": "assets/app-742f4f5b.css",
+    "file": "assets/app-09639e1c.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
-    "file": "assets/app-20bbece4.js",
+    "file": "assets/app-925d7533.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-742f4f5b.css"
+      "assets/app-09639e1c.css"
     ],
     "assets": [
       "assets/bootstrap-icons-966620f9.woff2",
