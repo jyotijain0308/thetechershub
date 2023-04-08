@@ -52,32 +52,32 @@ return [
             "types" => [
                 1 => [
                     "title" => "Lettermark",
-                    "image" => "/servicedetail/design-a-logo/ibm.png",
+                    "image" => "/img/servicedetail/design-a-logo/ibm.png",
                     "description" => "When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA"
                 ],
                 2 => [
                     "title" => "Wordmark",
-                    "image" => "/servicedetail/design-a-logo/visa.png",
+                    "image" => "/img//servicedetail/design-a-logo/visa.png",
                     "description" => "When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA"
                 ],
                 3 => [
                     "title" => "Pictorial",
-                    "image" => "/servicedetail/design-a-logo/twitter.png",
+                    "image" => "/img//servicedetail/design-a-logo/twitter.png",
                     "description" => "Already in market as an established company and want to represent brand identity with picture. - e.g. Apple / Twitter"
                 ],
                 4 => [
                     "title" => "Abstract",
-                    "image" => "/servicedetail/design-a-logo/pepsi.png",
+                    "image" => "/img/servicedetail/design-a-logo/pepsi.png",
                     "description" => "Already in market as an established company and want to represent brand identity with picture. - e.g. Apple / Twitter"
                 ],
                 5 => [
                     "title" => "Emblem",
-                    "image" => "/servicedetail/design-a-logo/harvard.png",
+                    "image" => "/img/servicedetail/design-a-logo/harvard.png",
                     "description" => "Old style logo, An emblem logo consists of font inside a symbol or an icon; think badges, seals and crests"
                 ],
                 6 => [
                     "title" => "Mascot",
-                    "image" => "/servicedetail/design-a-logo/kfc.png",
+                    "image" => "/img/servicedetail/design-a-logo/kfc.png",
                     "description" => "Mascot logos are logos that involve an illustrated character. Often colorful, sometimes cartoonish, and most always fun, the mascot logo is a great way to create your very own brand spokesperson"
                 ]
             ],
@@ -133,7 +133,7 @@ return [
             'id' => 2,
             'name' => 'Visiting / Business Card Design',
             'image' => 'img/services/business-card.png',
-            'large-image' => '/img/portfolio/images/marwar-buildcon.png',
+            'large-image' => '/img/servicedetail/visiting-card/visiting-card-background.jpg',
             'description' => 'What’s more valuable than making a super-unforgettable first impression? Business cards can create lasting first impressions on potential customers and business partners. We understand that business cards are a powerful marketing tool that remind your clients of who you are, what you do, and how they can contact you. Our expert designers provide an original representation of your company’s brand which helps build recognition and lasting loyalty.',
             'info' => [
                 1 => [
@@ -197,236 +197,81 @@ return [
             'image' => 'img/services/social-media.png',
             'large-image' => '/img/servicedetail/social-media.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
+            'info' => [
+                1 => [
+                    'title' => "Orientation",
+                    "content" => "Horizontal / Vertical"
+                ],
+                2 => [
+                    'title' => "Software",
+                    "content" => "Adobe Illustrator"
+                ],
+                3 => [
+                    'title' => "File Format",
+                    "content" => "AI as Source file</br>
+                        EPS to import in Coral Draw*</br>
+                        PDF - in original colour"
+                ],
+                4 => [
+                    'title' => "Duration",
+                    "content" => "Upto 2 working days"
+                ],
+                5 => [
+                    'title' => "Color Mode",
+                    "content" => "CMYK"
+                ],
+                6 => [
+                    'title' => "Resolution",
+                    "content" => "3301 PPI"
+                ]
+
+            ],
             'types' => [
                 'facebook_page' => [
-                    'id' => 8,
+                    'id' => 1,
                     'title' => 'Facebook Page',
-                    'image' => 'img/services/facebook-page.png',
+                    'image' => '/img/services/facebook-page.png',
                     'description' => '',
-                    // 'info' => [
-                    //     1 => [
-                    //         'title' => "Additional Account",
-                    //         "content" => "Gmail ID</br>
-                    //             Ads manager</br>
-                    //             Meta Pixel (Developer Required)"
-                    //     ],
-                    //     2 => [
-                    //         'title' => "Personal Information",
-                    //         "content" => "Full Name</br>
-                    //             Date of Birth</br>
-                    //             Mobile Number*</br>
-                    //             Email ID*</br>
-                    //             Profile Picture</br>
-                    //             Work & Education</br>
-                    //             Home Town and Live Place</br>
-                    //             Gender</br>
-                    //             Social Links</br>
-                    //             Language Known</br>
-                    //             Relationship Status</br>
-                    //             Family Members"
-                    //     ],
-                    //     3 => [
-                    //         'title' => "General Information",
-                    //         "content" => "Bio (Uptp 255 characters along with spaces)</br>
-                    //             Address</br>
-                    //             Category</br>
-                    //             Mobile</br>
-                    //             Email ID</br>
-                    //             WhatsApp</br>
-                    //             Opening Hours"
-                    //     ],
-                    //     4 => [
-                    //         'title' => "Link with",
-                    //         "content" => "Website</br>
-                    //             Instagram Profile</br>
-                    //             Other social platform</br>
-                    //             WhatsApp"
-                    //     ],
-                    //     5 => [
-                    //         'title' => "Infographics",
-                    //         "content" => "Profile Image</br>
-                    //             Cover Image</br>
-                    //             3 Post Banners"
-                    //     ]
-                    // ],
+                    
                 ],
                 'instagram_business_account' => [
                     'id' => 2,
                     'title' => 'Instagram Business Account',
-                    'image' => 'img/services/instagram.png',
+                    'image' => '/img/services/instagram.png',
                     'description' => '',
-                    // 'info' => [
-                    //     1 => [
-                    //         'title' => "Profile Type",
-                    //         "content" => "Creators</br>
-                    //             Business</br>
-                    //             Personal"
-                    //     ],
-                    //     2 => [
-                    //         'title' => "Setup",
-                    //         "content" => "Billing Information</br>
-                    //             Automated Response"
-                    //     ],
-                    //     3 => [
-                    //         'title' => "Personal Information",
-                    //         "content" => "Profile Name</br>
-                    //             Mobile Number*</br>
-                    //             Email ID</br>
-                    //             Gender"
-                    //     ],
-                    //     4 => [
-                    //         'title' => "General Information",
-                    //         "content" => "Bio (Upto 255 characters along with spaces)"
-                    //     ],
-                    //     5 => [
-                    //         'title' => "Link with",
-                    //         "content" => "Website</br>
-                    //             Facebook Page"
-                    //     ],
-                    //     6 => [
-                    //         'title' => "Infographics",
-                    //         "content" => "Profile Image</br>
-                    //             Banners</br>
-                    //             Reels</br>
-                    //             Guide"
-                    //     ]
-                    // ],
+                    
                 ],
                 'linkedin_company_page' => [
                     'id' => 3,
                     'title' => 'LinkedIn Corporate Page',
-                    'image' => 'img/services/linkedin.png',
+                    'image' => '/img/services/linkedin.png',
                     'description' => '',
-                    // 'info' => [
-                    //     1 => [
-                    //         'title' => "Additional Account",
-                    //         "content" => "Gmail ID</br>
-                    //             Profile for colleague</br>
-                    //             Premium Purchase*"
-                    //     ],
-                    //     2 => [
-                    //         'title' => "Personal Information",
-                    //         "content" => "Full Name</br>
-                    //             Date of Birth</br>
-                    //             Mobile Number*</br>
-                    //             Email ID*</br>
-                    //             Profile Picture</br>
-                    //             Work & Education</br>
-                    //             Gender</br>
-                    //             Language Known</br>
-                    //             About Me</br>
-                    //             Skills"
-                    //     ],
-                    //     3 => [
-                    //         'title' => "Page Information",
-                    //         "content" => "Type - Showcase, Company, Educational</br>
-                    //             Type of Industry</br>
-                    //             Company Size</br>
-                    //             Mobile</br>
-                    //             Email ID</br>
-                    //             WhatsApp</br>
-                    //             Speciality</br>
-                    //             Foundation Year</br>
-                    //             Location"
-                    //     ],
-                    //     4 => [
-                    //         'title' => "Link with",
-                    //         "content" => "Website"
-                    //     ],
-                    //     5 => [
-                    //         'title' => "Infographics",
-                    //         "content" => "Profile Image</br>
-                    //             Cover Image</br>
-                    //             Post Banners</br>
-                    //             Articles</br>
-                    //             Newsletters</br>
-                    //             Job Description</br>
-                    //             Product Information"
-
-                    //     ]
-                    // ],
+                    
                 ],
                 'youtube_brand_account' => [
                     'id' => 4,
                     'title' => 'YouTube Brand Account',
-                    'image' => 'img/services/youtube(2).png',
+                    'image' => '/img/services/youtube.png',
                     'description' => '',
-                    'info' => [
-                        1 => [
-                            'title' => "Additional Account",
-                            "content" => "Gmail ID</br>
-                                Featured Video"
-                        ],
-                        2 => [
-                            'title' => "Channel Information",
-                            "content" => "Type - Channel Name</br>
-                                Username*</br>
-                                Description</br>
-                                Channel / Custom URL*</br>
-                                Video watermark"
-                        ],
-                        3 => [
-                            'title' => "Link with",
-                            "content" => "Website</br>
-                                Social Accounts"
-                        ],
-                        4 => [
-                            'title' => "Infographics",
-                            "content" => "Profile Image</br>
-                                Cover Image</br>
-                                Channel Trailer for new audience who still not suscribe your channel</br>
-                                Featured Video for subscriber"
-                        ]
-                    ],
+                    
                 ],
                 'pinterest_business_account' => [
                     'id' => 5,
                     'title' => 'Pinterest Business Account',
-                    'image' => 'img/services/pinterest.png',
+                    'image' => '/img/services/pinterest.png',
                     'description' => '',
-                    'info' => [
-                        1 => [
-                            'title' => "Additional Account",
-                            "content" => "Gmail ID"
-                        ],
-                        2 => [
-                            'title' => "Personal Information",
-                            "content" => "Full Name</br>
-                                Country</br>
-                                Language</br>
-                                Business Goals"
-                        ],
-                        3 => [
-                            'title' => "Page Information",
-                            "content" => "Business Type</br>
-                                About Us</br>
-                                Mobile</br>
-                                Email ID</br>
-                                WhatsApp</br>
-                                Address"
-                        ],
-                        4 => [
-                            'title' => "Link with",
-                            "content" => "Website"
-                        ],
-                        5 => [
-                            'title' => "Infographics",
-                            "content" => "Profile Image</br>
-                                Cover Image</br>
-                                Post Banners"
-                        ]
-                    ],
+                   
                 ],
                 'whatsapp_business_account' => [
                     'id' => 6,
                     'title' => 'WhatsApp Business Account',
-                    'image' => 'img/services/whatsapp.png',
+                    'image' => '/img/services/whatsapp.png',
                     'description' => ''
                 ],
                 'snapchat_account' => [
                     'id' => 7,
                     'title' => 'Snapchat Account',
-                    'image' => 'img/services/snapchat.png',
+                    'image' => '/img/services/snapchat.png',
                     'description' => ''
                 ]
             ]
@@ -536,54 +381,230 @@ return [
             'id' => 8,
             'name' => 'Facebook Page',
             'image' => 'img/services/facebook-page.png',
-            'large-image' => '/img/services/facebook-page.png',
-            'description' => '',
+            'large-image' => '',
+            'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
                     'title' => "Additional Account",
                     "content" => "Gmail ID</br>
-                                Ads manager</br>
-                                Meta Pixel (Developer Required)"
+                        Ads manager</br>
+                        Meta Pixel (Developer Required)"
                 ],
                 2 => [
                     'title' => "Personal Information",
                     "content" => "Full Name</br>
-                                Date of Birth</br>
-                                Mobile Number*</br>
-                                Email ID*</br>
-                                Profile Picture</br>
-                                Work & Education</br>
-                                Home Town and Live Place</br>
-                                Gender</br>
-                                Social Links</br>
-                                Language Known</br>
-                                Relationship Status</br>
-                                Family Members"
+                        Date of Birth</br>
+                        Mobile Number*</br>
+                        Email ID*</br>
+                        Profile Picture</br>
+                        Work & Education</br>
+                        Home Town and Live Place</br>
+                        Gender</br>
+                        Social Links</br>
+                        Language Known</br>
+                        Relationship Status</br>
+                        Family Members"
                 ],
                 3 => [
                     'title' => "General Information",
                     "content" => "Bio (Uptp 255 characters along with spaces)</br>
-                                Address</br>
-                                Category</br>
-                                Mobile</br>
-                                Email ID</br>
-                                WhatsApp</br>
-                                Opening Hours"
+                        Address</br>
+                        Category</br>
+                        Mobile</br>
+                        Email ID</br>
+                        WhatsApp</br>
+                        Opening Hours"
                 ],
                 4 => [
                     'title' => "Link with",
                     "content" => "Website</br>
-                                Instagram Profile</br>
-                                Other social platform</br>
-                                WhatsApp"
+                        Instagram Profile</br>
+                        Other social platform</br>
+                        WhatsApp"
                 ],
                 5 => [
                     'title' => "Infographics",
                     "content" => "Profile Image</br>
-                                Cover Image</br>
-                                3 Post Banners"
+                        Cover Image</br>
+                        3 Post Banners"
                 ]
             ],
-        ]
+            
+        ],
+        9 => [
+            'id' => 9,
+            'name' => 'inkedIn Corporate Page',
+            'image' => 'img/services/linkedin.png',
+            'large-image' => '',
+            'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
+            'info' => [
+                1 => [
+                    'title' => "Profile Type",
+                    "content" => "Creators</br>
+                        Business</br>
+                        Personal"
+                ],
+                2 => [
+                    'title' => "Setup",
+                    "content" => "Billing Information</br>
+                        Automated Response"
+                ],
+                3 => [
+                    'title' => "Personal Information",
+                    "content" => "Profile Name</br>
+                        Mobile Number*</br>
+                        Email ID</br>
+                        Gender"
+                ],
+                4 => [
+                    'title' => "General Information",
+                    "content" => "Bio (Upto 255 characters along with spaces)"
+                ],
+                5 => [
+                    'title' => "Link with",
+                    "content" => "Website</br>
+                        Facebook Page"
+                ],
+                6 => [
+                    'title' => "Infographics",
+                    "content" => "Profile Image</br>
+                        Banners</br>
+                        Reels</br>
+                        Guide"
+                ]
+            ],
+            
+        ],
+        10 => [
+            'id' => 10,
+            'name' => 'LinkedIn Corporate Page',
+            'image' => 'img/services/linkedin.png',
+            'large-image' => '',
+            'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
+            'info' => [
+                1 => [
+                    'title' => "Additional Account",
+                    "content" => "Gmail ID</br>
+                        Profile for colleague</br>
+                        Premium Purchase*"
+                ],
+                2 => [
+                    'title' => "Personal Information",
+                    "content" => "Full Name</br>
+                        Date of Birth</br>
+                        Mobile Number*</br>
+                        Email ID*</br>
+                        Profile Picture</br>
+                        Work & Education</br>
+                        Gender</br>
+                        Language Known</br>
+                        About Me</br>
+                        Skills"
+                ],
+                3 => [
+                    'title' => "Page Information",
+                    "content" => "Type - Showcase, Company, Educational</br>
+                        Type of Industry</br>
+                        Company Size</br>
+                        Mobile</br>
+                        Email ID</br>
+                        WhatsApp</br>
+                        Speciality</br>
+                        Foundation Year</br>
+                        Location"
+                ],
+                4 => [
+                    'title' => "Link with",
+                    "content" => "Website"
+                ],
+                5 => [
+                    'title' => "Infographics",
+                    "content" => "Profile Image</br>
+                        Cover Image</br>
+                        Post Banners</br>
+                        Articles</br>
+                        Newsletters</br>
+                        Job Description</br>
+                        Product Information"
+
+                ]
+            ],
+            
+        ],
+        11 => [
+            'id' => 11,
+            'name' => 'YouTube Brand Account',
+            'image' => '/img/services/youtube.png',
+            'large-image' => '',
+            'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
+            'info' => [
+                1 => [
+                    'title' => "Additional Account",
+                    "content" => "Gmail ID</br>
+                        Featured Video"
+                ],
+                2 => [
+                    'title' => "Channel Information",
+                    "content" => "Type - Channel Name</br>
+                        Username*</br>
+                        Description</br>
+                        Channel / Custom URL*</br>
+                        Video watermark"
+                ],
+                3 => [
+                    'title' => "Link with",
+                    "content" => "Website</br>
+                        Social Accounts"
+                ],
+                4 => [
+                    'title' => "Infographics",
+                    "content" => "Profile Image</br>
+                        Cover Image</br>
+                        Channel Trailer for new audience who still not suscribe your channel</br>
+                        Featured Video for subscriber"
+                ]
+            ],
+            
+        ],
+        12 => [
+            'id' => 12,
+            'name' => 'Pinterest Business Account',
+            'image' => 'img/services/pinterest.png',
+            'large-image' => '',
+            'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
+            'info' => [
+                1 => [
+                    'title' => "Additional Account",
+                    "content" => "Gmail ID"
+                ],
+                2 => [
+                    'title' => "Personal Information",
+                    "content" => "Full Name</br>
+                        Country</br>
+                        Language</br>
+                        Business Goals"
+                ],
+                3 => [
+                    'title' => "Page Information",
+                    "content" => "Business Type</br>
+                        About Us</br>
+                        Mobile</br>
+                        Email ID</br>
+                        WhatsApp</br>
+                        Address"
+                ],
+                4 => [
+                    'title' => "Link with",
+                    "content" => "Website"
+                ],
+                5 => [
+                    'title' => "Infographics",
+                    "content" => "Profile Image</br>
+                        Cover Image</br>
+                        Post Banners"
+                ]
+            ],
+            
+        ]      
     ]
 ];

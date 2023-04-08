@@ -152,13 +152,6 @@ $imageUrl = $data["large-image"];
 							</div>
 						</li>
 						@endforeach
-						@else
-						<li>
-							<div class="row">
-								<div class="col-4"><strong>hello</strong>:</div>
-								<div class="col-8">ruchika</div>
-							</div>
-						</li>
 						@endif
 					</ul>
 				</div>
@@ -169,8 +162,32 @@ $imageUrl = $data["large-image"];
 
 <!-- =======End Service Information Section ======= -->
 
+<!-- ======= Service Type Section ======= -->
+<section id="services" class="services pt-1 pt-md-5">
+		<div class="container" data-aos="fade-up">
+			<div class="section-title">
+				<h2>Service Types</h2>
+				<p>Check our Service Types</p>
+			</div>
+			<div class="row">
+				@if(!empty($data['types']))
+					@foreach($data['types'] as $type)
+					<div class="{{ ($data['id']==2) ? 'col-xl-6' : 'col-xl-4' }} col-md-6 d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
+						<div class="icon-box">
+							<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid" /></div>
+							<h4><a href="{{!empty($type['id']) ? " /details/" : "javascript:void(0)" }}">{{ $type['title'] }}</a></h4>
+							<p class="restrict-services-desc-text">{!! $type['description'] !!}</p>
+						</div>
+					</div>
+					@endforeach
+				@endif
+			</div>
+		</div>
+	</section>
+	<!-- End Services Section -->
+
 <!-- =======Logo Type Section ======= -->
-<section id="logotype" class="logotype">
+<!-- <section id="logotype" class="logotype">
 	<div class="container">
 		<div class="row">
 			<h2 class="text-center">Logo Types</h2>
@@ -193,7 +210,7 @@ $imageUrl = $data["large-image"];
 			@endif
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- =======Logo Type Section ======= -->
 
 @include('contact')
