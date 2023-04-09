@@ -10,25 +10,32 @@
           </div>
         </div>
 
-        <div class="col-md-2 footer-links">
-          <h4>Useful Links</h4>
+        <!-- <div class="col-md-5 footer-links">
+          <h4 class="text-center">Useful Links</h4>
           <ul>
-            <li style="padding: 8px 0px;"><i class="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
-            <li style="padding: 8px 0px;"><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-            <li style="padding: 8px 0px;"><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
-            <li style="padding: 8px 0px;"><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfolio</a></li>
-            <li style="padding: 8px 0px;"><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
+            <li style="padding: 8px 0px;" class="d-lg-inline-block"><i class="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
+            <li style="padding: 8px 0px;" class="d-lg-inline-block"><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+            <li style="padding: 8px 0px;" class="d-lg-inline-block"><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+            <li style="padding: 8px 0px;" class="d-lg-inline-block"><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfolio</a></li>
+            <li style="padding: 8px 0px;" class="d-lg-inline-block"><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
           </ul>
-        </div>
-
+        </div> -->
+        @php $i=0; @endphp
         <div class="col-md-3 footer-links">
           <h4>Our Services</h4>
-          <ul>
+          <ul class="d-lg-inline-block">
             @foreach(config('tech-services.data') as $service)
-            <li style="padding: 8px 0px;"><i class="bx bx-chevron-right"></i> <a href="#services">{{ $service['name'] }}</a></li>
+            @php $i++; @endphp
+            @if($i<=6)
+              <li style="padding: 8px 0px;"><i class="bx bx-chevron-right"></i> <a href="#services">{{ $service['name'] }}</a></li>
+            @endif
             @endforeach
           </ul>
+         
+
         </div>
+
+        
 
         <div class="col-lg-3 col-md-3 footer-newsletter">
           <h4>Contact Us</h4>
@@ -40,7 +47,7 @@
             <a href="https://g.page/r/CZtcXfes_QrREBI/review" target="_blank" class="google-plus"><i class="bx bxl-google"></i></a>
             <a href="https://www.linkedin.com/company/thetechershub" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
           </div>
-        </div> 
+        </div>  
     </div>
   </div>
 </div>
@@ -48,6 +55,4 @@
     <div class="copyright">
       &copy; Copyright <strong><span>{{ config('app.name') }}</span></strong>. All Rights Reserved
     </div>
-
-
 </footer>

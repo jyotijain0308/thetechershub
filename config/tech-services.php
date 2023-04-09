@@ -228,48 +228,48 @@ return [
             ],
             'types' => [
                 'facebook_page' => [
-                    'id' => 1,
+                    'id' => 8,
                     'title' => 'Facebook Page',
                     'image' => '/img/services/facebook-page.png',
                     'description' => 'Facebook business Page is a free way for businesses, brands, celebrities, causes and organizations to reach their audience. While Facebook profiles can be private, Pages are public.',
                     
                 ],
                 'instagram_business_account' => [
-                    'id' => 2,
+                    'id' => 9,
                     'title' => 'Instagram Business Account',
                     'image' => '/img/services/instagram.png',
                     'description' => 'An Instagram account for business enables brands to track their engagement and interactions. Instagram business profiles offer more analytical tools than personal accounts.',
                     
                 ],
                 'linkedin_company_page' => [
-                    'id' => 3,
+                    'id' => 10,
                     'title' => 'LinkedIn Corporate Page',
                     'image' => '/img/services/linkedin.png',
                     'description' => 'LinkedIn Company Pages were developed to give your company a home base and reach your audience on the network.',
                     
                 ],
                 'youtube_brand_account' => [
-                    'id' => 4,
+                    'id' => 11,
                     'title' => 'YouTube Brand Account',
                     'image' => '/img/services/youtube.png',
                     'description' => 'A YouTube Brand Account gives your company a unique presence online, separated from your personal profile. Though a YouTube Brand Account is a separate entity, it’s available to access and manage through your personal channel.',
                     
                 ],
                 'pinterest_business_account' => [
-                    'id' => 5,
+                    'id' => 12,
                     'title' => 'Pinterest Business Account',
                     'image' => '/img/services/pinterest.png',
                     'description' => 'Pinterest’s business hub provides an overview of a business account. It includes information like analytics overview, ads overview, and Pinterest business resources.',
                    
                 ],
                 'whatsapp_business_account' => [
-                    'id' => 6,
+                    'id' => 13,
                     'title' => 'WhatsApp Business Account',
                     'image' => '/img/services/whatsapp.png',
                     'description' => 'WhatsApp Business makes interacting with customers easy by providing tools to automate, sort and quickly respond to messages. It is also intended to feel and work just like WhatsApp Messenger.'
                 ],
                 'snapchat_account' => [
-                    'id' => 7,
+                    'id' => 14,
                     'title' => 'Snapchat Account',
                     'image' => '/img/services/snapchat.png',
                     'description' => 'Snapchat was initially focused on private, person-to-person photo sharing, but you can now use it for a range of asks, including sending videos, live video chatting, messaging, creating caricature-like Bitmoji avatars.'
@@ -405,7 +405,7 @@ return [
             'id' => 8,
             'name' => 'Facebook Page',
             'image' => 'img/services/facebook-page.png',
-            'large-image' => '',
+            'large-image' => '/img/servicedetail/video-editor-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -453,13 +453,20 @@ return [
                         3 Post Banners"
                 ]
             ],
+            "portfolio" => [
+                [
+                    "type" => 'image',
+                    "image" => '/img/servicedetail/social-media.png',
+                    "alt" => 'Social Media'
+                ],
+            ]
             
         ],
         9 => [
             'id' => 9,
             'name' => 'Instagram Business Account',
             'image' => 'img/services/instagram.png',
-            'large-image' => '',
+            'large-image' => '/img/servicedetail/video-editor-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -497,13 +504,20 @@ return [
                         Guide"
                 ]
             ],
+            "portfolio" => [
+                [
+                    "type" => 'image',
+                    "image" => '/img/servicedetail/social-media.png',
+                    "alt" => 'Social Media'
+                ],
+            ]
             
         ],
         10 => [
             'id' => 10,
             'name' => 'LinkedIn Corporate Page',
             'image' => 'img/services/linkedin.png',
-            'large-image' => '',
+            'large-image' => '/img/servicedetail/video-editor-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -553,13 +567,20 @@ return [
 
                 ]
             ],
+            "portfolio" => [
+                [
+                    "type" => 'image',
+                    "image" => '/img/servicedetail/social-media.png',
+                    "alt" => 'Social Media'
+                ],
+            ]
             
         ],
         11 => [
             'id' => 11,
             'name' => 'YouTube Brand Account',
             'image' => '/img/services/youtube.png',
-            'large-image' => '',
+            'large-image' => '/img/servicedetail/video-editor-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -588,13 +609,20 @@ return [
                         Featured Video for subscriber"
                 ]
             ],
+            "portfolio" => [
+                [
+                    "type" => 'image',
+                    "image" => '/img/servicedetail/social-media.png',
+                    "alt" => 'Social Media'
+                ],
+            ]
             
         ],
         12 => [
             'id' => 12,
             'name' => 'Pinterest Business Account',
             'image' => 'img/services/pinterest.png',
-            'large-image' => '',
+            'large-image' => '/img/servicedetail/video-editor-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -628,6 +656,13 @@ return [
                         Post Banners"
                 ]
             ],
+            "portfolio" => [
+                [
+                    "type" => 'image',
+                    "image" => '/img/servicedetail/social-media.png',
+                    "alt" => 'Social Media'
+                ],
+            ]
             
         ]      
     ]
