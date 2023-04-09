@@ -167,14 +167,14 @@ return [
             "types" => [
                 1 => [
                     "title" => "Single Side",
-                    "image" => "/servicedetail/visiting-card/single-side.jpg",
+                    "image" => "/img/servicedetail/visiting-card/single-side.jpg",
                     "description" => "What is single-sided business card?
                     Image result for short description for single side visiting card
                     A single-sided business card let's you display all your important information clearly on the front. Your name, logo, phone number, email and website are all there to see at first glance."
                 ],
                 2 => [
                     "title" => "Double Side",
-                    "image" => "/servicedetail/visiting-card/double-side.jpg",
+                    "image" => "/img/servicedetail/visiting-card/double-side.jpg",
                     "description" => "If you want your business card to have both services and contact information, this is when having a double-sided business card works wonders. On one side, you could focus on adding your contact information and critical information, and on the other side, you can add your services."
                 ]
             ],
@@ -195,7 +195,7 @@ return [
             'id' => 3,
             'name' => 'Social Media Page Creation',
             'image' => 'img/services/social-media.png',
-            'large-image' => '/img/servicedetail/social-media.jpg',
+            'large-image' => '/img/servicedetail/social-media-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -231,49 +231,56 @@ return [
                     'id' => 1,
                     'title' => 'Facebook Page',
                     'image' => '/img/services/facebook-page.png',
-                    'description' => '',
+                    'description' => 'Facebook business Page is a free way for businesses, brands, celebrities, causes and organizations to reach their audience. While Facebook profiles can be private, Pages are public.',
                     
                 ],
                 'instagram_business_account' => [
                     'id' => 2,
                     'title' => 'Instagram Business Account',
                     'image' => '/img/services/instagram.png',
-                    'description' => '',
+                    'description' => 'An Instagram account for business enables brands to track their engagement and interactions. Instagram business profiles offer more analytical tools than personal accounts.',
                     
                 ],
                 'linkedin_company_page' => [
                     'id' => 3,
                     'title' => 'LinkedIn Corporate Page',
                     'image' => '/img/services/linkedin.png',
-                    'description' => '',
+                    'description' => 'LinkedIn Company Pages were developed to give your company a home base and reach your audience on the network.',
                     
                 ],
                 'youtube_brand_account' => [
                     'id' => 4,
                     'title' => 'YouTube Brand Account',
                     'image' => '/img/services/youtube.png',
-                    'description' => '',
+                    'description' => 'A YouTube Brand Account gives your company a unique presence online, separated from your personal profile. Though a YouTube Brand Account is a separate entity, it’s available to access and manage through your personal channel.',
                     
                 ],
                 'pinterest_business_account' => [
                     'id' => 5,
                     'title' => 'Pinterest Business Account',
                     'image' => '/img/services/pinterest.png',
-                    'description' => '',
+                    'description' => 'Pinterest’s business hub provides an overview of a business account. It includes information like analytics overview, ads overview, and Pinterest business resources.',
                    
                 ],
                 'whatsapp_business_account' => [
                     'id' => 6,
                     'title' => 'WhatsApp Business Account',
                     'image' => '/img/services/whatsapp.png',
-                    'description' => ''
+                    'description' => 'WhatsApp Business makes interacting with customers easy by providing tools to automate, sort and quickly respond to messages. It is also intended to feel and work just like WhatsApp Messenger.'
                 ],
                 'snapchat_account' => [
                     'id' => 7,
                     'title' => 'Snapchat Account',
                     'image' => '/img/services/snapchat.png',
-                    'description' => ''
+                    'description' => 'Snapchat was initially focused on private, person-to-person photo sharing, but you can now use it for a range of asks, including sending videos, live video chatting, messaging, creating caricature-like Bitmoji avatars.'
                 ]
+            ],
+            "portfolio" => [
+                [
+                    "type" => 'image',
+                    "image" => '/img/servicedetail/social-media.png',
+                    "alt" => 'Social Media'
+                ],
             ]
         ],
         4 => [
@@ -298,6 +305,7 @@ return [
             'id' => 7,
             'name' => 'Video Editing',
             'image' => 'img/services/editing.png',
+            'large-image' => '/img/servicedetail/video-editor-background.jpg',
             'description' => 'Do you want to go viral? Who doesn’t? Today we’re all in love with videos from businesses to individuals. At The Techer’s Hub, we understand the importance of creating your videos in a meaningful and captivating way. It is not only about making sure that your message is right but working hard with editing elements to boost your video’s popularity and engagement levels!',
             'info' => [
                 1 => [
@@ -336,45 +344,61 @@ return [
             "types" => [
                 1 => [
                     "title" => "Promotional / Information",
-                    "src" => "https://www.youtube.com/watch?v=CBxTBEx7CMU",
-
+                    "image" => "https://www.youtube.com/watch?v=CBxTBEx7CMU",
+                    'description' =>''
                 ],
                 2 => [
                     "title" => "Doodle",
-                    "src" => "https://www.youtube.com/watch?v=aLuE7kO9aug",
+                    "image" => "https://www.youtube.com/watch?v=aLuE7kO9aug",
+                    'description' =>''
                 ],
                 3 => [
                     "title" => "Information with voice over",
-                    "src" => "https://www.youtube.com/watch?v=zez8sFB7WsE",
+                    "image" => "https://www.youtube.com/watch?v=zez8sFB7WsE",
+                    'description' =>''
                 ],
                 4 => [
                     "title" => "Screen recording with voice over",
-                    "src" => "https://www.youtube.com/watch?v=D4A8xMby2Pk",
+                    "image" => "https://www.youtube.com/watch?v=D4A8xMby2Pk",
+                    'description' =>''
                 ],
                 5 => [
                     "title" => "General video editing",
-                    "src" => "https://www.youtube.com/watch?v=VbLYUDelSks",
+                    "image" => "https://www.youtube.com/watch?v=VbLYUDelSks",
+                    'description' =>''
                 ],
                 6 => [
                     "title" => "Panel background video editing",
-                    "src" => "https://www.youtube.com/watch?v=fzHov3lTEj8",
+                    "image" => "https://www.youtube.com/watch?v=fzHov3lTEj8",
+                    'description' =>''
                 ],
                 7 => [
                     "title" => "Basic",
-                    "src" => "https://www.youtube.com/watch?v=xKijxqJp_a4",
+                    "image" => "https://www.youtube.com/watch?v=xKijxqJp_a4",
+                    'description' =>''
                 ],
                 8 => [
                     "title" => "Basic with green background",
-                    "src" => "https://www.youtube.com/watch?v=7rFGmHJFwsU",
+                    "image" => "https://www.youtube.com/watch?v=7rFGmHJFwsU",
+                    'description' =>''
                 ],
                 9 => [
                     "title" => "Proper information video",
-                    "src" => "https://www.youtube.com/watch?v=ulsZSYUHrGY",
+                    "image" => "https://www.youtube.com/watch?v=ulsZSYUHrGY",
+                    'description' =>''
                 ],
                 10 => [
                     "title" => "Pro level editing",
-                    "src" => "https://www.youtube.com/watch?v=JruKb-Zeze8",
+                    "image" => "https://www.youtube.com/watch?v=JruKb-Zeze8",
+                    'description' =>''
                 ]
+            ],
+            "portfolio" => [
+                [
+                    "type" => 'image',
+                    "image" => '/img/servicedetail/video-editor.jpg',
+                    "alt" => 'Video Editor'
+                ],
             ]
         ],
         8 => [
@@ -433,8 +457,8 @@ return [
         ],
         9 => [
             'id' => 9,
-            'name' => 'inkedIn Corporate Page',
-            'image' => 'img/services/linkedin.png',
+            'name' => 'Instagram Business Account',
+            'image' => 'img/services/instagram.png',
             'large-image' => '',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [

@@ -136,9 +136,11 @@ $imageUrl = $data["large-image"];
 					<div class="swiper-pagination"></div>
 				</div>
 				@else
-				<img src="{{$data['image']}}" class="img-fluid" alt="hello">
+					@foreach($data['portfolio'] as $portfolio)
+					<img src="{{$portfolio['image']}}" class="img-fluid" alt="{{$portfolio['alt']}}">
+					@endforeach
 				@endif
-			</div>
+				</div>
 			<div class="col-lg-6">
 				<div class="portfolio-info">
 					<h3>Service information</h3>
@@ -164,26 +166,35 @@ $imageUrl = $data["large-image"];
 
 <!-- ======= Service Type Section ======= -->
 <section id="services" class="services pt-1 pt-md-5">
-		<div class="container" data-aos="fade-up">
-			<div class="section-title">
-				<h2>Service Types</h2>
-				<p>Check our Service Types</p>
-			</div>
-			<div class="row">
-				@if(!empty($data['types']))
-					@foreach($data['types'] as $type)
-					<div class="{{ ($data['id']==2) ? 'col-xl-6' : 'col-xl-4' }} col-md-6 d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
-						<div class="icon-box">
-							<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid" /></div>
-							<h4><a href="{{!empty($type['id']) ? " /details/" : "javascript:void(0)" }}">{{ $type['title'] }}</a></h4>
-							<p class="restrict-services-desc-text">{!! $type['description'] !!}</p>
-						</div>
-					</div>
-					@endforeach
-				@endif
-			</div>
+	<div class="container" data-aos="fade-up">
+		<div class="section-title">
+			<h2>Service Types</h2>
+			<p>Check our Service Types</p>
 		</div>
-	</section>
+		<div class="row">
+			@if(!empty($data['types']) && $data['id']==7)
+				@foreach($data['types'] as $type)
+				<div class="col-xl-4">
+					<iframe width="420" height="315" src="{{$type['image']}}"></iframe>
+					<h4>{{ $type['title'] }}</h4>
+				</div>	
+				@endforeach
+
+			@elseif(!empty($data['types']))
+				@foreach($data['types'] as $type)
+				<div class="{{ ($data['id']==2) ? 'col-xl-6' : 'col-xl-4' }} col-md-6 d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
+					<div class="icon-box">
+						<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid" /></div>
+						<h4><a href="">{{ $type['title'] }}</a></h4>
+						
+						<p class="restrict-services-desc-text">{!! $type['description'] !!}</p>
+					</div>
+				</div>
+				@endforeach
+			@endif
+		</div>
+	</div>
+</section>
 	<!-- End Services Section -->
 
 <!-- =======Logo Type Section ======= -->
