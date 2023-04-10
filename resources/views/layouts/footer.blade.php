@@ -37,6 +37,8 @@
 
         
 
+        
+
         <div class="col-lg-3 col-md-3 footer-newsletter">
           <h4>Contact Us</h4>
           <p><strong>Email:</strong> <a href="mailto:info@thetechershub.com">info@thetechershub.com</a><br></p>

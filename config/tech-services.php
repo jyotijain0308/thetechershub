@@ -404,8 +404,8 @@ return [
         8 => [
             'id' => 8,
             'name' => 'Facebook Page',
-            'image' => 'img/services/facebook-page.png',
-            'large-image' => '/img/servicedetail/video-editor-background.jpg',
+            'image' => '/img/servicedetail/social-media/facebook-page-example.png',
+            'large-image' => '/img/servicedetail/social-media/facebook-business-page-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -456,7 +456,7 @@ return [
             "portfolio" => [
                 [
                     "type" => 'image',
-                    "image" => '/img/servicedetail/social-media.png',
+                    "image" => '/img/servicedetail/social-media/facebook-page-example.png',
                     "alt" => 'Social Media'
                 ],
             ]
@@ -465,8 +465,8 @@ return [
         9 => [
             'id' => 9,
             'name' => 'Instagram Business Account',
-            'image' => 'img/services/instagram.png',
-            'large-image' => '/img/servicedetail/video-editor-background.jpg',
+            'image' => 'img/servicedetail/social-media/instagram-business-account.jpg',
+            'large-image' => '/img/servicedetail/social-media/instagram-business-account-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -507,7 +507,7 @@ return [
             "portfolio" => [
                 [
                     "type" => 'image',
-                    "image" => '/img/servicedetail/social-media.png',
+                    "image" => '/img/servicedetail/social-media/instagram-business-account.jpg',
                     "alt" => 'Social Media'
                 ],
             ]
@@ -517,7 +517,7 @@ return [
             'id' => 10,
             'name' => 'LinkedIn Corporate Page',
             'image' => 'img/services/linkedin.png',
-            'large-image' => '/img/servicedetail/video-editor-background.jpg',
+            'large-image' => '/img/servicedetail/social-media/linkedin-corporate-page-background.png',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -570,7 +570,7 @@ return [
             "portfolio" => [
                 [
                     "type" => 'image',
-                    "image" => '/img/servicedetail/social-media.png',
+                    "image" => '/img/servicedetail/social-media/linkedin-corporate-page.png',
                     "alt" => 'Social Media'
                 ],
             ]
@@ -580,7 +580,7 @@ return [
             'id' => 11,
             'name' => 'YouTube Brand Account',
             'image' => '/img/services/youtube.png',
-            'large-image' => '/img/servicedetail/video-editor-background.jpg',
+            'large-image' =>'/img/servicedetail/social-media/youtube-brand-background.png',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -612,7 +612,7 @@ return [
             "portfolio" => [
                 [
                     "type" => 'image',
-                    "image" => '/img/servicedetail/social-media.png',
+                    "image" => '/img/servicedetail/social-media/youtube-brand.jpg',
                     "alt" => 'Social Media'
                 ],
             ]
@@ -622,7 +622,7 @@ return [
             'id' => 12,
             'name' => 'Pinterest Business Account',
             'image' => 'img/services/pinterest.png',
-            'large-image' => '/img/servicedetail/video-editor-background.jpg',
+            'large-image' => '/img/servicedetail/social-media/Pinterest-bussiness-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -659,7 +659,7 @@ return [
             "portfolio" => [
                 [
                     "type" => 'image',
-                    "image" => '/img/servicedetail/social-media.png',
+                    "image" =>'/img/servicedetail/social-media/pinterest-bussiness.jpg',
                     "alt" => 'Social Media'
                 ],
             ]

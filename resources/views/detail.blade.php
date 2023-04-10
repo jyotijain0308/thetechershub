@@ -4,60 +4,6 @@
 @section('content')
 
 <style>
-	.logotype {
-		background-color: #eee;
-	}
-
-	.logotype h2 {
-		color: #151515;
-		font-size: 36px;
-		font-weight: 700;
-		text-transform: uppercase;
-	}
-
-	.logotype .logopanel {
-		min-height: 355px;
-		border-color: #ebebeb;
-		position: relative;
-		padding: 23px 30px 40px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		overflow: hidden;
-		cursor: pointer;
-		margin-bottom: 33px;
-		border-radius: 8px 0 8px 8px;
-		border: 1px solid #87dfeb;
-		transition: .3s ease-in-out;
-
-	}
-
-	.logotype .logobox {
-		padding-top: 45px;
-
-	}
-
-	.logotype .logobox:hover {
-		color: #fff;
-	}
-
-
-	.logotype .logopanel:hover {
-		background-color: #ffc451;
-	}
-
-	.logotype img {
-		height: 100px;
-		width: auto;
-	}
-
-	.logotype h2 {
-		font-size: 26px;
-		font-weight: 700;
-
-	}
-
 	.logo-content {
 
 		background-size: cover;
@@ -82,6 +28,17 @@
 		font-size: 16px;
 		margin-top: 16px;
 	}
+	.services .video-frame h4{
+		text-align:center;
+		font-weight: 700;
+   margin:20px 0px;
+    font-size: 24px;
+	
+}
+.services .video-frame h4 a{
+	color: #151515;
+    transition: ease-in-out .3s;
+}
 </style>
 
 <!-- ======= Breadcrumbs ======= -->
@@ -165,6 +122,7 @@ $imageUrl = $data["large-image"];
 <!-- =======End Service Information Section ======= -->
 
 <!-- ======= Service Type Section ======= -->
+@if(!empty($data['types']))
 <section id="services" class="services pt-1 pt-md-5">
 	<div class="container" data-aos="fade-up">
 		<div class="section-title">
@@ -172,20 +130,22 @@ $imageUrl = $data["large-image"];
 			<p>Check our Service Types</p>
 		</div>
 		<div class="row">
-			@if(!empty($data['types']) && $data['id']==7)
+			@if($data['id']==7)
 				@foreach($data['types'] as $type)
 				<div class="col-xl-4">
-					<iframe width="420" height="315" src="{{$type['image']}}"></iframe>
-					<h4>{{ $type['title'] }}</h4>
+					<div class="video-frame">
+						<iframe width="420" height="315" src="{{$type['image']}}"></iframe>
+						<h4><a href="">{{ $type['title'] }}</a></h4>
+					</div>
 				</div>	
 				@endforeach
 
-			@elseif(!empty($data['types']))
+			@else
 				@foreach($data['types'] as $type)
 				<div class="{{ ($data['id']==2) ? 'col-xl-6' : 'col-xl-4' }} col-md-6 d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
 					<div class="icon-box">
 						<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid" /></div>
-						<h4><a href="">{{ $type['title'] }}</a></h4>
+						<h4><a href="{{!empty($type['id']) ? " /detail/" : "javascript:void(0)" }}">{{ $type['title'] }}</a></h4>
 						
 						<p class="restrict-services-desc-text">{!! $type['description'] !!}</p>
 					</div>
@@ -195,6 +155,7 @@ $imageUrl = $data["large-image"];
 		</div>
 	</div>
 </section>
+@endif
 	<!-- End Services Section -->
 
 <!-- =======Logo Type Section ======= -->
