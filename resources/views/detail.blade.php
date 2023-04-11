@@ -28,17 +28,19 @@
 		font-size: 16px;
 		margin-top: 16px;
 	}
-	.services .video-frame h4{
-		text-align:center;
+
+	.services .video-frame h4 {
+		text-align: center;
 		font-weight: 700;
-   margin:20px 0px;
-    font-size: 24px;
-	
-}
-.services .video-frame h4 a{
-	color: #151515;
-    transition: ease-in-out .3s;
-}
+		margin: 20px 0px;
+		font-size: 24px;
+
+	}
+
+	.services .video-frame h4 a {
+		color: #151515;
+		transition: ease-in-out .3s;
+	}
 </style>
 
 <!-- ======= Breadcrumbs ======= -->
@@ -93,11 +95,11 @@ $imageUrl = $data["large-image"];
 					<div class="swiper-pagination"></div>
 				</div>
 				@else
-					@foreach($data['portfolio'] as $portfolio)
-					<img src="{{$portfolio['image']}}" class="img-fluid" alt="{{$portfolio['alt']}}">
-					@endforeach
+				@foreach($data['portfolio'] as $portfolio)
+				<img src="{{$portfolio['image']}}" class="img-fluid" alt="{{$portfolio['alt']}}">
+				@endforeach
 				@endif
-				</div>
+			</div>
 			<div class="col-lg-6">
 				<div class="portfolio-info">
 					<h3>Service information</h3>
@@ -123,7 +125,7 @@ $imageUrl = $data["large-image"];
 
 <!-- ======= Service Type Section ======= -->
 @if(!empty($data['types']))
-<section id="services" class="services pt-1 pt-md-5">
+<section id="types" class="services pt-1 pt-md-5">
 	<div class="container" data-aos="fade-up">
 		<div class="section-title">
 			<h2>Service Types</h2>
@@ -131,32 +133,32 @@ $imageUrl = $data["large-image"];
 		</div>
 		<div class="row">
 			@if($data['id']==7)
-				@foreach($data['types'] as $type)
-				<div class="col-xl-4">
-					<div class="video-frame">
-						<iframe width="420" height="315" src="{{$type['image']}}"></iframe>
-						<h4><a href="">{{ $type['title'] }}</a></h4>
-					</div>
-				</div>	
-				@endforeach
+			@foreach($data['types'] as $type)
+			<div class="col-xl-4">
+				<div class="video-frame">
+					<iframe width="420" height="315" src="{{$type['image']}}"></iframe>
+					<h4><a href="">{{ $type['title'] }}</a></h4>
+				</div>
+			</div>
+			@endforeach
 
 			@else
-				@foreach($data['types'] as $type)
-				<div class="{{ ($data['id']==2) ? 'col-xl-6' : 'col-xl-4' }} col-md-6 d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
-					<div class="icon-box">
-						<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid" /></div>
-						<h4><a href="{{!empty($type['id']) ? " /detail/" : "javascript:void(0)" }}">{{ $type['title'] }}</a></h4>
-						
-						<p class="restrict-services-desc-text">{!! $type['description'] !!}</p>
-					</div>
+			@foreach($data['types'] as $type)
+			<div class="{{ ($data['id']==2) ? 'col-xl-6' : 'col-xl-4' }} col-md-6 d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
+				<div class="icon-box">
+					<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid" /></div>
+					<h4><a href="{{!empty($type['id']) ? " /detail/" : "javascript:void(0)" }}">{{ $type['title'] }}</a></h4>
+
+					<p class="restrict-services-desc-text">{!! $type['description'] !!}</p>
 				</div>
-				@endforeach
+			</div>
+			@endforeach
 			@endif
 		</div>
 	</div>
 </section>
 @endif
-	<!-- End Services Section -->
+<!-- End Services Section -->
 
 <!-- =======Logo Type Section ======= -->
 <!-- <section id="logotype" class="logotype">

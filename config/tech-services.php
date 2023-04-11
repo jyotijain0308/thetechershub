@@ -232,35 +232,35 @@ return [
                     'title' => 'Facebook Page',
                     'image' => '/img/services/facebook-page.png',
                     'description' => 'Facebook business Page is a free way for businesses, brands, celebrities, causes and organizations to reach their audience. While Facebook profiles can be private, Pages are public.',
-                    
+
                 ],
                 'instagram_business_account' => [
                     'id' => 9,
                     'title' => 'Instagram Business Account',
                     'image' => '/img/services/instagram.png',
                     'description' => 'An Instagram account for business enables brands to track their engagement and interactions. Instagram business profiles offer more analytical tools than personal accounts.',
-                    
+
                 ],
                 'linkedin_company_page' => [
                     'id' => 10,
                     'title' => 'LinkedIn Corporate Page',
                     'image' => '/img/services/linkedin.png',
                     'description' => 'LinkedIn Company Pages were developed to give your company a home base and reach your audience on the network.',
-                    
+
                 ],
                 'youtube_brand_account' => [
                     'id' => 11,
                     'title' => 'YouTube Brand Account',
                     'image' => '/img/services/youtube.png',
                     'description' => 'A YouTube Brand Account gives your company a unique presence online, separated from your personal profile. Though a YouTube Brand Account is a separate entity, it’s available to access and manage through your personal channel.',
-                    
+
                 ],
                 'pinterest_business_account' => [
                     'id' => 12,
                     'title' => 'Pinterest Business Account',
                     'image' => '/img/services/pinterest.png',
                     'description' => 'Pinterest’s business hub provides an overview of a business account. It includes information like analytics overview, ads overview, and Pinterest business resources.',
-                   
+
                 ],
                 'whatsapp_business_account' => [
                     'id' => 13,
@@ -345,52 +345,52 @@ return [
                 1 => [
                     "title" => "Promotional / Information",
                     "image" => "https://www.youtube.com/watch?v=CBxTBEx7CMU",
-                    'description' =>''
+                    'description' => ''
                 ],
                 2 => [
                     "title" => "Doodle",
                     "image" => "https://www.youtube.com/watch?v=aLuE7kO9aug",
-                    'description' =>''
+                    'description' => ''
                 ],
                 3 => [
                     "title" => "Information with voice over",
                     "image" => "https://www.youtube.com/watch?v=zez8sFB7WsE",
-                    'description' =>''
+                    'description' => ''
                 ],
                 4 => [
                     "title" => "Screen recording with voice over",
                     "image" => "https://www.youtube.com/watch?v=D4A8xMby2Pk",
-                    'description' =>''
+                    'description' => ''
                 ],
                 5 => [
                     "title" => "General video editing",
                     "image" => "https://www.youtube.com/watch?v=VbLYUDelSks",
-                    'description' =>''
+                    'description' => ''
                 ],
                 6 => [
                     "title" => "Panel background video editing",
                     "image" => "https://www.youtube.com/watch?v=fzHov3lTEj8",
-                    'description' =>''
+                    'description' => ''
                 ],
                 7 => [
                     "title" => "Basic",
                     "image" => "https://www.youtube.com/watch?v=xKijxqJp_a4",
-                    'description' =>''
+                    'description' => ''
                 ],
                 8 => [
                     "title" => "Basic with green background",
                     "image" => "https://www.youtube.com/watch?v=7rFGmHJFwsU",
-                    'description' =>''
+                    'description' => ''
                 ],
                 9 => [
                     "title" => "Proper information video",
                     "image" => "https://www.youtube.com/watch?v=ulsZSYUHrGY",
-                    'description' =>''
+                    'description' => ''
                 ],
                 10 => [
                     "title" => "Pro level editing",
                     "image" => "https://www.youtube.com/watch?v=JruKb-Zeze8",
-                    'description' =>''
+                    'description' => ''
                 ]
             ],
             "portfolio" => [
@@ -404,7 +404,7 @@ return [
         8 => [
             'id' => 8,
             'name' => 'Facebook Page',
-            'image' => '/img/servicedetail/social-media/facebook-page-example.png',
+            'image' => 'img/services/facebook-page.png',
             'large-image' => '/img/servicedetail/social-media/facebook-business-page-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
@@ -460,12 +460,12 @@ return [
                     "alt" => 'Social Media'
                 ],
             ]
-            
+
         ],
         9 => [
             'id' => 9,
             'name' => 'Instagram Business Account',
-            'image' => 'img/servicedetail/social-media/instagram-business-account.jpg',
+            'image' => 'img/services/instagram.png',
             'large-image' => '/img/servicedetail/social-media/instagram-business-account-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
@@ -511,7 +511,7 @@ return [
                     "alt" => 'Social Media'
                 ],
             ]
-            
+
         ],
         10 => [
             'id' => 10,
@@ -574,13 +574,13 @@ return [
                     "alt" => 'Social Media'
                 ],
             ]
-            
+
         ],
         11 => [
             'id' => 11,
             'name' => 'YouTube Brand Account',
-            'image' => '/img/services/youtube.png',
-            'large-image' =>'/img/servicedetail/social-media/youtube-brand-background.png',
+            'image' => 'img/services/youtube.png',
+            'large-image' => '/img/servicedetail/social-media/youtube-brand-background.png',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
@@ -616,7 +616,7 @@ return [
                     "alt" => 'Social Media'
                 ],
             ]
-            
+
         ],
         12 => [
             'id' => 12,
@@ -659,11 +659,11 @@ return [
             "portfolio" => [
                 [
                     "type" => 'image',
-                    "image" =>'/img/servicedetail/social-media/pinterest-bussiness.jpg',
+                    "image" => '/img/servicedetail/social-media/pinterest-bussiness.jpg',
                     "alt" => 'Social Media'
                 ],
             ]
-            
-        ]      
+
+        ]
     ]
 ];
