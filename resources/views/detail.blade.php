@@ -132,64 +132,29 @@ $imageUrl = $data["large-image"];
 			<p>Check our Service Types</p>
 		</div>
 		<div class="row">
-			@if($data['id']==7)
 			@foreach($data['types'] as $type)
-			<div class="col-xl-4">
-				<div class="video-frame">
-					<iframe width="420" height="315" src="{{$type['image']}}"></iframe>
-					<h4><a href="">{{ $type['title'] }}</a></h4>
-				</div>
-			</div>
-			@endforeach
-
-			@else
-			@foreach($data['types'] as $type)
-			<div class="{{ ($data['id']==2) ? 'col-xl-6' : 'col-xl-4' }} col-md-6 d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
-				<div class="icon-box">
+			<div class="{{ ($data['id']==2) ? 'col-xl-6 col-md-6' : 'col-xl-4 col-md-4' }}  d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
+				<div class="icon-box w-100 py-5">
+					@if(!empty($type['image']))
 					<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid" /></div>
+					@endif
+					@if(!empty($type['video']))
+					<div class="mb-4">
+						<iframe width="100%" height="auto" src="{{$type['video']}}" title="{{$type['title']}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+					@endif
 					<h4><a href="{{!empty($type['id']) ? " /detail/" : "javascript:void(0)" }}">{{ $type['title'] }}</a></h4>
-
 					<p class="restrict-services-desc-text">{!! $type['description'] !!}</p>
 				</div>
 			</div>
 			@endforeach
-			@endif
 		</div>
 	</div>
 </section>
 @endif
 <!-- End Services Section -->
-
-<!-- =======Logo Type Section ======= -->
-<!-- <section id="logotype" class="logotype">
-	<div class="container">
-		<div class="row">
-			<h2 class="text-center">Logo Types</h2>
-			@if(!empty($data['types']))
-			@foreach($data['types'] as $type)
-			<div class="{{ ($data['id']==1) ? 'col-xl-4' : 'col-xl-6' }} logobox">
-				<div class="logopanel">
-					<img src="/img/{{$type['image']}}" class="" alt="">
-					<div class="logo-detail mt-4">
-						<h4>
-							<a href="{{!empty($type['id']) ? " /details/" : "javascript:void(0)" }}">
-								{{$type['title']}}
-							</a>
-						</h4>
-						<p>{{$type['description']}}</p>
-					</div>
-				</div>
-			</div>
-			@endforeach
-			@endif
-		</div>
-	</div>
-</section> -->
-<!-- =======Logo Type Section ======= -->
-
 @include('contact')
 @section('js')
-
 <!-- Vendor JS Files -->
 <script src="/vendor/purecounter/purecounter_vanilla.js"></script>
 <script src="/vendor/aos/aos.js"></script>

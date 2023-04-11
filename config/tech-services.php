@@ -344,52 +344,52 @@ return [
             "types" => [
                 1 => [
                     "title" => "Promotional / Information",
-                    "image" => "https://www.youtube.com/watch?v=CBxTBEx7CMU",
+                    "video" => "https://www.youtube.com/embed/CBxTBEx7CMU",
                     'description' => ''
                 ],
                 2 => [
                     "title" => "Doodle",
-                    "image" => "https://www.youtube.com/watch?v=aLuE7kO9aug",
+                    "video" => "https://www.youtube.com/embed/aLuE7kO9aug",
                     'description' => ''
                 ],
                 3 => [
                     "title" => "Information with voice over",
-                    "image" => "https://www.youtube.com/watch?v=zez8sFB7WsE",
+                    "video" => "https://www.youtube.com/embed/zez8sFB7WsE",
                     'description' => ''
                 ],
                 4 => [
                     "title" => "Screen recording with voice over",
-                    "image" => "https://www.youtube.com/watch?v=D4A8xMby2Pk",
+                    "video" => "https://www.youtube.com/embed/D4A8xMby2Pk",
                     'description' => ''
                 ],
                 5 => [
                     "title" => "General video editing",
-                    "image" => "https://www.youtube.com/watch?v=VbLYUDelSks",
+                    "video" => "https://www.youtube.com/embed/VbLYUDelSks",
                     'description' => ''
                 ],
                 6 => [
                     "title" => "Panel background video editing",
-                    "image" => "https://www.youtube.com/watch?v=fzHov3lTEj8",
+                    "video" => "https://www.youtube.com/embed/fzHov3lTEj8",
                     'description' => ''
                 ],
                 7 => [
                     "title" => "Basic",
-                    "image" => "https://www.youtube.com/watch?v=xKijxqJp_a4",
+                    "video" => "https://www.youtube.com/embed/xKijxqJp_a4",
                     'description' => ''
                 ],
                 8 => [
                     "title" => "Basic with green background",
-                    "image" => "https://www.youtube.com/watch?v=7rFGmHJFwsU",
+                    "video" => "https://www.youtube.com/embed/7rFGmHJFwsU",
                     'description' => ''
                 ],
                 9 => [
                     "title" => "Proper information video",
-                    "image" => "https://www.youtube.com/watch?v=ulsZSYUHrGY",
+                    "video" => "https://www.youtube.com/embed/ulsZSYUHrGY",
                     'description' => ''
                 ],
                 10 => [
                     "title" => "Pro level editing",
-                    "image" => "https://www.youtube.com/watch?v=JruKb-Zeze8",
+                    "video" => "https://www.youtube.com/embed/JruKb-Zeze8",
                     'description' => ''
                 ]
             ],

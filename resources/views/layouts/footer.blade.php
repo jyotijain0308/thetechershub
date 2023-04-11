@@ -14,7 +14,7 @@
 						@foreach(config('tech-services.data') as $service)
 						<li class="col-md-6 col-12">
 							<i class="bx bx-chevron-right"></i>
-							<a href="#services">{{ $service['name'] }}</a>
+							<a href="{{toUrl('detail/'.$service['id'])}}">{{ $service['name'] }}</a>
 						</li>
 						@endforeach
 					</ul>
