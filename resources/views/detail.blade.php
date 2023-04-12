@@ -3,46 +3,6 @@
 @endsection
 @section('content')
 
-<style>
-	.logo-content {
-
-		background-size: cover;
-		background-position: center;
-	}
-
-	.logo-content-overlay {
-		background: rgba(0, 0, 0, 0.3);
-		padding: 100px 0px;
-	}
-
-	.logo-content .portfolio-description {
-		color: #ffffff;
-		text-align: center;
-	}
-
-	.logo-content .portfolio-description h2 {
-		font-size: 28px;
-	}
-
-	.logo-content .portfolio-description p {
-		font-size: 16px;
-		margin-top: 16px;
-	}
-
-	.services .video-frame h4 {
-		text-align: center;
-		font-weight: 700;
-		margin: 20px 0px;
-		font-size: 24px;
-
-	}
-
-	.services .video-frame h4 a {
-		color: #151515;
-		transition: ease-in-out .3s;
-	}
-</style>
-
 <!-- ======= Breadcrumbs ======= -->
 <!-- <section id="breadcrumbs" class="breadcrumbs">
 	<div class="container">
@@ -127,13 +87,15 @@ $imageUrl = $data["large-image"];
 @if(!empty($data['types']))
 <section id="types" class="services pt-1 pt-md-5">
 	<div class="container" data-aos="fade-up">
+		@if(!empty($data['title']))
 		<div class="section-title">
-			<h2>Service Types</h2>
-			<p>Check our Service Types</p>
+			<h2>{{$data['title']}}</h2>
+			<p>Check our {{$data['title']}}</p>
 		</div>
+		@endif
 		<div class="row">
 			@foreach($data['types'] as $type)
-			<div class="{{ ($data['id']==2) ? 'col-xl-6 col-md-6' : 'col-xl-4 col-md-4' }}  d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
+			<div class="{{ ($data['id']==2) ? 'col-xl-6 col-md-6' : 'col-xl-4 col-md-6' }}  d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
 				<div class="icon-box w-100 py-5">
 					@if(!empty($type['image']))
 					<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid" /></div>
@@ -143,7 +105,7 @@ $imageUrl = $data["large-image"];
 						<iframe width="100%" height="auto" src="{{$type['video']}}" title="{{$type['title']}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 					</div>
 					@endif
-					<h4><a href="{{!empty($type['id']) ? " /detail/" : "javascript:void(0)" }}">{{ $type['title'] }}</a></h4>
+					<h4><a href="{{!empty($type['id']) ? " /detail/".$type['id'] : "javascript:void(0)" }}">{{ $type['title'] }}</a></h4>
 					<p class="restrict-services-desc-text">{!! $type['description'] !!}</p>
 				</div>
 			</div>

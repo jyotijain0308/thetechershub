@@ -4,6 +4,7 @@ return [
         1 => [
             'id' => 1,
             'name' => 'Design A Logo',
+            'title' => 'Logo Types',
             'image' => 'img/services/logo-design.png',
             'large-image' => '/img/portfolio/images/md-enterprises.jpg',
             'description' => 'Logos are an expression of your brand. Our designers are highly skilled in developing a logo that sets you apart from the rest. We take pride in ensuring your logo accurately reflects your company\'s vision and values while also resonating with your target audience.',
@@ -58,7 +59,7 @@ return [
                 2 => [
                     "title" => "Wordmark",
                     "image" => "/img//servicedetail/design-a-logo/visa.png",
-                    "description" => "When a company has long name and client wants to use initial of the full name and create simple logo with initial letters. - e.g. NASA"
+                    "description" => "When a company has a succinct and distinct name. - e.g. Google / Coca-Cola"
                 ],
                 3 => [
                     "title" => "Pictorial",
@@ -68,7 +69,7 @@ return [
                 4 => [
                     "title" => "Abstract",
                     "image" => "/img/servicedetail/design-a-logo/pepsi.png",
-                    "description" => "Already in market as an established company and want to represent brand identity with picture. - e.g. Apple / Twitter"
+                    "description" => "An abstract mark is a specific type of pictorial logo. Instead of being a recognizable image like an apple or a bird it’s an abstract geometric form that represents your business. - e.g. Pepsi"
                 ],
                 5 => [
                     "title" => "Emblem",
@@ -132,6 +133,7 @@ return [
         2 => [
             'id' => 2,
             'name' => 'Visiting / Business Card Design',
+            'title' => 'Visiting/Bussiness Card Types',
             'image' => 'img/services/business-card.png',
             'large-image' => '/img/servicedetail/visiting-card/visiting-card-background.jpg',
             'description' => 'What’s more valuable than making a super-unforgettable first impression? Business cards can create lasting first impressions on potential customers and business partners. We understand that business cards are a powerful marketing tool that remind your clients of who you are, what you do, and how they can contact you. Our expert designers provide an original representation of your company’s brand which helps build recognition and lasting loyalty.',
@@ -194,38 +196,17 @@ return [
         3 => [
             'id' => 3,
             'name' => 'Social Media Page Creation',
+            'title' => 'Social Media Types',
             'image' => 'img/services/social-media.png',
-            'large-image' => '/img/servicedetail/social-media-background.jpg',
+            'large-image' => '/img/servicedetail/social-media/social-media-background.jpg',
             'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
             'info' => [
                 1 => [
-                    'title' => "Orientation",
-                    "content" => "Horizontal / Vertical"
+                    'title' => "",
+                    "content" => ""
                 ],
-                2 => [
-                    'title' => "Software",
-                    "content" => "Adobe Illustrator"
-                ],
-                3 => [
-                    'title' => "File Format",
-                    "content" => "AI as Source file</br>
-                        EPS to import in Coral Draw*</br>
-                        PDF - in original colour"
-                ],
-                4 => [
-                    'title' => "Duration",
-                    "content" => "Upto 2 working days"
-                ],
-                5 => [
-                    'title' => "Color Mode",
-                    "content" => "CMYK"
-                ],
-                6 => [
-                    'title' => "Resolution",
-                    "content" => "3301 PPI"
-                ]
-
-            ],
+               
+           ],
             'types' => [
                 'facebook_page' => [
                     'id' => 8,
@@ -278,7 +259,7 @@ return [
             "portfolio" => [
                 [
                     "type" => 'image',
-                    "image" => '/img/servicedetail/social-media.png',
+                    "image" => '/img/servicedetail/social-media/social-media.png',
                     "alt" => 'Social Media'
                 ],
             ]
@@ -286,26 +267,30 @@ return [
         4 => [
             'id' => 4,
             'name' => 'Profession Profile',
+            'title' => '',
             'image' => 'img/services/linkedin-profile.png',
             'description' => 'An attractive and professional profile can help you draw in potential clients and customers for your business and services. We pride ourselves in helping you to showcase your expertise and credentials, through a professional profile that builds trust with your potential customers. A professional profile is an invaluable asset in today’s digital landscape, and is essential if what you seek is more clients.',
         ],
         5 => [
             'id' => 5,
             'name' => 'Google Business Profile',
+            'title' => '',
             'image' => 'img/services/google(2).png',
             'description' => 'Want to be found online? A well-designed and optimized Google business profile is one of the first ways to solidify your brands’ presence while online. Our Google business profile setup will help your business show up in search results and on Google Maps, so customers can easily find and contact you. From setting up your contact information, business hours, services offered, logo, business updates, customer reviews, to collecting insights into how customers interact with your business. At Techer’s Hub we create customized and professional profile setups that maximize the visibility and presence of your business on the web.'
         ],
         6 => [
             'id' => 6,
             'name' => 'YouTube Monetization',
+            'title' => '',
             'image' => 'img/services/monetize.png',
             'description' => 'The moment social media entered our lives, we became instant content creators one way or another. And the best part? You can now make money from your videos. Our team will effectively monetize your videos, allowing your channel to earn income and grow bigger than it is. Techer’s Hub is here to help you to maximize your channels potential and reach ever bigger audiences.'
         ],
         7 => [
             'id' => 7,
             'name' => 'Video Editing',
+            'title' => 'Video Types',
             'image' => 'img/services/editing.png',
-            'large-image' => '/img/servicedetail/video-editor-background.jpg',
+            'large-image' => '/img/servicedetail/video-editor/video-editor-background.jpg',
             'description' => 'Do you want to go viral? Who doesn’t? Today we’re all in love with videos from businesses to individuals. At The Techer’s Hub, we understand the importance of creating your videos in a meaningful and captivating way. It is not only about making sure that your message is right but working hard with editing elements to boost your video’s popularity and engagement levels!',
             'info' => [
                 1 => [
@@ -396,7 +381,7 @@ return [
             "portfolio" => [
                 [
                     "type" => 'image',
-                    "image" => '/img/servicedetail/video-editor.jpg',
+                    "image" => '/img/servicedetail/video-editor/video-editor.jpg',
                     "alt" => 'Video Editor'
                 ],
             ]
@@ -404,9 +389,10 @@ return [
         8 => [
             'id' => 8,
             'name' => 'Facebook Page',
+            'title' => '',
             'image' => 'img/services/facebook-page.png',
             'large-image' => '/img/servicedetail/social-media/facebook-business-page-background.jpg',
-            'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
+            'description' => 'Facebook business Page is a free way for businesses, brands, celebrities, causes and organizations to reach their audience. While Facebook profiles can be private, Pages are public.',
             'info' => [
                 1 => [
                     'title' => "Additional Account",
@@ -465,9 +451,10 @@ return [
         9 => [
             'id' => 9,
             'name' => 'Instagram Business Account',
+            'title' => '',
             'image' => 'img/services/instagram.png',
-            'large-image' => '/img/servicedetail/social-media/instagram-business-account-background.jpg',
-            'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
+            'large-image' => '/img/servicedetail/social-media/instagram-business-account-background.png',
+            'description' => 'An Instagram account for business enables brands to track their engagement and interactions. Instagram business profiles offer more analytical tools than personal accounts.',
             'info' => [
                 1 => [
                     'title' => "Profile Type",
@@ -516,9 +503,10 @@ return [
         10 => [
             'id' => 10,
             'name' => 'LinkedIn Corporate Page',
+            'title' => '',
             'image' => 'img/services/linkedin.png',
             'large-image' => '/img/servicedetail/social-media/linkedin-corporate-page-background.png',
-            'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
+            'description' => 'LinkedIn Company Pages were developed to give your company a home base and reach your audience on the network.',
             'info' => [
                 1 => [
                     'title' => "Additional Account",
@@ -579,9 +567,10 @@ return [
         11 => [
             'id' => 11,
             'name' => 'YouTube Brand Account',
+            'title' => '',
             'image' => 'img/services/youtube.png',
             'large-image' => '/img/servicedetail/social-media/youtube-brand-background.png',
-            'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
+            'description' => 'A YouTube Brand Account gives your company a unique presence online, separated from your personal profile. Though a YouTube Brand Account is a separate entity, it’s available to access and manage through your personal channel.',
             'info' => [
                 1 => [
                     'title' => "Additional Account",
@@ -621,9 +610,10 @@ return [
         12 => [
             'id' => 12,
             'name' => 'Pinterest Business Account',
+            'title' => '',
             'image' => 'img/services/pinterest.png',
-            'large-image' => '/img/servicedetail/social-media/Pinterest-bussiness-background.jpg',
-            'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
+            'large-image' => '/img/servicedetail/social-media/Pinterest-bussiness-background.png',
+            'description' => 'Pinterest’s business hub provides an overview of a business account. It includes information like analytics overview, ads overview, and Pinterest business resources.',
             'info' => [
                 1 => [
                     'title' => "Additional Account",

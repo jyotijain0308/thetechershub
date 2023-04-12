@@ -1042,6 +1042,44 @@ section {
   min-height: 400px;
 }
 
+/* detail page  */
+
+.logo-content {
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-content-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 100px 0px;
+}
+
+.logo-content .portfolio-description {
+  color: #ffffff;
+  text-align: center;
+}
+
+.logo-content .portfolio-description h2 {
+  font-size: 28px;
+}
+
+.logo-content .portfolio-description p {
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.services .video-frame h4 {
+  text-align: center;
+  font-weight: 700;
+  margin: 20px 0px;
+  font-size: 24px;
+
+}
+.services .video-frame h4 a {
+  color: #151515;
+  transition: ease-in-out .3s;
+}
+
 @media (max-width: 991px) {
   .counts .image {
     text-align: center;
