@@ -230,27 +230,27 @@ return [
 
                 // ],
                 'youtube_brand_account' => [
-                    'id' => 11,
+                    'id' => 10,
                     'title' => 'YouTube Brand Account',
                     'image' => '/img/services/youtube.png',
                     'description' => 'A YouTube Brand Account gives your company a unique presence online, separated from your personal profile. Though a YouTube Brand Account is a separate entity, it’s available to access and manage through your personal channel.',
 
                 ],
                 'pinterest_business_account' => [
-                    'id' => 12,
+                    'id' => 11,
                     'title' => 'Pinterest Business Account',
                     'image' => '/img/services/pinterest.png',
                     'description' => 'Pinterest’s business hub provides an overview of a business account. It includes information like analytics overview, ads overview, and Pinterest business resources.',
 
                 ],
                 'whatsapp_business_account' => [
-                    'id' => 13,
+                    'id' => 12,
                     'title' => 'WhatsApp Business Account',
                     'image' => '/img/services/whatsapp.png',
                     'description' => 'WhatsApp Business makes interacting with customers easy by providing tools to automate, sort and quickly respond to messages. It is also intended to feel and work just like WhatsApp Messenger.'
                 ],
                 'snapchat_account' => [
-                    'id' => 14,
+                    'id' => 13,
                     'title' => 'Snapchat Account',
                     'image' => '/img/services/snapchat.png',
                     'description' => 'Snapchat was initially focused on private, person-to-person photo sharing, but you can now use it for a range of asks, including sending videos, live video chatting, messaging, creating caricature-like Bitmoji avatars.'
@@ -606,7 +606,7 @@ return [
         ],
        
         10 => [
-            'id' => 11,
+            'id' => 10,
             'name' => 'YouTube Brand Account',
             'title' => '',
             'image' => 'img/services/youtube.png',
@@ -649,7 +649,7 @@ return [
 
         ],
         11 => [
-            'id' => 12,
+            'id' => 11,
             'name' => 'Pinterest Business Account',
             'title' => '',
             'image' => 'img/services/pinterest.png',
