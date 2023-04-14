@@ -379,12 +379,12 @@ return [
             'name' => 'YouTube Monetization',
             'title' => '',
             'image' => 'img/services/monetize.png',
-            'large-image' => '/img/servicedetail/google-bussiness/google-bussiness-profile-background.png',
+            'large-image' => '/img/servicedetail/youtubemonetization/youtube-monetization-background.png',
             'description' => 'The moment social media entered our lives, we became instant content creators one way or another. And the best part? You can now make money from your videos. Our team will effectively monetize your videos, allowing your channel to earn income and grow bigger than it is. Techer’s Hub is here to help you to maximize your channels potential and reach ever bigger audiences.',
             "portfolio" => [
                 [
                     "type" => 'image',
-                    "image" => '/img/servicedetail/video-editor/video-editor.jpg',
+                    "image" => '/img/servicedetail/youtubemonetization/youtube-monetization.png',
                     "alt" => 'Video Editor'
                 ],
             ]
