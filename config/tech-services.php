@@ -222,13 +222,13 @@ return [
                     'description' => 'An Instagram account for business enables brands to track their engagement and interactions. Instagram business profiles offer more analytical tools than personal accounts.',
 
                 ],
-                'linkedin_company_page' => [
-                    'id' => 10,
-                    'title' => 'LinkedIn Corporate Page',
-                    'image' => '/img/services/linkedin.png',
-                    'description' => 'LinkedIn Company Pages were developed to give your company a home base and reach your audience on the network.',
+                // 'linkedin_company_page' => [
+                //     'id' => 10,
+                //     'title' => 'LinkedIn Corporate Page',
+                //     'image' => '/img/services/linkedin.png',
+                //     'description' => 'LinkedIn Company Pages were developed to give your company a home base and reach your audience on the network.',
 
-                ],
+                // ],
                 'youtube_brand_account' => [
                     'id' => 11,
                     'title' => 'YouTube Brand Account',
@@ -266,24 +266,128 @@ return [
         ],
         4 => [
             'id' => 4,
-            'name' => 'Profession Profile',
+            'name' => 'LinkedIn Bussiness Profile',
             'title' => '',
             'image' => 'img/services/linkedin-profile.png',
+            'large-image' => '/img/servicedetail/linkedInbussinessprofile/linkedin-corporate-page-background.png',
             'description' => 'An attractive and professional profile can help you draw in potential clients and customers for your business and services. We pride ourselves in helping you to showcase your expertise and credentials, through a professional profile that builds trust with your potential customers. A professional profile is an invaluable asset in today’s digital landscape, and is essential if what you seek is more clients.',
+            'info' => [
+                1 => [
+                    'title' => "Additional Account",
+                    "content" => "Gmail ID</br>
+                        Profile for colleague</br>
+                        Premium Purchase*"
+                ],
+                2 => [
+                    'title' => "Personal Information",
+                    "content" => "Full Name</br>
+                        Date of Birth</br>
+                        Mobile Number*</br>
+                        Email ID*</br>
+                        Profile Picture</br>
+                        Work & Education</br>
+                        Gender</br>
+                        Language Known</br>
+                        About Me</br>
+                        Skills"
+                ],
+                3 => [
+                    'title' => "Page Information",
+                    "content" => "Type - Showcase, Company, Educational</br>
+                        Type of Industry</br>
+                        Company Size</br>
+                        Mobile</br>
+                        Email ID</br>
+                        WhatsApp</br>
+                        Speciality</br>
+                        Foundation Year</br>
+                        Location"
+                ],
+                4 => [
+                    'title' => "Link with",
+                    "content" => "Website"
+                ],
+                5 => [
+                    'title' => "Infographics",
+                    "content" => "Profile Image</br>
+                        Cover Image</br>
+                        Post Banners</br>
+                        Articles</br>
+                        Newsletters</br>
+                        Job Description</br>
+                        Product Information"
+
+                ]
+            ],
+            
+            "portfolio" => [
+                [
+                    "type" => 'image',
+                    "image" => '/img/servicedetail/linkedInbussinessprofile/linkedin-corporate-page.png',
+                    "alt" => 'Social Media'
+                ],
+            ]
         ],
         5 => [
             'id' => 5,
             'name' => 'Google Business Profile',
             'title' => '',
             'image' => 'img/services/google(2).png',
-            'description' => 'Want to be found online? A well-designed and optimized Google business profile is one of the first ways to solidify your brands’ presence while online. Our Google business profile setup will help your business show up in search results and on Google Maps, so customers can easily find and contact you. From setting up your contact information, business hours, services offered, logo, business updates, customer reviews, to collecting insights into how customers interact with your business. At Techer’s Hub we create customized and professional profile setups that maximize the visibility and presence of your business on the web.'
+            'large-image' => '/img/servicedetail/google-bussiness/google-bussiness-profile-background.png',
+            'description' => 'Want to be found online? A well-designed and optimized Google business profile is one of the first ways to solidify your brands’ presence while online. Our Google business profile setup will help your business show up in search results and on Google Maps, so customers can easily find and contact you. From setting up your contact information, business hours, services offered, logo, business updates, customer reviews, to collecting insights into how customers interact with your business. At Techer’s Hub we create customized and professional profile setups that maximize the visibility and presence of your business on the web.',
+            'info' => [
+                1 => [
+                     'title' => "Profile Setup",
+                     "content" => "Create & Verify Business Profile</br>
+                            Add Business Information</br>
+                            Update & Optimize Photos and Video</br>
+                            Respond to Customer Review & Rating"
+                ],
+                2 => [
+                    'title' => "Monitoring",
+                    "content" => "Manage Update (eg: edit business hours)</br>
+                            Monitor Insights"
+                ],
+                3 => [
+                    'title' => "Managing Profile",
+                    "content" => "Optimize Profile with Strategic Keywords</br>
+                            Managing Reviews by Flagging Inappropriate or Spam</br>
+                            Requesting Removal of Reviews that Violate Google's Policy"
+                ],
+                4 => [
+                    'title' => "Creating & Posting (per month)",
+                    "content" => "Infographics"
+                ],
+                5 => [
+                    'title' => "Business Intergration",
+                    "content" => "Integrating the GMB listing with Facebook Page</br>
+                            Multiple Business Profiles (up to 3 profiles)</br>
+                            Increase Visiblity and Customer Enagagement"
+                ]
+            ],
+            "portfolio" => [
+                [
+                    "type" => 'image',
+                    "image" => '/img/servicedetail/google-bussiness/google-business-profile.jpg',
+                    "alt" => 'Social Media'
+                ],
+            ]
+
         ],
         6 => [
             'id' => 6,
             'name' => 'YouTube Monetization',
             'title' => '',
             'image' => 'img/services/monetize.png',
-            'description' => 'The moment social media entered our lives, we became instant content creators one way or another. And the best part? You can now make money from your videos. Our team will effectively monetize your videos, allowing your channel to earn income and grow bigger than it is. Techer’s Hub is here to help you to maximize your channels potential and reach ever bigger audiences.'
+            'large-image' => '/img/servicedetail/google-bussiness/google-bussiness-profile-background.png',
+            'description' => 'The moment social media entered our lives, we became instant content creators one way or another. And the best part? You can now make money from your videos. Our team will effectively monetize your videos, allowing your channel to earn income and grow bigger than it is. Techer’s Hub is here to help you to maximize your channels potential and reach ever bigger audiences.',
+            "portfolio" => [
+                [
+                    "type" => 'image',
+                    "image" => '/img/servicedetail/video-editor/video-editor.jpg',
+                    "alt" => 'Video Editor'
+                ],
+            ]
         ],
         7 => [
             'id' => 7,
@@ -417,7 +521,7 @@ return [
                 ],
                 3 => [
                     'title' => "General Information",
-                    "content" => "Bio (Uptp 255 characters along with spaces)</br>
+                    "content" => "Bio (Upto 255 characters along with spaces)</br>
                         Address</br>
                         Category</br>
                         Mobile</br>
@@ -500,71 +604,8 @@ return [
             ]
 
         ],
+       
         10 => [
-            'id' => 10,
-            'name' => 'LinkedIn Corporate Page',
-            'title' => '',
-            'image' => 'img/services/linkedin.png',
-            'large-image' => '/img/servicedetail/social-media/linkedin-corporate-page-background.png',
-            'description' => 'LinkedIn Company Pages were developed to give your company a home base and reach your audience on the network.',
-            'info' => [
-                1 => [
-                    'title' => "Additional Account",
-                    "content" => "Gmail ID</br>
-                        Profile for colleague</br>
-                        Premium Purchase*"
-                ],
-                2 => [
-                    'title' => "Personal Information",
-                    "content" => "Full Name</br>
-                        Date of Birth</br>
-                        Mobile Number*</br>
-                        Email ID*</br>
-                        Profile Picture</br>
-                        Work & Education</br>
-                        Gender</br>
-                        Language Known</br>
-                        About Me</br>
-                        Skills"
-                ],
-                3 => [
-                    'title' => "Page Information",
-                    "content" => "Type - Showcase, Company, Educational</br>
-                        Type of Industry</br>
-                        Company Size</br>
-                        Mobile</br>
-                        Email ID</br>
-                        WhatsApp</br>
-                        Speciality</br>
-                        Foundation Year</br>
-                        Location"
-                ],
-                4 => [
-                    'title' => "Link with",
-                    "content" => "Website"
-                ],
-                5 => [
-                    'title' => "Infographics",
-                    "content" => "Profile Image</br>
-                        Cover Image</br>
-                        Post Banners</br>
-                        Articles</br>
-                        Newsletters</br>
-                        Job Description</br>
-                        Product Information"
-
-                ]
-            ],
-            "portfolio" => [
-                [
-                    "type" => 'image',
-                    "image" => '/img/servicedetail/social-media/linkedin-corporate-page.png',
-                    "alt" => 'Social Media'
-                ],
-            ]
-
-        ],
-        11 => [
             'id' => 11,
             'name' => 'YouTube Brand Account',
             'title' => '',
@@ -607,7 +648,7 @@ return [
             ]
 
         ],
-        12 => [
+        11 => [
             'id' => 12,
             'name' => 'Pinterest Business Account',
             'title' => '',
