@@ -8,9 +8,9 @@
     <nav id="navbar" class="navbar order-last order-lg-0">
       <ul>
         <li><a class="nav-link scrollto active" href="{{toUrl()}}">Home</a></li>
-        <li><a class="nav-link scrollto" href="{{toUrl('/#about')}}">About</a></li>
-        <li><a class="nav-link scrollto" href="{{toUrl('/#services')}}">Services</a></li>
-        <li><a class="nav-link scrollto " href="{{toUrl('/#portfolio')}}">Portfolio</a></li>
+        <li><a class="nav-link scrollto" href="{{toUrl('#about')}}">About</a></li>
+        <li><a class="nav-link scrollto" href="{{toUrl('#services')}}">Services</a></li>
+        <li><a class="nav-link scrollto " href="{{toUrl('#portfolio')}}">Portfolio</a></li>
         <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>

@@ -21,13 +21,13 @@
 @php
 $imageUrl = $data["large-image"];
 @endphp
-<div class="logo-content position-relative mt-90" style="background-image: url('{{$imageUrl}}')">
-	<div class=" logo-content-overlay">
+<div class="logo-content position-relative" style="background-image: url('/img/slider/hero-bg.jpg'); ">
+	<div class="logo-content-overlay">
 		<div class="container">
-			<div class="d-flex justify-content-end px-md-5">
-				<div class="portfolio-description px-md-5">
-					<h2>{{ $data['name'] }}</h2>
-					<p class="px-md-5 px-2">{{ $data['description'] }}</p>
+			<div class="hero d-flex px-md-5 text-center">
+				<div class="icon-box portfolio-description px-md-5 text-light py-5 align-items-center">
+					<h1>{{ $data['name'] }}</h1>
+					<p class="mt-5 px-md-5 px-2">{{ $data['description'] }}</p>
 					<a href="#contact" class="btn btn-md btn-primary scrollto mt-4">Request A Quote</a>
 				</div>
 			</div>

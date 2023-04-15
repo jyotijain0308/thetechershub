@@ -137,7 +137,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 #header .logo {
@@ -1050,8 +1050,8 @@ section {
 }
 
 .logo-content-overlay {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 100px 0px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 80px 0px;
 }
 
 .logo-content .portfolio-description {
@@ -1075,6 +1075,7 @@ section {
   font-size: 24px;
 
 }
+
 .services .video-frame h4 a {
   color: #151515;
   transition: ease-in-out .3s;
