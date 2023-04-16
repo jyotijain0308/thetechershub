@@ -3,6 +3,8 @@
 @endsection
 @section('content')
 
+
+
 <!-- ======= Breadcrumbs ======= -->
 <!-- <section id="breadcrumbs" class="breadcrumbs">
 	<div class="container">
@@ -95,7 +97,10 @@
 			<div class="{{ ($data['id']==2) ? 'col-xl-6 col-md-6' : 'col-xl-4 col-md-6' }}  d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
 				<div class="icon-box w-100 py-5">
 					@if(!empty($type['image']))
-					<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid"  style="{{ ($data['id']==2) ? 'min-width:120px;' : 'min-width:0;' }}"/></div>
+						@if($data['id']==2)
+						<img src="{{ $type['image'] }}" class="img-fluid card-image"/>
+						@else<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid"  style="{{ ($data['id']==2) ? 'min-width:120px;' : 'min-width:0;' }}"/></div>
+						@endif
 					@endif
 					@if(!empty($type['video']))
 					<div class="mb-4">

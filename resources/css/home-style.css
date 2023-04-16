@@ -1081,6 +1081,12 @@ section {
   transition: ease-in-out .3s;
 }
 
+.card-image{
+  width:150px;
+  height:auto;
+  margin-bottom:25px;
+}
+
 @media (max-width: 991px) {
   .counts .image {
     text-align: center;
