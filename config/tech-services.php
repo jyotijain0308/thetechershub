@@ -24,7 +24,7 @@ return [
 				4 => [
 					"title" => "File Format",
 					"content" => "AI as Source file</br>
-						EPS to import in Coral Draw*</br>
+						<b>EPS to import in Coral Draw*</b></br>
 						PNG, JPG - in Black, White, Gray colour</br>
 						PDF - in original colour</br>
 						JPG - Sqaure profile image for Social Media"
@@ -33,9 +33,9 @@ return [
 					"title" => "Addon",
 					"content" => "Favicon - 16x16</br>
 						Mockup</br>
-						Visiting Card*</br>
-						Letter Head*</br>
-						Envelop*"
+						<b>Visiting Card*</b></br>
+						<b>Letter Head*</b></br>
+						<b>Envelop*</b>"
 				],
 				6 => [
 					"title" => "Document",
@@ -149,7 +149,7 @@ return [
 				3 => [
 					'title' => "File Format",
 					"content" => "AI as Source file</br>
-						EPS to import in Coral Draw*</br>
+						<b>EPS to import in Coral Draw*</b></br>
 						PDF - in original colour"
 				],
 				4 => [
@@ -276,14 +276,14 @@ return [
 					'title' => "Additional Account",
 					"content" => "Gmail ID</br>
 						Profile for colleague</br>
-						Premium Purchase*"
+						<b>Premium Purchase*</b>"
 				],
 				2 => [
 					'title' => "Personal Information",
 					"content" => "Full Name</br>
 						Date of Birth</br>
-						Mobile Number*</br>
-						Email ID*</br>
+						<b>Mobile Number*</b></br>
+						<b>Email ID*</b></br>
 						Profile Picture</br>
 						Work & Education</br>
 						Gender</br>
@@ -374,21 +374,21 @@ return [
 			]
 
 		],
-		6 => [
-			'id' => 6,
-			'name' => 'YouTube Monetization',
-			'title' => '',
-			'image' => 'img/services/monetize.png',
-			'large-image' => '/img/servicedetail/youtubemonetization/youtube-monetization-background.png',
-			'description' => 'The moment social media entered our lives, we became instant content creators one way or another. And the best part? You can now make money from your videos. Our team will effectively monetize your videos, allowing your channel to earn income and grow bigger than it is. Techer’s Hub is here to help you to maximize your channels potential and reach ever bigger audiences.',
-			"portfolio" => [
-				[
-					"type" => 'image',
-					"image" => '/img/servicedetail/youtubemonetization/youtube-monetization.png',
-					"alt" => 'Video Editor'
-				],
-			]
-		],
+		// 6 => [
+		// 	'id' => 6,
+		// 	'name' => 'YouTube Monetization',
+		// 	'title' => '',
+		// 	'image' => 'img/services/monetize.png',
+		// 	'large-image' => '/img/servicedetail/youtubemonetization/youtube-monetization-background.png',
+		// 	'description' => 'The moment social media entered our lives, we became instant content creators one way or another. And the best part? You can now make money from your videos. Our team will effectively monetize your videos, allowing your channel to earn income and grow bigger than it is. Techer’s Hub is here to help you to maximize your channels potential and reach ever bigger audiences.',
+		// 	"portfolio" => [
+		// 		[
+		// 			"type" => 'image',
+		// 			"image" => '/img/servicedetail/youtubemonetization/youtube-monetization.png',
+		// 			"alt" => 'Video Editor'
+		// 		],
+		// 	]
+		// ],
 		7 => [
 			'id' => 7,
 			'name' => 'Video Editing',
@@ -508,8 +508,8 @@ return [
 					'title' => "Personal Information",
 					"content" => "Full Name</br>
 						Date of Birth</br>
-						Mobile Number*</br>
-						Email ID*</br>
+						<b>Mobile Number*</b></br>
+						<b>Email ID*</b></br>
 						Profile Picture</br>
 						Work & Education</br>
 						Home Town and Live Place</br>
@@ -574,7 +574,7 @@ return [
 				3 => [
 					'title' => "Personal Information",
 					"content" => "Profile Name</br>
-						Mobile Number*</br>
+						<b>Mobile Number*</b></br>
 						Email ID</br>
 						Gender"
 				],
@@ -621,7 +621,7 @@ return [
 				2 => [
 					'title' => "Channel Information",
 					"content" => "Type - Channel Name</br>
-						Username*</br>
+						<b>Username*</b></br>
 						Description</br>
 						Channel / Custom URL*</br>
 						Video watermark"
