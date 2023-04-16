@@ -115,7 +115,9 @@ $imageUrl = $data["large-image"];
 </section>
 @endif
 <!-- End Services Section -->
+@include('portfolio')
 @include('contact')
+
 @section('js')
 <!-- Vendor JS Files -->
 <script src="/vendor/purecounter/purecounter_vanilla.js"></script>
