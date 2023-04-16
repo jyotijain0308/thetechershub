@@ -18,9 +18,6 @@
 <!-- End Breadcrumbs -->
 
 <!-- =======Portfolio Description Section ======= -->
-@php
-$imageUrl = $data["large-image"];
-@endphp
 <div class="logo-content position-relative" style="background-image: url('/img/slider/hero-bg.jpg'); ">
 	<div class="logo-content-overlay">
 		<div class="container">
@@ -98,7 +95,7 @@ $imageUrl = $data["large-image"];
 			<div class="{{ ($data['id']==2) ? 'col-xl-6 col-md-6' : 'col-xl-4 col-md-6' }}  d-flex align-items-stretch mt-md-4 mt-1" data-aos="zoom-in" data-aos-delay="200">
 				<div class="icon-box w-100 py-5">
 					@if(!empty($type['image']))
-					<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid" /></div>
+					<div class="icon"><img src="{{ $type['image'] }}" class="img-fluid"  style="{{ ($data['id']==2) ? 'min-width:120px;' : 'min-width:0;' }}"/></div>
 					@endif
 					@if(!empty($type['video']))
 					<div class="mb-4">

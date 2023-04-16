@@ -6,7 +6,6 @@ return [
 			'name' => 'Design A Logo',
 			'title' => 'Logo Types',
 			'image' => 'img/services/logo-design.png',
-			'large-image' => '/img/portfolio/images/md-enterprises.jpg',
 			'description' => 'Logos are an expression of your brand. Our designers are highly skilled in developing a logo that sets you apart from the rest. We take pride in ensuring your logo accurately reflects your company\'s vision and values while also resonating with your target audience.',
 			'info' => [
 				1 => [
@@ -135,7 +134,6 @@ return [
 			'name' => 'Visiting / Business Card Design',
 			'title' => 'Visiting/Bussiness Card Types',
 			'image' => 'img/services/business-card.png',
-			'large-image' => '/img/servicedetail/visiting-card/visiting-card-background.jpg',
 			'description' => 'What’s more valuable than making a super-unforgettable first impression? Business cards can create lasting first impressions on potential customers and business partners. We understand that business cards are a powerful marketing tool that remind your clients of who you are, what you do, and how they can contact you. Our expert designers provide an original representation of your company’s brand which helps build recognition and lasting loyalty.',
 			'info' => [
 				1 => [
@@ -169,7 +167,7 @@ return [
 			"types" => [
 				1 => [
 					"title" => "Single Side",
-					"image" => "/img/servicedetail/visiting-card/single-side.jpg",
+					"image" => "/img/servicedetail/visiting-card/single-side.webp",
 					"description" => "What is single-sided business card?
 					Image result for short description for single side visiting card
 					A single-sided business card let's you display all your important information clearly on the front. Your name, logo, phone number, email and website are all there to see at first glance."
@@ -198,7 +196,6 @@ return [
 			'name' => 'Social Media Page Creation',
 			'title' => 'Social Media Types',
 			'image' => 'img/services/social-media.png',
-			'large-image' => '/img/servicedetail/social-media/social-media-background.jpg',
 			'description' => 'Are you looking for a social media page that makes people like, comment, become loyal customers and follow you? Having a visually appealing design in your social media pages will increase user engagement and provide a more enjoyable experience for customers. We always strive to design outstanding visual pages that includes: animations, photos, GIFs, memes, videos, carousel posts (multiple photos or videos), illustrations and infographics Ultimately, we strive to provide you with a standout social media page design so your business can grow and succeed in the online space.',
 			'info' => [
 				1 => [
@@ -243,18 +240,18 @@ return [
 					'description' => 'Pinterest’s business hub provides an overview of a business account. It includes information like analytics overview, ads overview, and Pinterest business resources.',
 
 				],
-				'whatsapp_business_account' => [
-					'id' => 12,
-					'title' => 'WhatsApp Business Account',
-					'image' => '/img/services/whatsapp.png',
-					'description' => 'WhatsApp Business makes interacting with customers easy by providing tools to automate, sort and quickly respond to messages. It is also intended to feel and work just like WhatsApp Messenger.'
-				],
-				'snapchat_account' => [
-					'id' => 13,
-					'title' => 'Snapchat Account',
-					'image' => '/img/services/snapchat.png',
-					'description' => 'Snapchat was initially focused on private, person-to-person photo sharing, but you can now use it for a range of asks, including sending videos, live video chatting, messaging, creating caricature-like Bitmoji avatars.'
-				]
+				// 'whatsapp_business_account' => [
+				// 	'id' => 12,
+				// 	'title' => 'WhatsApp Business Account',
+				// 	'image' => '/img/services/whatsapp.png',
+				// 	'description' => 'WhatsApp Business makes interacting with customers easy by providing tools to automate, sort and quickly respond to messages. It is also intended to feel and work just like WhatsApp Messenger.'
+				// ],
+				// 'snapchat_account' => [
+				// 	'id' => 13,
+				// 	'title' => 'Snapchat Account',
+				// 	'image' => '/img/services/snapchat.png',
+				// 	'description' => 'Snapchat was initially focused on private, person-to-person photo sharing, but you can now use it for a range of asks, including sending videos, live video chatting, messaging, creating caricature-like Bitmoji avatars.'
+				// ]
 			],
 			"portfolio" => [
 				[
@@ -269,7 +266,6 @@ return [
 			'name' => 'LinkedIn Bussiness Profile',
 			'title' => '',
 			'image' => 'img/services/linkedin-profile.png',
-			'large-image' => '/img/servicedetail/linkedInbussinessprofile/linkedin-corporate-page-background.png',
 			'description' => 'An attractive and professional profile can help you draw in potential clients and customers for your business and services. We pride ourselves in helping you to showcase your expertise and credentials, through a professional profile that builds trust with your potential customers. A professional profile is an invaluable asset in today’s digital landscape, and is essential if what you seek is more clients.',
 			'info' => [
 				1 => [
@@ -323,7 +319,7 @@ return [
 			"portfolio" => [
 				[
 					"type" => 'image',
-					"image" => '/img/servicedetail/linkedInbussinessprofile/linkedin-corporate-page.png',
+					"image" => '/img/servicedetail/linkedin-corporate-page.png',
 					"alt" => 'Social Media'
 				],
 			]
@@ -333,7 +329,6 @@ return [
 			'name' => 'Google Business Profile',
 			'title' => '',
 			'image' => 'img/services/google(2).png',
-			'large-image' => '/img/servicedetail/google-bussiness/google-bussiness-profile-background.png',
 			'description' => 'Want to be found online? A well-designed and optimized Google business profile is one of the first ways to solidify your brands’ presence while online. Our Google business profile setup will help your business show up in search results and on Google Maps, so customers can easily find and contact you. From setting up your contact information, business hours, services offered, logo, business updates, customer reviews, to collecting insights into how customers interact with your business. At Techer’s Hub we create customized and professional profile setups that maximize the visibility and presence of your business on the web.',
 			'info' => [
 				1 => [
@@ -368,7 +363,7 @@ return [
 			"portfolio" => [
 				[
 					"type" => 'image',
-					"image" => '/img/servicedetail/google-bussiness/google-business-profile.jpg',
+					"image" => '/img/servicedetail/google-business-profile.jpg',
 					"alt" => 'Social Media'
 				],
 			]
@@ -379,12 +374,11 @@ return [
 		// 	'name' => 'YouTube Monetization',
 		// 	'title' => '',
 		// 	'image' => 'img/services/monetize.png',
-		// 	'large-image' => '/img/servicedetail/youtubemonetization/youtube-monetization-background.png',
 		// 	'description' => 'The moment social media entered our lives, we became instant content creators one way or another. And the best part? You can now make money from your videos. Our team will effectively monetize your videos, allowing your channel to earn income and grow bigger than it is. Techer’s Hub is here to help you to maximize your channels potential and reach ever bigger audiences.',
 		// 	"portfolio" => [
 		// 		[
 		// 			"type" => 'image',
-		// 			"image" => '/img/servicedetail/youtubemonetization/youtube-monetization.png',
+		// 			"image" => '/img/servicedetail/youtube-monetization.png',
 		// 			"alt" => 'Video Editor'
 		// 		],
 		// 	]
@@ -394,7 +388,6 @@ return [
 			'name' => 'Video Editing',
 			'title' => 'Video Types',
 			'image' => 'img/services/editing.png',
-			'large-image' => '/img/servicedetail/video-editor/video-editor-background.jpg',
 			'description' => 'Do you want to go viral? Who doesn’t? Today we’re all in love with videos from businesses to individuals. At The Techer’s Hub, we understand the importance of creating your videos in a meaningful and captivating way. It is not only about making sure that your message is right but working hard with editing elements to boost your video’s popularity and engagement levels!',
 			'info' => [
 				1 => [
@@ -485,7 +478,7 @@ return [
 			"portfolio" => [
 				[
 					"type" => 'image',
-					"image" => '/img/servicedetail/video-editor/video-editor.jpg',
+					"image" => '/img/servicedetail/video-editor.jpg',
 					"alt" => 'Video Editor'
 				],
 			]
@@ -495,7 +488,6 @@ return [
 			'name' => 'Facebook Page',
 			'title' => '',
 			'image' => 'img/services/facebook-page.png',
-			'large-image' => '/img/servicedetail/social-media/facebook-business-page-background.jpg',
 			'description' => 'Facebook business Page is a free way for businesses, brands, celebrities, causes and organizations to reach their audience. While Facebook profiles can be private, Pages are public.',
 			'info' => [
 				1 => [
@@ -557,7 +549,6 @@ return [
 			'name' => 'Instagram Business Account',
 			'title' => '',
 			'image' => 'img/services/instagram.png',
-			'large-image' => '/img/servicedetail/social-media/instagram-business-account-background.png',
 			'description' => 'An Instagram account for business enables brands to track their engagement and interactions. Instagram business profiles offer more analytical tools than personal accounts.',
 			'info' => [
 				1 => [
@@ -610,7 +601,6 @@ return [
 			'name' => 'YouTube Brand Account',
 			'title' => '',
 			'image' => 'img/services/youtube.png',
-			'large-image' => '/img/servicedetail/social-media/youtube-brand-background.png',
 			'description' => 'A YouTube Brand Account gives your company a unique presence online, separated from your personal profile. Though a YouTube Brand Account is a separate entity, it’s available to access and manage through your personal channel.',
 			'info' => [
 				1 => [
@@ -653,7 +643,6 @@ return [
 			'name' => 'Pinterest Business Account',
 			'title' => '',
 			'image' => 'img/services/pinterest.png',
-			'large-image' => '/img/servicedetail/social-media/Pinterest-bussiness-background.png',
 			'description' => 'Pinterest’s business hub provides an overview of a business account. It includes information like analytics overview, ads overview, and Pinterest business resources.',
 			'info' => [
 				1 => [
