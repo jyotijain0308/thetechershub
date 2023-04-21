@@ -84,7 +84,7 @@
 
 <!-- ======= Service Type Section ======= -->
 @if(!empty($data['types']))
-<section id="types" class="services pt-1 pt-md-5">
+<section id="services" class="services pt-1 pt-md-5">
 	<div class="container" data-aos="fade-up">
 		@if(!empty($data['title']))
 		<div class="section-title">
