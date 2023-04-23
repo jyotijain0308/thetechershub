@@ -168,12 +168,13 @@ h6 {
 .get-started-btn {
   color: #fff;
   border-radius: 4px;
-  padding: 7px 25px 8px 25px;
+  /* padding: 7px 25px 8px 25px; */
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
   border: 2px solid #ffc451;
+  padding-right: 30px !important;
 }
 
 .get-started-btn:hover {
@@ -1081,10 +1082,10 @@ section {
   transition: ease-in-out .3s;
 }
 
-.card-image{
-  width:150px;
-  height:auto;
-  margin-bottom:25px;
+.card-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 991px) {
