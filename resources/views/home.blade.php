@@ -172,7 +172,12 @@
 	</section><!-- End Features Section -->
 
 	<!-- ======= Services Section ======= -->
-	<section id="services" class="services pt-1 pt-md-5">
+	@component('components.services')    
+	@endcomponent
+	<!-- End Services Section -->
+	
+	<!-- ======= Services Section ======= -->
+	<!-- <section id="services" class="services pt-1 pt-md-5">
 		<div class="container" data-aos="fade-up">
 			<div class="section-title">
 				<h2>Services</h2>
@@ -190,8 +195,8 @@
 				</div>
 				@endforeach
 			</div>
-		</div>
-	</section>
+	</div>
+	</section> -->
 	<!-- End Services Section -->
 
 	<!-- ======= Cta Section ======= -->
