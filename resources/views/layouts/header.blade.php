@@ -10,11 +10,12 @@
         <li><a class="nav-link scrollto active" href="{{url('/')}}">Home</a></li>
         <li><a class="nav-link scrollto" href="{{url('/#about')}}">About</a></li>
         <li><a class="nav-link scrollto" href="{{url('/#services')}}">Services</a></li>
+        <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         <li><a class="nav-link scrollto " href="{{url('/#portfolio')}}">Portfolio</a></li>
         <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
-    <a href="#contact" class="get-started-btn scrollto">Contact</a>
   </div>
 </header><!-- End Header -->
